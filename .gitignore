@@ -1,0 +1,61 @@
+# =========================
+# SECRETS - NEVER COMMIT
+# =========================
+.env
+voice.json
+*.key
+*.pem
+credentials.json
+token.json
+email_config.json
+config/api_keys.json
+config/fabric.json
+android-app/local.properties
+android-app/.gradle/
+android-app/build/
+android-app/app/build/
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+venv/
+.venv/
+env/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# PROJECT SPECIFIC
+# =========================
+*.png
+*.jpg
+*.jpeg
+!assets/*.jpg
+screenshots_debug/
+nova_memory/
+chat_history.db
+memory.json
+data/

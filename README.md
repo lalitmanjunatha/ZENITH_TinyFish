@@ -1,4 +1,4 @@
-﻿# ZENITH VADRYK Edition (Mark LIII)
+﻿# ZENITH VADRYK Edition 
 
 **ZENITH** — An autonomous, voice-first AI companion built on LiveKit Agents, Gemini 2.5 Flash Native Audio, PyQt6 Reactive HUD, and an Action Registry with 76 active tool modules.
 
@@ -34,11 +34,12 @@ ZENITH is a **voice-first AI desktop assistant** running on Windows, created by 
 | Feature | ZENITH | Traditional Assistants |
 |---------|--------|----------------------|
 | **Voice Model** | Gemini 2.5 Flash Native Audio (Real-time bidirectional) | Text-to-speech overlay |
-| **Interface** | PyQt6 Reactive HUD UI (Mark LIII) + System Tray + Sound | Static chat window / web UI |
+| **Interface** | PyQt6 Reactive HUD UI + MATRIS Canvas + System Tray + Sound | Static chat window / web UI |
 | **Personality** | Living personality with wit, sarcasm, and opinions | Flat, corporate tone |
 | **Memory** | Persistent profiling + mood tracking (`MemoryBrain`) | Session-only context |
 | **Language** | Hinglish (Hindi + English natural mix) | English-only |
 | **Tool Count** | 76 active Action Modules (296+ functions) | 10-20 basic skills |
+| **Mathematics** | MATRIS: Interactive canvas, voice feedback, step-by-step explanations | Basic calculator |
 | **Autonomy** | Autonomous Intelligence Engine (self-directed web/local research) | Reactive only |
 
 ---
@@ -47,7 +48,7 @@ ZENITH is a **voice-first AI desktop assistant** running on Windows, created by 
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                      ZENITH VADRYK Edition (Mark LIII)                   │
+│                      ZENITH VADRYK Edition                   │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
 │  ┌────────────────────┐  ┌────────────────────┐  ┌──────────────────┐  │
@@ -245,6 +246,7 @@ ZENITH automatically discovers and validates all `*.py` files in `Tools/` contai
 | **Communication** | `send_whatsapp_message`, `send_media_whatsapp`, `email_tool`, `communication_tools` |
 | **Document & Data** | `excel_data_entry`, `word_to_pdf`, `pdf_reader`, `data_processor`, `database_tools`, `file_controller`, `file_processor`, `file_searching` |
 | **Productivity & Utilities** | `calendar_tools`, `reminder`, `schedule_task`, `study_tools`, `mindmap`, `qr_generator`, `iot_blynk_tools`, `api_tester`, `git_integration` |
+| **MATRIS (Mathematics)** | `mathematical_reasoner`, `open_canvas`, `close_canvas` |
 
 ---
 
@@ -300,7 +302,7 @@ python agent.py dev
 |-----------|---------------|
 | **Core Voice Model** | Gemini 2.5 Flash Native Audio Preview (`Aoede` voice) |
 | **VAD Engine** | Silero VAD (Noise Cancellation via BVC) |
-| **UI Framework** | PyQt6 Reactive HUD (Mark LIII UI) |
+| **UI Framework** | PyQt6 Reactive HUD |
 | **Action Registry** | 76 Active Action Modules (Dynamic auto-discovery) |
 | **Latency** | ~1.0s - 2.5s end-to-end voice roundtrip |
 | **Python Version** | 3.12 (compatible with 3.10+) |
@@ -318,7 +320,8 @@ ZENITH/
 ├── requirements.txt              # Python package dependencies
 ├── .env                          # Environment variables & API keys
 │
-├── Tools/                        # 76 Action Modules
+├── Tools/                        # 77+ Action Modules
+│   ├── mathematical_reasoner.py  # MATRIS Mathematical Intelligence bridge
 │   ├── autonomous_research.py    # Autonomous Intelligence Engine bridge
 │   ├── memory_brain.py           # User profiling & mood tracking
 │   ├── desktop_control.py        # Desktop show & window automation
@@ -327,6 +330,7 @@ ZENITH/
 │   ├── proactive.py              # Background trigger engine
 │   ├── simulation_engine.py      # Physics/Math simulation bridge
 │   ├── webcam_overlay.py         # Floating webcam window
+│   ├── mathematics/              # MATRIS core: solvers, parsers, engines
 │   ├── simulation/               # 9-domain simulation engine sub-package
 │   └── [68 other tool modules]
 │
@@ -343,10 +347,132 @@ ZENITH/
 │   ├── wake_word.py              # Wake-word detection engine
 │   └── audio_devices.py          # Input/output audio device enumeration
 │
+├── mathematics_ui/               # MATRIS PyQt6 Interactive Canvas
+│   ├── __init__.py
+│   ├── math_canvas.py            # Mathematical state visualization widget
+│   ├── drawing_pad.py            # Freehand drawing canvas with OCR
+│   └── matrix_input.py           # NxN matrix grid input widget
+│
 └── data/                         # Persistent memory storage
     ├── user_profile.json         # Extracted user profile & preferences
     ├── mood_log.json             # Mood history
-    └── memory_summary.json       # Fact memory storage
+    ├── memory_summary.json       # Fact memory storage
+    └── mathematics/              # MATRIS data storage
+```
+
+---
+
+## MATRIS Mathematical Intelligence
+
+**MATRIS** (Mathematical Reasoning & Intelligent Solving) is ZENITH's mathematical intelligence subsystem, integrated as an action module in the Action Registry. It features a full PyQt6 interactive canvas with text input, freehand drawing with OCR, NxN matrix grid input, step-by-step explanations, and voice feedback.
+
+### Architecture
+
+```
+User Voice/Text Input / Canvas Interaction
+        |
+        v
+  mathematical_reasoner (Action Registry Bridge)
+        |
+        +---> ProblemParser       (Extract numbers, units, variables, equations)
+        +---> ProblemClassifier   (Classify domain, subdomains, model type)
+        +---> SolverRouter        (Dispatch to appropriate solver engine)
+        |         |
+        |         +---> SymPy           (Symbolic algebra, equation solving, calculus)
+        |         +---> SciPy linprog   (Linear programming / Optimization)
+        |         +---> SciPy odeint    (ODE cooling, SIR epidemic models)
+        |         +---> NumPy           (Linear algebra, matrix operations)
+        |         +---> Gradient Descent (ML loss optimization)
+        |
+        +---> ValidationEngine    (Verify solution correctness)
+        +---> ErrorDetector       (Diagnose user solution errors)
+        +---> ExplanationEngine   (Multi-level explanations)
+        +---> SensitivityEngine   (What-if & sensitivity analysis)
+        |
+        v
+  MathematicalState (Unified data model)
+        |
+        v
+  MathCanvas (PyQt6 Interactive Display)
+        |
+        +---> Text Input    (Type equations, e.g. "Solve 2x + 5 = 17")
+        +---> Drawing Pad   (Freehand handwriting → OCR → text extraction)
+        +---> Matrix Input  (NxN grid: 1x1 to 8x8, presets for 3x3, 4x4, 3x1, 1x3)
+        +---> Step-by-step  (Explain button: progressive step display + voice)
+        +---> Voice Output   (AI speaks the final answer after solving)
+```
+
+### Canvas Input Modes
+
+| Mode | Description |
+|------|-------------|
+| **Text** | Type any math problem (e.g. `2x + 5 = 17`, `integrate x^2 dx`) |
+| **Draw** | Freehand handwriting on a canvas — captured via pytesseract OCR |
+| **Matrix** | Clickable NxN grid — enter matrix elements cell by cell |
+
+### Supported Mathematical Domains
+
+| Domain | Model Type | Solver Backend | Example Problems |
+|--------|-----------|---------------|-----------------|
+| **Calculus** | Integral / Derivative | SymPy `integrate`, `diff` | `integrate x^2 dx`, `differentiate sin(x)*e^x` |
+| **Algebra** | Equation Solving | SymPy `solve` | `2x + 5 = 17`, `x^2 - 4 = 0` |
+| **Systems** | System of Equations | SymPy `solve` (multi-var) | `2x + 3y = 12 and x - y = 1` |
+| **Linear Algebra** | Matrix Operations | NumPy `linalg` | Determinant, inverse, eigenvalues, rank |
+| **Optimization** | Linear Programming | SciPy `linprog` | Maximize profit with resource constraints |
+| **Differential Equations** | ODE System | SciPy `odeint` | Newton's Cooling, SIR Epidemic Model |
+| **Kinematics** | Physics Equations | SymPy symbolic | `v = u + at`, projectile motion |
+| **AI/ML** | Data-Driven | Gradient Descent | Linear regression, loss minimization |
+
+### Actions
+
+| Action | Description |
+|--------|-------------|
+| `solve_problem` | Parse, formulate, solve, and validate a mathematical problem |
+| `model_problem` | Extract and display the mathematical model without solving |
+| `classify_problem` | Identify domain, subdomains, and model type |
+| `explain_step` | Generate step-by-step explanation displayed progressively on canvas + voice |
+| `verify_solution` | Validate solution against constraints and consistency |
+| `diagnose_solution` | Detect and explain errors in user-provided solutions |
+| `what_if` | Re-solve with a modified parameter value |
+| `sensitivity_analysis` | Analyze how changes affect the solution |
+
+### Canvas Tools (AI-callable)
+
+| Tool | Description |
+|------|-------------|
+| `open_canvas` | Opens MATRIS canvas (modes: `text`, `draw`, `matrix`, or default) |
+| `close_canvas` | Closes MATRIS canvas and returns to normal HUD |
+| `mathematical_reasoner` | Solve, explain, verify, diagnose, classify math problems |
+
+### Features
+
+- **Voice Feedback**: AI speaks the final answer after solving
+- **Step-by-Step Explanation**: Click "Explain" to see each derivation step appear progressively with voice narration
+- **Thread-Safe Rendering**: All canvas updates marshaled via Qt signals from solver threads
+- **Direct Solve Path**: Canvas solves synchronously for instant results, then notifies the AI session
+- **Exit MATRIS**: Click "EXIT MATRIS" button or ask the AI to close the canvas
+
+### File Structure
+
+```
+Tools/
+  mathematics/
+    __init__.py              # Package exports
+    mathematical_state.py    # MathematicalState dataclass
+    problem_parser.py        # ProblemParser & ProblemClassifier
+    solver_router.py         # SolverRouter (SymPy, SciPy, NumPy)
+    model_adapter.py         # MathematicalModelAdapter interface
+    engines.py               # Validation, Error, Explanation, Sensitivity engines
+  mathematical_reasoner.py   # Action Registry bridge (auto-discovered)
+
+mathematics_ui/
+  __init__.py                # UI package exports
+  math_canvas.py             # PyQt6 interactive Mathematical Canvas (3-mode input)
+  drawing_pad.py             # Freehand drawing canvas with OCR
+  matrix_input.py            # NxN matrix grid input widget
+
+data/
+  mathematics/               # MATRIS data storage
 ```
 
 ---

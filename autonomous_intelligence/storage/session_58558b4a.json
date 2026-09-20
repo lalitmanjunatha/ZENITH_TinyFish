@@ -1,0 +1,4067 @@
+{
+  "session": {
+    "id": "58558b4a",
+    "objective": "Research AI agent memory architectures",
+    "phase": "completed",
+    "start_time": "2026-09-13T11:05:24.905957",
+    "end_time": "2026-09-13T11:05:37.075889",
+    "stats": {
+      "iterations": 15,
+      "elapsed_seconds": 10,
+      "total_evidence": 81,
+      "evidence_by_type": {
+        "inference": 81
+      },
+      "total_claims": 81,
+      "claims_by_type": {
+        "inference": 81
+      },
+      "verified_claims": 0,
+      "contradictions": 0,
+      "knowledge_gaps": 5,
+      "unresolved_gaps": 5,
+      "average_confidence": 0.49753086419753084,
+      "entities_in_graph": 4,
+      "relationships_in_graph": 0
+    }
+  },
+  "tasks": [
+    {
+      "id": "fb33c769",
+      "title": "Define research scope",
+      "status": "completed",
+      "priority": 10,
+      "results": []
+    },
+    {
+      "id": "814c6d10",
+      "title": "Broad web research",
+      "status": "completed",
+      "priority": 9,
+      "results": []
+    },
+    {
+      "id": "9a33adfa",
+      "title": "Specific web research",
+      "status": "completed",
+      "priority": 8,
+      "results": []
+    },
+    {
+      "id": "1ad527bc",
+      "title": "Academic research",
+      "status": "completed",
+      "priority": 7,
+      "results": []
+    },
+    {
+      "id": "1ba39218",
+      "title": "Implementation research",
+      "status": "completed",
+      "priority": 7,
+      "results": []
+    },
+    {
+      "id": "b7ac5176",
+      "title": "Local file search",
+      "status": "completed",
+      "priority": 6,
+      "results": []
+    },
+    {
+      "id": "d6428a3c",
+      "title": "Cross-reference sources",
+      "status": "completed",
+      "priority": 6,
+      "results": []
+    },
+    {
+      "id": "46a8965b",
+      "title": "Verify important claims",
+      "status": "completed",
+      "priority": 5,
+      "results": []
+    },
+    {
+      "id": "af5f206b",
+      "title": "Identify knowledge gaps",
+      "status": "completed",
+      "priority": 4,
+      "results": []
+    },
+    {
+      "id": "7c75e03e",
+      "title": "Generate intelligence report",
+      "status": "completed",
+      "priority": 3,
+      "results": []
+    },
+    {
+      "id": "207a749c",
+      "title": "Address gap: Insufficient evidence for: Research AI agent memory architec",
+      "status": "completed",
+      "priority": 8,
+      "results": []
+    },
+    {
+      "id": "959f7332",
+      "title": "Address gap: Insufficient evidence for: Research AI agent memory architec",
+      "status": "completed",
+      "priority": 8,
+      "results": []
+    },
+    {
+      "id": "85ba8022",
+      "title": "Address gap: Insufficient evidence for: Research AI agent memory architec",
+      "status": "completed",
+      "priority": 8,
+      "results": []
+    },
+    {
+      "id": "35d4deaf",
+      "title": "Address gap: Need more diverse sources",
+      "status": "completed",
+      "priority": 6,
+      "results": []
+    },
+    {
+      "id": "8922c516",
+      "title": "Address gap: Need more diverse sources",
+      "status": "completed",
+      "priority": 6,
+      "results": []
+    }
+  ],
+  "knowledge": "{\n  \"evidence\": [\n    {\n      \"id\": \"3493a500\",\n      \"claim\": \"config import ResearchConfig from autonomous_intelligence\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"0604e86f\",\n      \"claim\": \"director import ResearchDirector from autonomous_intelligence\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"62534ff8\",\n      \"claim\": \"events import EventBus, EventType  # Configure for quick test config = ResearchConfig() config\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"798dfd68\",\n      \"claim\": \"max_iterations = 15  director = ResearchDirector(config)  # Track events events_received = [] def on_event(event):     events_received\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"20d22bf8\",\n      \"claim\": \"subscribe_all(on_event)  print(\\\"=\\\" * 60) print(\\\"ZENITH AUTONOMOUS INTELLIGENCE ENGINE - TEST\\\") print(\\\"=\\\" * 60)  # Start research print(\\\"\\\\n[1] Starting research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"54dd6e4c\",\n      \"claim\": \"start_research(\\\"Research AI agent memory architectures\\\") print(f\\\"  Session: {session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"f9999163\",\n      \"claim\": \"tasks)}\\\")  # Wait for completion import time print(\\\"\\\\n[2] Waiting for research to complete\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"af18a62c\",\n      \"claim\": \"sleep(3)  print(\\\"\\\\n\\\\n[3] Research completed!\\\") status = director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"c0c541d3\",\n      \"claim\": \"config import ResearchConfig from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"daf69aec\",\n      \"claim\": \"director import ResearchDirector  # Global director instance _director: Optional[ResearchDirector] = None   def get_director() -> ResearchDirector:     global _director     if _director is None:         _director = ResearchDirector()     return _director   @function_tool() async def research_start(objective: str) -> str:     \\\"\\\"\\\"     Start an autonomous research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"1ea4709b\",\n      \"claim\": \"Example: \\\"Research the latest AI agent architectures and determine how ZENITH could improve\",\n      \"type\": \"inference\",\n      \"confidence\": 0.4,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"92e1fd1c\",\n      \"claim\": \"start_research(objective)     return (f\\\"Research session started!\\\\n\\\"             f\\\"ID: {session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"f5cc57eb\",\n      \"claim\": \"tasks)}\\\\n\\\"             f\\\"Say 'check research status' to monitor progress\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"23370e7d\",\n      \"claim\": \"\\\")   @function_tool() async def research_stop() -> str:     \\\"\\\"\\\"Stop the current autonomous research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"b93ddab4\",\n      \"claim\": \"stop_research()   @function_tool() async def research_pause() -> str:     \\\"\\\"\\\"Pause the current research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"0fe011e9\",\n      \"claim\": \"pause_research()   @function_tool() async def research_resume() -> str:     \\\"\\\"\\\"Resume a paused research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"ca52b696\",\n      \"claim\": \"resume_research()   @function_tool() async def research_status() -> str:     \\\"\\\"\\\"Check the status of the current research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"938cb87f\",\n      \"claim\": \"get(\\\"status\\\") == \\\"no active session\\\":         return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"94e198d1\",\n      \"claim\": \"\\\"      lines = [         f\\\"RESEARCH STATUS:\\\",         f\\\"  Objective: {status\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"652ffb3e\",\n      \"claim\": \"join(lines)   @function_tool() async def research_activity() -> str:     \\\"\\\"\\\"Get live activity stream from the current research\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"458525b9\",\n      \"claim\": \"get(\\\"status\\\") == \\\"no active session\\\":         return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"9e10231e\",\n      \"claim\": \"\\\"      lines = [\\\"LIVE RESEARCH ACTIVITY:\\\\n\\\"]      # Status     s = activity[\\\"status\\\"]     lines\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"5df17014\",\n      \"claim\": \"join(lines)   @function_tool() async def research_report() -> str:     \\\"\\\"\\\"Get the final research report\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"d34cf51f\",\n      \"claim\": \"get(\\\"status\\\") == \\\"no active session\\\":             return \\\"No research session found\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"cfa112b2\",\n      \"claim\": \"\\\"         return f\\\"Research still in progress (phase: {status\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"d46e5f8f\",\n      \"claim\": \"full_text   @function_tool() async def research_report_summary() -> str:     \\\"\\\"\\\"Get a summary of the research report\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"a49a7257\",\n      \"claim\": \"join(lines)   @function_tool() async def research_knowledge() -> str:     \\\"\\\"\\\"Get the current knowledge summary from the research\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"20bde7f6\",\n      \"claim\": \"2f}\\\\n\\\"             f\\\"  Graph entities: {summary['entities_in_graph']}\\\\n\\\"             f\\\"  Graph relationships: {summary['relationships_in_graph']}\\\")   @function_tool() async def research_search_local(query: str) -> str:     \\\"\\\"\\\"Search local files for information related to a query\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"5503ff1d\",\n      \"claim\": \"\\\"\\\"\\\" import os import json from dataclasses import dataclass, field from typing import List, Optional   @dataclass class ResearchConfig:     \\\"\\\"\\\"Configuration for autonomous research sessions\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"fc3ce4e9\",\n      \"claim\": \"\\\"\\\"\\\"      # Research limits     max_runtime_minutes: int = 15     max_search_queries: int = 20     max_pages_visited: int = 30     max_browser_tabs: int = 5     max_tasks: int = 25     max_evidence_items: int = 100     max_retries: int = 3     max_iterations: int = 50      # Web research     search_provider: str = \\\"duckduckgo\\\"     allowed_domains: List[str] = field(default_factory=list)     blocked_domains: List[str] = field(default_factory=lambda: [         \\\"facebook\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"90b4f9f9\",\n      \"claim\": \"3     verification_searches: int = 2     contradiction_detection: bool = True      # Model configuration     research_model: str = \\\"gemini\\\"     temperature: float = 0\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"9e67c6fe\",\n      \"claim\": \"__dict__, f, indent=2, default=str)      @classmethod     def load(cls, path: str = None) -> \\\"ResearchConfig\\\":         \\\"\\\"\\\"Load config from JSON file\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"5832b97c\",\n      \"claim\": \"agent_activity import AgentActivity     from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"f69b47cc\",\n      \"claim\": \"agent_session import AgentSession, TurnDetectionMode     from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"0699f61a\",\n      \"claim\": \"\\\"\\\"\\\"   class Agent:     def __init__(         self,         *,         instructions: str,         chat_ctx: NotGivenOr[llm\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"f9238770\",\n      \"claim\": \"_activity: AgentActivity | None = None      @property     def label(self) -> str:         \\\"\\\"\\\"         Returns:             str: The label of the agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"bd29a0bc\",\n      \"claim\": \"__name__}\\\"      @property     def instructions(self) -> str:         \\\"\\\"\\\"         Returns:             str: The core instructions that guide the agent's behavior\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"62a2503f\",\n      \"claim\": \"RawFunctionTool]:                 A list of function tools available to the agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"91fedf21\",\n      \"claim\": \"ChatContext:         \\\"\\\"\\\"         Provides a read-only view of the agent's current chat context\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"45dd9a03\",\n      \"claim\": \"ChatContext: A read-only version of the agent's conversation history\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"b8b13c18\",\n      \"claim\": \"items)      async def update_instructions(self, instructions: str) -> None:         \\\"\\\"\\\"         Updates the agent's instructions\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"c82a48ea\",\n      \"claim\": \"If the agent is running in realtime mode, this method also updates         the instructions for the ongoing realtime session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"41afb1c0\",\n      \"claim\": \"Args:             instructions (str):                 The new instructions to set for the agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"6b7d2ac9\",\n      \"claim\": \"RawFunctionTool]) -> None:         \\\"\\\"\\\"         Updates the agent's available function tools\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"c6511c4b\",\n      \"claim\": \"If the agent is running in realtime mode, this method also updates         the tools for the ongoing realtime session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"1d079a0c\",\n      \"claim\": \"FunctionTool]):                 The new list of function tools available to the agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"d0fe8fa9\",\n      \"claim\": \"ChatContext) -> None:         \\\"\\\"\\\"         Updates the agent's chat context\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"7bd761b8\",\n      \"claim\": \"If the agent is running in realtime mode, this method also updates         the chat context for the ongoing realtime session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"f0d97673\",\n      \"claim\": \"ChatContext):                 The new or updated chat context for the agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"9a56db2d\",\n      \"claim\": \"update_chat_ctx(chat_ctx)      # -- Pipeline nodes --     # They can all be overriden by subclasses, by default they use the STT/LLM/TTS specified in the     # constructor of the VoiceAgent      async def on_enter(self) -> None:         \\\"\\\"\\\"Called when the task is entered\\\"\\\"\\\"         pass      async def on_exit(self) -> None:         \\\"\\\"\\\"Called when the task is exited\\\"\\\"\\\"         pass      async def on_user_turn_completed(         self, turn_ctx: llm\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"bb27d9e5\",\n      \"claim\": \"agent import (     Agent,     ModelSettings,     _get_activity_task_info,     _set_activity_task_info, ) from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"c2cddfa5\",\n      \"claim\": \"events import (     AgentFalseInterruptionEvent,     ErrorEvent,     FunctionToolsExecutedEvent,     MetricsCollectedEvent,     SpeechCreatedEvent,     UserInputTranscribedEvent, ) from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"47161a77\",\n      \"claim\": \"agent_session import AgentSession, TurnDetectionMode   _AgentActivityContextVar = contextvars\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"02252e6b\",\n      \"claim\": \"ContextVar[\\\"AgentActivity\\\"](\\\"agents_activity\\\") _SpeechHandleContextVar = contextvars\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"94cfabf1\",\n      \"claim\": \"ContextVar[\\\"SpeechHandle\\\"](\\\"agents_speech_handle\\\")   @dataclass class _PreemptiveGeneration:     speech_handle: SpeechHandle     info: _PreemptiveGenerationInfo     chat_ctx: llm\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"5f5e8136\",\n      \"claim\": \"ToolChoice | None     created_at: float   # NOTE: AgentActivity isn't exposed to the public API class AgentActivity(RecognitionHooks):     def __init__(self, agent: Agent, sess: AgentSession) -> None:         self\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"038b1861\",\n      \"claim\": \"_session = agent, sess         self\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"5253e1dd\",\n      \"claim\": \"allow_interruptions:                 raise ValueError(                     \\\"the RealtimeModel uses a server-side turn detection, \\\"                     \\\"allow_interruptions cannot be False, disable turn_detection in \\\"                     \\\"the RealtimeModel and use VAD on the AgentSession instead\\\"                 )              if (                 self\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"58212461\",\n      \"claim\": \"agent_activity import AgentActivity from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"f06ad434\",\n      \"claim\": \"events import (     AgentFalseInterruptionEvent,     AgentState,     AgentStateChangedEvent,     CloseEvent,     CloseReason,     ConversationItemAddedEvent,     EventTypes,     UserInputTranscribedEvent,     UserState,     UserStateChangedEvent, ) from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"d48f8472\",\n      \"claim\": \"ContextVar[RunResult](\\\"agents_run_state\\\")   @runtime_checkable class _VideoSampler(Protocol):     def __call__(self, frame: rtc\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"9e5e648d\",\n      \"claim\": \"VideoFrame, session: AgentSession) -> bool:\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"f158c515\",\n      \"claim\": \"VideoFrame, session: AgentSession) -> bool:         now = time\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"d18aec37\",\n      \"claim\": \"_last_sampled_time = now             return True          return False   class AgentSession(rtc\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"affc55e1\",\n      \"claim\": \"0,         agent_false_interruption_timeout: float | None = 4\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"a0bd6121\",\n      \"claim\": \"AbstractEventLoop | None = None,     ) -> None:         \\\"\\\"\\\"`AgentSession` is the LiveKit Agents runtime that glues together         media streams, speech/LLM components, and tool orchestration into a         single real-time voice agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"9107d820\",\n      \"claim\": \"MCPServer], optional): List of MCP servers                 providing external tools for the agent to use\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"8377b9b5\",\n      \"claim\": \"allow_interruptions (bool): Whether the user can interrupt the                 agent mid-utterance\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"965dedba\",\n      \"claim\": \"discard_audio_if_uninterruptible (bool): When ``True``, buffered                 audio is dropped while the agent is speaking and cannot be\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"0a44ee42\",\n      \"claim\": \"hpp>  TEST_CASE(\\\"JsonArray::memoryUsage()\\\") {   JsonArray array;   REQUIRE(array\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"23a5183f\",\n      \"claim\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonArrayConst::memoryUsage()\\\") {   JsonArrayConst array;   REQUIRE(array\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"28e291d2\",\n      \"claim\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonDocument::memoryUsage()\\\") {   JsonDocument doc;   REQUIRE(doc\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"4c08cdae\",\n      \"claim\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonObject::memoryUsage()\\\") {   JsonObject array;   REQUIRE(array\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"74d3172e\",\n      \"claim\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonObjectConst::memoryUsage()\\\") {   JsonObjectConst array;   REQUIRE(array\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"e52c067c\",\n      \"claim\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonVariant::memoryUsage()\\\") {   JsonVariant doc;   REQUIRE(doc\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"f2509be1\",\n      \"claim\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonVariantConst::memoryUsage()\\\") {   JsonVariantConst doc;   REQUIRE(doc\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"b6be6bdb\",\n      \"claim\": \"memoryUsage() == 0); }  TEST_CASE(\\\"ElementProxy::memoryUsage()\\\") {   JsonDocument doc;   REQUIRE(doc[0]\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"36c400b6\",\n      \"claim\": \"memoryUsage() == 0); }  TEST_CASE(\\\"MemberProxy::memoryUsage()\\\") {   JsonDocument doc;   REQUIRE(doc[\\\"hello\\\"]\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"15a75148\",\n      \"claim\": \"supervised_proc import SupervisedProc   class InferenceProcExecutor(SupervisedProc):     def __init__(         self,         *,         runners: _RunnersDict,         initialize_timeout: float,         close_timeout: float,         memory_warn_mb: float,         memory_limit_mb: float,         ping_interval: float,         ping_timeout: float,         high_ping_threshold: float,         mp_ctx: BaseContext,         loop: asyncio\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"969b1766\",\n      \"claim\": \"__init__(             initialize_timeout=initialize_timeout,             close_timeout=close_timeout,             memory_warn_mb=memory_warn_mb,             memory_limit_mb=memory_limit_mb,             ping_interval=ping_interval,             ping_timeout=ping_timeout,             high_ping_threshold=high_ping_threshold,             mp_ctx=mp_ctx,             loop=loop,             http_proxy=http_proxy,         )          self\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"5295b06d\",\n      \"claim\": \"Example: \\\"Research the latest AI agent architectures and determine how ZENITH could improve\",\n      \"type\": \"inference\",\n      \"confidence\": 0.4,\n      \"source\": \"\",\n      \"verified\": false\n    }\n  ],\n  \"claims\": [\n    {\n      \"id\": \"ed0a8d51\",\n      \"text\": \"config import ResearchConfig from autonomous_intelligence\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"6a5f6135\",\n      \"text\": \"director import ResearchDirector from autonomous_intelligence\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"bd855397\",\n      \"text\": \"events import EventBus, EventType  # Configure for quick test config = ResearchConfig() config\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"c6e93f34\",\n      \"text\": \"max_iterations = 15  director = ResearchDirector(config)  # Track events events_received = [] def on_event(event):     events_received\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"7cea2a7a\",\n      \"text\": \"subscribe_all(on_event)  print(\\\"=\\\" * 60) print(\\\"ZENITH AUTONOMOUS INTELLIGENCE ENGINE - TEST\\\") print(\\\"=\\\" * 60)  # Start research print(\\\"\\\\n[1] Starting research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"db91c062\",\n      \"text\": \"start_research(\\\"Research AI agent memory architectures\\\") print(f\\\"  Session: {session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"52da0662\",\n      \"text\": \"tasks)}\\\")  # Wait for completion import time print(\\\"\\\\n[2] Waiting for research to complete\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"69c924c1\",\n      \"text\": \"sleep(3)  print(\\\"\\\\n\\\\n[3] Research completed!\\\") status = director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"57498612\",\n      \"text\": \"config import ResearchConfig from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"1aafce05\",\n      \"text\": \"director import ResearchDirector  # Global director instance _director: Optional[ResearchDirector] = None   def get_director() -> ResearchDirector:     global _director     if _director is None:         _director = ResearchDirector()     return _director   @function_tool() async def research_start(objective: str) -> str:     \\\"\\\"\\\"     Start an autonomous research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"93f5ddb9\",\n      \"text\": \"Example: \\\"Research the latest AI agent architectures and determine how ZENITH could improve\",\n      \"type\": \"inference\",\n      \"confidence\": 0.4,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"1c92909c\",\n      \"text\": \"start_research(objective)     return (f\\\"Research session started!\\\\n\\\"             f\\\"ID: {session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"0c63b3b0\",\n      \"text\": \"tasks)}\\\\n\\\"             f\\\"Say 'check research status' to monitor progress\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"3536752d\",\n      \"text\": \"\\\")   @function_tool() async def research_stop() -> str:     \\\"\\\"\\\"Stop the current autonomous research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"8776099a\",\n      \"text\": \"stop_research()   @function_tool() async def research_pause() -> str:     \\\"\\\"\\\"Pause the current research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"97716df5\",\n      \"text\": \"pause_research()   @function_tool() async def research_resume() -> str:     \\\"\\\"\\\"Resume a paused research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"f0fa2899\",\n      \"text\": \"resume_research()   @function_tool() async def research_status() -> str:     \\\"\\\"\\\"Check the status of the current research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"a1129519\",\n      \"text\": \"get(\\\"status\\\") == \\\"no active session\\\":         return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"48fe03be\",\n      \"text\": \"\\\"      lines = [         f\\\"RESEARCH STATUS:\\\",         f\\\"  Objective: {status\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"213f0a07\",\n      \"text\": \"join(lines)   @function_tool() async def research_activity() -> str:     \\\"\\\"\\\"Get live activity stream from the current research\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"80365686\",\n      \"text\": \"get(\\\"status\\\") == \\\"no active session\\\":         return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"efb31675\",\n      \"text\": \"\\\"      lines = [\\\"LIVE RESEARCH ACTIVITY:\\\\n\\\"]      # Status     s = activity[\\\"status\\\"]     lines\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"60925419\",\n      \"text\": \"join(lines)   @function_tool() async def research_report() -> str:     \\\"\\\"\\\"Get the final research report\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"73534ed2\",\n      \"text\": \"get(\\\"status\\\") == \\\"no active session\\\":             return \\\"No research session found\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"21a44134\",\n      \"text\": \"\\\"         return f\\\"Research still in progress (phase: {status\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"ed478e86\",\n      \"text\": \"full_text   @function_tool() async def research_report_summary() -> str:     \\\"\\\"\\\"Get a summary of the research report\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"66d4574e\",\n      \"text\": \"join(lines)   @function_tool() async def research_knowledge() -> str:     \\\"\\\"\\\"Get the current knowledge summary from the research\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"60ac36ea\",\n      \"text\": \"2f}\\\\n\\\"             f\\\"  Graph entities: {summary['entities_in_graph']}\\\\n\\\"             f\\\"  Graph relationships: {summary['relationships_in_graph']}\\\")   @function_tool() async def research_search_local(query: str) -> str:     \\\"\\\"\\\"Search local files for information related to a query\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"3cfdcfa0\",\n      \"text\": \"\\\"\\\"\\\" import os import json from dataclasses import dataclass, field from typing import List, Optional   @dataclass class ResearchConfig:     \\\"\\\"\\\"Configuration for autonomous research sessions\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"7a7d3f79\",\n      \"text\": \"\\\"\\\"\\\"      # Research limits     max_runtime_minutes: int = 15     max_search_queries: int = 20     max_pages_visited: int = 30     max_browser_tabs: int = 5     max_tasks: int = 25     max_evidence_items: int = 100     max_retries: int = 3     max_iterations: int = 50      # Web research     search_provider: str = \\\"duckduckgo\\\"     allowed_domains: List[str] = field(default_factory=list)     blocked_domains: List[str] = field(default_factory=lambda: [         \\\"facebook\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"e843c018\",\n      \"text\": \"3     verification_searches: int = 2     contradiction_detection: bool = True      # Model configuration     research_model: str = \\\"gemini\\\"     temperature: float = 0\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"571b9b0b\",\n      \"text\": \"__dict__, f, indent=2, default=str)      @classmethod     def load(cls, path: str = None) -> \\\"ResearchConfig\\\":         \\\"\\\"\\\"Load config from JSON file\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"4c8f9bb5\",\n      \"text\": \"agent_activity import AgentActivity     from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"370dbc6a\",\n      \"text\": \"agent_session import AgentSession, TurnDetectionMode     from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"bf76b386\",\n      \"text\": \"\\\"\\\"\\\"   class Agent:     def __init__(         self,         *,         instructions: str,         chat_ctx: NotGivenOr[llm\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"cca312b1\",\n      \"text\": \"_activity: AgentActivity | None = None      @property     def label(self) -> str:         \\\"\\\"\\\"         Returns:             str: The label of the agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"7dd77d7e\",\n      \"text\": \"__name__}\\\"      @property     def instructions(self) -> str:         \\\"\\\"\\\"         Returns:             str: The core instructions that guide the agent's behavior\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"356033e7\",\n      \"text\": \"RawFunctionTool]:                 A list of function tools available to the agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"0e81735c\",\n      \"text\": \"ChatContext:         \\\"\\\"\\\"         Provides a read-only view of the agent's current chat context\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"5eff5195\",\n      \"text\": \"ChatContext: A read-only version of the agent's conversation history\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"22594b23\",\n      \"text\": \"items)      async def update_instructions(self, instructions: str) -> None:         \\\"\\\"\\\"         Updates the agent's instructions\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"41aba904\",\n      \"text\": \"If the agent is running in realtime mode, this method also updates         the instructions for the ongoing realtime session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"1db7c5b4\",\n      \"text\": \"Args:             instructions (str):                 The new instructions to set for the agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"d9d7b4ec\",\n      \"text\": \"RawFunctionTool]) -> None:         \\\"\\\"\\\"         Updates the agent's available function tools\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"e4b431ad\",\n      \"text\": \"If the agent is running in realtime mode, this method also updates         the tools for the ongoing realtime session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"96a84e51\",\n      \"text\": \"FunctionTool]):                 The new list of function tools available to the agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"e3ac3722\",\n      \"text\": \"ChatContext) -> None:         \\\"\\\"\\\"         Updates the agent's chat context\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"79383b11\",\n      \"text\": \"If the agent is running in realtime mode, this method also updates         the chat context for the ongoing realtime session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"6f1d0971\",\n      \"text\": \"ChatContext):                 The new or updated chat context for the agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"21287628\",\n      \"text\": \"update_chat_ctx(chat_ctx)      # -- Pipeline nodes --     # They can all be overriden by subclasses, by default they use the STT/LLM/TTS specified in the     # constructor of the VoiceAgent      async def on_enter(self) -> None:         \\\"\\\"\\\"Called when the task is entered\\\"\\\"\\\"         pass      async def on_exit(self) -> None:         \\\"\\\"\\\"Called when the task is exited\\\"\\\"\\\"         pass      async def on_user_turn_completed(         self, turn_ctx: llm\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"9cdd8992\",\n      \"text\": \"agent import (     Agent,     ModelSettings,     _get_activity_task_info,     _set_activity_task_info, ) from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"5552a865\",\n      \"text\": \"events import (     AgentFalseInterruptionEvent,     ErrorEvent,     FunctionToolsExecutedEvent,     MetricsCollectedEvent,     SpeechCreatedEvent,     UserInputTranscribedEvent, ) from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"e84aba4f\",\n      \"text\": \"agent_session import AgentSession, TurnDetectionMode   _AgentActivityContextVar = contextvars\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"3d00bafe\",\n      \"text\": \"ContextVar[\\\"AgentActivity\\\"](\\\"agents_activity\\\") _SpeechHandleContextVar = contextvars\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"4178749a\",\n      \"text\": \"ContextVar[\\\"SpeechHandle\\\"](\\\"agents_speech_handle\\\")   @dataclass class _PreemptiveGeneration:     speech_handle: SpeechHandle     info: _PreemptiveGenerationInfo     chat_ctx: llm\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"710b6b23\",\n      \"text\": \"ToolChoice | None     created_at: float   # NOTE: AgentActivity isn't exposed to the public API class AgentActivity(RecognitionHooks):     def __init__(self, agent: Agent, sess: AgentSession) -> None:         self\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"a31a8c74\",\n      \"text\": \"_session = agent, sess         self\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"21c0f3aa\",\n      \"text\": \"allow_interruptions:                 raise ValueError(                     \\\"the RealtimeModel uses a server-side turn detection, \\\"                     \\\"allow_interruptions cannot be False, disable turn_detection in \\\"                     \\\"the RealtimeModel and use VAD on the AgentSession instead\\\"                 )              if (                 self\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"2342cf3a\",\n      \"text\": \"agent_activity import AgentActivity from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"81ba172f\",\n      \"text\": \"events import (     AgentFalseInterruptionEvent,     AgentState,     AgentStateChangedEvent,     CloseEvent,     CloseReason,     ConversationItemAddedEvent,     EventTypes,     UserInputTranscribedEvent,     UserState,     UserStateChangedEvent, ) from\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"9ba9aa49\",\n      \"text\": \"ContextVar[RunResult](\\\"agents_run_state\\\")   @runtime_checkable class _VideoSampler(Protocol):     def __call__(self, frame: rtc\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"4e203648\",\n      \"text\": \"VideoFrame, session: AgentSession) -> bool:\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"fb5397a9\",\n      \"text\": \"VideoFrame, session: AgentSession) -> bool:         now = time\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"a59d7638\",\n      \"text\": \"_last_sampled_time = now             return True          return False   class AgentSession(rtc\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"bb28dcf5\",\n      \"text\": \"0,         agent_false_interruption_timeout: float | None = 4\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"33019ec2\",\n      \"text\": \"AbstractEventLoop | None = None,     ) -> None:         \\\"\\\"\\\"`AgentSession` is the LiveKit Agents runtime that glues together         media streams, speech/LLM components, and tool orchestration into a         single real-time voice agent\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"8863802f\",\n      \"text\": \"MCPServer], optional): List of MCP servers                 providing external tools for the agent to use\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"186433b4\",\n      \"text\": \"allow_interruptions (bool): Whether the user can interrupt the                 agent mid-utterance\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"70d9cc1d\",\n      \"text\": \"discard_audio_if_uninterruptible (bool): When ``True``, buffered                 audio is dropped while the agent is speaking and cannot be\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"38aaf4fc\",\n      \"text\": \"hpp>  TEST_CASE(\\\"JsonArray::memoryUsage()\\\") {   JsonArray array;   REQUIRE(array\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"5ffcfaf0\",\n      \"text\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonArrayConst::memoryUsage()\\\") {   JsonArrayConst array;   REQUIRE(array\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"f0056cc6\",\n      \"text\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonDocument::memoryUsage()\\\") {   JsonDocument doc;   REQUIRE(doc\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"c5088b00\",\n      \"text\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonObject::memoryUsage()\\\") {   JsonObject array;   REQUIRE(array\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"46044bc8\",\n      \"text\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonObjectConst::memoryUsage()\\\") {   JsonObjectConst array;   REQUIRE(array\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"641dae63\",\n      \"text\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonVariant::memoryUsage()\\\") {   JsonVariant doc;   REQUIRE(doc\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"313b6440\",\n      \"text\": \"memoryUsage() == 0); }  TEST_CASE(\\\"JsonVariantConst::memoryUsage()\\\") {   JsonVariantConst doc;   REQUIRE(doc\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"fbd90743\",\n      \"text\": \"memoryUsage() == 0); }  TEST_CASE(\\\"ElementProxy::memoryUsage()\\\") {   JsonDocument doc;   REQUIRE(doc[0]\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"64282c6f\",\n      \"text\": \"memoryUsage() == 0); }  TEST_CASE(\\\"MemberProxy::memoryUsage()\\\") {   JsonDocument doc;   REQUIRE(doc[\\\"hello\\\"]\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"3322c38d\",\n      \"text\": \"supervised_proc import SupervisedProc   class InferenceProcExecutor(SupervisedProc):     def __init__(         self,         *,         runners: _RunnersDict,         initialize_timeout: float,         close_timeout: float,         memory_warn_mb: float,         memory_limit_mb: float,         ping_interval: float,         ping_timeout: float,         high_ping_threshold: float,         mp_ctx: BaseContext,         loop: asyncio\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"78ee71d1\",\n      \"text\": \"__init__(             initialize_timeout=initialize_timeout,             close_timeout=close_timeout,             memory_warn_mb=memory_warn_mb,             memory_limit_mb=memory_limit_mb,             ping_interval=ping_interval,             ping_timeout=ping_timeout,             high_ping_threshold=high_ping_threshold,             mp_ctx=mp_ctx,             loop=loop,             http_proxy=http_proxy,         )          self\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"5fd3f5f9\",\n      \"text\": \"Example: \\\"Research the latest AI agent architectures and determine how ZENITH could improve\",\n      \"type\": \"inference\",\n      \"confidence\": 0.4,\n      \"verified\": false,\n      \"contradictions\": 0\n    }\n  ],\n  \"summary\": {\n    \"total_evidence\": 81,\n    \"evidence_by_type\": {\n      \"inference\": 81\n    },\n    \"total_claims\": 81,\n    \"claims_by_type\": {\n      \"inference\": 81\n    },\n    \"verified_claims\": 0,\n    \"contradictions\": 0,\n    \"knowledge_gaps\": 5,\n    \"unresolved_gaps\": 5,\n    \"average_confidence\": 0.49753086419753084,\n    \"entities_in_graph\": 4,\n    \"relationships_in_graph\": 0\n  }\n}",
+  "events": [
+    {
+      "event_type": "research_started",
+      "data": {
+        "objective": "Research AI agent memory architectures"
+      },
+      "timestamp": "2026-09-13T11:05:24.905957",
+      "session_id": "58558b4a",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_indexed",
+      "data": {
+        "files_indexed": 2699,
+        "total": 2699
+      },
+      "timestamp": "2026-09-13T11:05:26.785770",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "objective": "Research AI agent memory architectures",
+        "tasks_count": 10
+      },
+      "timestamp": "2026-09-13T11:05:26.785770",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "tasks_count": 10
+      },
+      "timestamp": "2026-09-13T11:05:26.785770",
+      "session_id": "58558b4a",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Define research scope"
+      },
+      "timestamp": "2026-09-13T11:05:26.785770",
+      "session_id": "58558b4a",
+      "task_id": "fb33c769"
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:26.785770",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:27.026024",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Define research scope"
+      },
+      "timestamp": "2026-09-13T11:05:27.026024",
+      "session_id": "58558b4a",
+      "task_id": "fb33c769"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Insufficient evidence for: Research AI agent memory architectures",
+        "priority": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.026024",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 11
+      },
+      "timestamp": "2026-09-13T11:05:27.026024",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Broad web research"
+      },
+      "timestamp": "2026-09-13T11:05:27.026024",
+      "session_id": "58558b4a",
+      "task_id": "814c6d10"
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures overview",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.026024",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures overview",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:27.136159",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures introduction",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.136159",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures introduction",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:27.239694",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "what is ai agent memory architectures",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.239694",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "what is ai agent memory architectures",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:27.339836",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Broad web research"
+      },
+      "timestamp": "2026-09-13T11:05:27.339836",
+      "session_id": "58558b4a",
+      "task_id": "814c6d10"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Specific web research"
+      },
+      "timestamp": "2026-09-13T11:05:27.339836",
+      "session_id": "58558b4a",
+      "task_id": "9a33adfa"
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures architecture",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.339836",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures architecture",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:27.442121",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures implementation details",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.442121",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures implementation details",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:27.549824",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures technical deep dive",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.549824",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures technical deep dive",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:27.651626",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Specific web research"
+      },
+      "timestamp": "2026-09-13T11:05:27.651626",
+      "session_id": "58558b4a",
+      "task_id": "9a33adfa"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Research AI agent memory architec"
+      },
+      "timestamp": "2026-09-13T11:05:27.651626",
+      "session_id": "58558b4a",
+      "task_id": "207a749c"
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "Insufficient evidence for: Research AI agent memory architectures",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.651626",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "Insufficient evidence for: Research AI agent memory architectures",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:27.756320",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Research AI agent memory architec"
+      },
+      "timestamp": "2026-09-13T11:05:27.756320",
+      "session_id": "58558b4a",
+      "task_id": "207a749c"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Insufficient evidence for: Research AI agent memory architectures",
+        "priority": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.756320",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 12
+      },
+      "timestamp": "2026-09-13T11:05:27.756320",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Research AI agent memory architec"
+      },
+      "timestamp": "2026-09-13T11:05:27.756320",
+      "session_id": "58558b4a",
+      "task_id": "959f7332"
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "Insufficient evidence for: Research AI agent memory architectures",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.756320",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "Insufficient evidence for: Research AI agent memory architectures",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:27.866487",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Research AI agent memory architec"
+      },
+      "timestamp": "2026-09-13T11:05:27.866487",
+      "session_id": "58558b4a",
+      "task_id": "959f7332"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Academic research"
+      },
+      "timestamp": "2026-09-13T11:05:27.866487",
+      "session_id": "58558b4a",
+      "task_id": "1ad527bc"
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures research paper",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.866487",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures research paper",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:27.968571",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures survey paper",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:27.968571",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures survey paper",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:28.086041",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures documentation",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:28.086041",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures documentation",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:28.196354",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Academic research"
+      },
+      "timestamp": "2026-09-13T11:05:28.196354",
+      "session_id": "58558b4a",
+      "task_id": "1ad527bc"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Implementation research"
+      },
+      "timestamp": "2026-09-13T11:05:28.196354",
+      "session_id": "58558b4a",
+      "task_id": "1ba39218"
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures github",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:28.196354",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures github",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:28.310110",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures open source",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:28.310110",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures open source",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:28.439778",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "ai agent memory architectures code example",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:28.439778",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "ai agent memory architectures code example",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:28.546334",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Implementation research"
+      },
+      "timestamp": "2026-09-13T11:05:28.546334",
+      "session_id": "58558b4a",
+      "task_id": "1ba39218"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Insufficient evidence for: Research AI agent memory architectures",
+        "priority": 8
+      },
+      "timestamp": "2026-09-13T11:05:28.546334",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 13
+      },
+      "timestamp": "2026-09-13T11:05:28.546334",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Research AI agent memory architec"
+      },
+      "timestamp": "2026-09-13T11:05:28.546334",
+      "session_id": "58558b4a",
+      "task_id": "85ba8022"
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "Insufficient evidence for: Research AI agent memory architectures",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:28.546334",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "Insufficient evidence for: Research AI agent memory architectures",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:28.649954",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Research AI agent memory architec"
+      },
+      "timestamp": "2026-09-13T11:05:28.649954",
+      "session_id": "58558b4a",
+      "task_id": "85ba8022"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Local file search"
+      },
+      "timestamp": "2026-09-13T11:05:28.649954",
+      "session_id": "58558b4a",
+      "task_id": "b7ac5176"
+    },
+    {
+      "event_type": "local_search_started",
+      "data": {
+        "query": "research"
+      },
+      "timestamp": "2026-09-13T11:05:28.649954",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_completed",
+      "data": {
+        "query": "research",
+        "results_count": 10
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "lines": 87,
+        "size": 2808
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "3493a500",
+        "claim": "config import ResearchConfig from autonomous_intelligence",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "ed0a8d51",
+        "text": "config import ResearchConfig from autonomous_intelligence",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "config import ResearchConfig from autonomous_intelligence",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "0604e86f",
+        "claim": "director import ResearchDirector from autonomous_intelligence",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "6a5f6135",
+        "text": "director import ResearchDirector from autonomous_intelligence",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "director import ResearchDirector from autonomous_intelligence",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "62534ff8",
+        "claim": "events import EventBus, EventType  # Configure for quick test config = ResearchConfig() config",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "bd855397",
+        "text": "events import EventBus, EventType  # Configure for quick test config = ResearchConfig() config",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "events import EventBus, EventType  # Configure for quick test config = ResearchConfig() config",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "798dfd68",
+        "claim": "max_iterations = 15  director = ResearchDirector(config)  # Track events events_received = [] def on_event(event):     events_received",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "c6e93f34",
+        "text": "max_iterations = 15  director = ResearchDirector(config)  # Track events events_received = [] def on_event(event):     events_received",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "max_iterations = 15  director = ResearchDirector(config)  # Track events events_received = [] def on_event(event):     events_received",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "20d22bf8",
+        "claim": "subscribe_all(on_event)  print(\"=\" * 60) print(\"ZENITH AUTONOMOUS INTELLIGENCE ENGINE - TEST\") print(\"=\" * 60)  # Start research print(\"\\n[1] Starting research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "7cea2a7a",
+        "text": "subscribe_all(on_event)  print(\"=\" * 60) print(\"ZENITH AUTONOMOUS INTELLIGENCE ENGINE - TEST\") print(\"=\" * 60)  # Start research print(\"\\n[1] Starting research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "subscribe_all(on_event)  print(\"=\" * 60) print(\"ZENITH AUTONOMOUS INTELLIGENCE ENGINE - TEST\") print(\"=\" * 60)  # Start research print(\"\\n[1] Starting research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "54dd6e4c",
+        "claim": "start_research(\"Research AI agent memory architectures\") print(f\"  Session: {session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "db91c062",
+        "text": "start_research(\"Research AI agent memory architectures\") print(f\"  Session: {session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "start_research(\"Research AI agent memory architectures\") print(f\"  Session: {session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "f9999163",
+        "claim": "tasks)}\")  # Wait for completion import time print(\"\\n[2] Waiting for research to complete",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "52da0662",
+        "text": "tasks)}\")  # Wait for completion import time print(\"\\n[2] Waiting for research to complete",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "tasks)}\")  # Wait for completion import time print(\"\\n[2] Waiting for research to complete",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "af18a62c",
+        "claim": "sleep(3)  print(\"\\n\\n[3] Research completed!\") status = director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "69c924c1",
+        "text": "sleep(3)  print(\"\\n\\n[3] Research completed!\") status = director",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "sleep(3)  print(\"\\n\\n[3] Research completed!\") status = director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\test_ai_engine.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "lines": 201,
+        "size": 9954
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "c0c541d3",
+        "claim": "config import ResearchConfig from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "57498612",
+        "text": "config import ResearchConfig from",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "config import ResearchConfig from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "daf69aec",
+        "claim": "director import ResearchDirector  # Global director instance _director: Optional[ResearchDirector] = None   def get_director() -> ResearchDirector:     global _director     if _director is None:      ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "1aafce05",
+        "text": "director import ResearchDirector  # Global director instance _director: Optional[ResearchDirector] = None   def get_director() -> ResearchDirector:     global _director     if _director is None:      ",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "director import ResearchDirector  # Global director instance _director: Optional[ResearchDirector] = None   def get_director() -> ResearchDirector:     global _director     if _director is None:      ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "1ea4709b",
+        "claim": "Example: \"Research the latest AI agent architectures and determine how ZENITH could improve",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.4,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "93f5ddb9",
+        "text": "Example: \"Research the latest AI agent architectures and determine how ZENITH could improve",
+        "confidence": 0.4,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "Example: \"Research the latest AI agent architectures and determine how ZENITH could improve",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.4
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "92e1fd1c",
+        "claim": "start_research(objective)     return (f\"Research session started!\\n\"             f\"ID: {session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "1c92909c",
+        "text": "start_research(objective)     return (f\"Research session started!\\n\"             f\"ID: {session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "start_research(objective)     return (f\"Research session started!\\n\"             f\"ID: {session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "f5cc57eb",
+        "claim": "tasks)}\\n\"             f\"Say 'check research status' to monitor progress",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "0c63b3b0",
+        "text": "tasks)}\\n\"             f\"Say 'check research status' to monitor progress",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "tasks)}\\n\"             f\"Say 'check research status' to monitor progress",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "23370e7d",
+        "claim": "\")   @function_tool() async def research_stop() -> str:     \"\"\"Stop the current autonomous research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "3536752d",
+        "text": "\")   @function_tool() async def research_stop() -> str:     \"\"\"Stop the current autonomous research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\")   @function_tool() async def research_stop() -> str:     \"\"\"Stop the current autonomous research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "b93ddab4",
+        "claim": "stop_research()   @function_tool() async def research_pause() -> str:     \"\"\"Pause the current research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "8776099a",
+        "text": "stop_research()   @function_tool() async def research_pause() -> str:     \"\"\"Pause the current research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "stop_research()   @function_tool() async def research_pause() -> str:     \"\"\"Pause the current research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "0fe011e9",
+        "claim": "pause_research()   @function_tool() async def research_resume() -> str:     \"\"\"Resume a paused research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "97716df5",
+        "text": "pause_research()   @function_tool() async def research_resume() -> str:     \"\"\"Resume a paused research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "pause_research()   @function_tool() async def research_resume() -> str:     \"\"\"Resume a paused research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "ca52b696",
+        "claim": "resume_research()   @function_tool() async def research_status() -> str:     \"\"\"Check the status of the current research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "f0fa2899",
+        "text": "resume_research()   @function_tool() async def research_status() -> str:     \"\"\"Check the status of the current research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "resume_research()   @function_tool() async def research_status() -> str:     \"\"\"Check the status of the current research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "938cb87f",
+        "claim": "get(\"status\") == \"no active session\":         return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "a1129519",
+        "text": "get(\"status\") == \"no active session\":         return \"No active research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "get(\"status\") == \"no active session\":         return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "94e198d1",
+        "claim": "\"      lines = [         f\"RESEARCH STATUS:\",         f\"  Objective: {status",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "48fe03be",
+        "text": "\"      lines = [         f\"RESEARCH STATUS:\",         f\"  Objective: {status",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"      lines = [         f\"RESEARCH STATUS:\",         f\"  Objective: {status",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "652ffb3e",
+        "claim": "join(lines)   @function_tool() async def research_activity() -> str:     \"\"\"Get live activity stream from the current research",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "213f0a07",
+        "text": "join(lines)   @function_tool() async def research_activity() -> str:     \"\"\"Get live activity stream from the current research",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "join(lines)   @function_tool() async def research_activity() -> str:     \"\"\"Get live activity stream from the current research",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "458525b9",
+        "claim": "get(\"status\") == \"no active session\":         return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "80365686",
+        "text": "get(\"status\") == \"no active session\":         return \"No active research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "get(\"status\") == \"no active session\":         return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "9e10231e",
+        "claim": "\"      lines = [\"LIVE RESEARCH ACTIVITY:\\n\"]      # Status     s = activity[\"status\"]     lines",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "efb31675",
+        "text": "\"      lines = [\"LIVE RESEARCH ACTIVITY:\\n\"]      # Status     s = activity[\"status\"]     lines",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"      lines = [\"LIVE RESEARCH ACTIVITY:\\n\"]      # Status     s = activity[\"status\"]     lines",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "5df17014",
+        "claim": "join(lines)   @function_tool() async def research_report() -> str:     \"\"\"Get the final research report",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "60925419",
+        "text": "join(lines)   @function_tool() async def research_report() -> str:     \"\"\"Get the final research report",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "join(lines)   @function_tool() async def research_report() -> str:     \"\"\"Get the final research report",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "d34cf51f",
+        "claim": "get(\"status\") == \"no active session\":             return \"No research session found",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "73534ed2",
+        "text": "get(\"status\") == \"no active session\":             return \"No research session found",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "get(\"status\") == \"no active session\":             return \"No research session found",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "cfa112b2",
+        "claim": "\"         return f\"Research still in progress (phase: {status",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "21a44134",
+        "text": "\"         return f\"Research still in progress (phase: {status",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"         return f\"Research still in progress (phase: {status",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "d46e5f8f",
+        "claim": "full_text   @function_tool() async def research_report_summary() -> str:     \"\"\"Get a summary of the research report",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "ed478e86",
+        "text": "full_text   @function_tool() async def research_report_summary() -> str:     \"\"\"Get a summary of the research report",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "full_text   @function_tool() async def research_report_summary() -> str:     \"\"\"Get a summary of the research report",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "a49a7257",
+        "claim": "join(lines)   @function_tool() async def research_knowledge() -> str:     \"\"\"Get the current knowledge summary from the research",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "66d4574e",
+        "text": "join(lines)   @function_tool() async def research_knowledge() -> str:     \"\"\"Get the current knowledge summary from the research",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "join(lines)   @function_tool() async def research_knowledge() -> str:     \"\"\"Get the current knowledge summary from the research",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "20bde7f6",
+        "claim": "2f}\\n\"             f\"  Graph entities: {summary['entities_in_graph']}\\n\"             f\"  Graph relationships: {summary['relationships_in_graph']}\")   @function_tool() async def research_search_local(q",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "60ac36ea",
+        "text": "2f}\\n\"             f\"  Graph entities: {summary['entities_in_graph']}\\n\"             f\"  Graph relationships: {summary['relationships_in_graph']}\")   @function_tool() async def research_search_local(q",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "2f}\\n\"             f\"  Graph entities: {summary['entities_in_graph']}\\n\"             f\"  Graph relationships: {summary['relationships_in_graph']}\")   @function_tool() async def research_search_local(q",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\config.py",
+        "lines": 101,
+        "size": 3096
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "5503ff1d",
+        "claim": "\"\"\" import os import json from dataclasses import dataclass, field from typing import List, Optional   @dataclass class ResearchConfig:     \"\"\"Configuration for autonomous research sessions",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\config.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "3cfdcfa0",
+        "text": "\"\"\" import os import json from dataclasses import dataclass, field from typing import List, Optional   @dataclass class ResearchConfig:     \"\"\"Configuration for autonomous research sessions",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"\"\" import os import json from dataclasses import dataclass, field from typing import List, Optional   @dataclass class ResearchConfig:     \"\"\"Configuration for autonomous research sessions",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\config.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "fc3ce4e9",
+        "claim": "\"\"\"      # Research limits     max_runtime_minutes: int = 15     max_search_queries: int = 20     max_pages_visited: int = 30     max_browser_tabs: int = 5     max_tasks: int = 25     max_evidence_ite",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\config.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "7a7d3f79",
+        "text": "\"\"\"      # Research limits     max_runtime_minutes: int = 15     max_search_queries: int = 20     max_pages_visited: int = 30     max_browser_tabs: int = 5     max_tasks: int = 25     max_evidence_ite",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"\"\"      # Research limits     max_runtime_minutes: int = 15     max_search_queries: int = 20     max_pages_visited: int = 30     max_browser_tabs: int = 5     max_tasks: int = 25     max_evidence_ite",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\config.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "90b4f9f9",
+        "claim": "3     verification_searches: int = 2     contradiction_detection: bool = True      # Model configuration     research_model: str = \"gemini\"     temperature: float = 0",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\config.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "e843c018",
+        "text": "3     verification_searches: int = 2     contradiction_detection: bool = True      # Model configuration     research_model: str = \"gemini\"     temperature: float = 0",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "3     verification_searches: int = 2     contradiction_detection: bool = True      # Model configuration     research_model: str = \"gemini\"     temperature: float = 0",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\config.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "9e67c6fe",
+        "claim": "__dict__, f, indent=2, default=str)      @classmethod     def load(cls, path: str = None) -> \"ResearchConfig\":         \"\"\"Load config from JSON file",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\config.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "571b9b0b",
+        "text": "__dict__, f, indent=2, default=str)      @classmethod     def load(cls, path: str = None) -> \"ResearchConfig\":         \"\"\"Load config from JSON file",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "__dict__, f, indent=2, default=str)      @classmethod     def load(cls, path: str = None) -> \"ResearchConfig\":         \"\"\"Load config from JSON file",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\config.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_started",
+      "data": {
+        "query": "agent"
+      },
+      "timestamp": "2026-09-13T11:05:36.635998",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_completed",
+      "data": {
+        "query": "agent",
+        "results_count": 10
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "lines": 201,
+        "size": 29144
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "5832b97c",
+        "claim": "agent_activity import AgentActivity     from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "4c8f9bb5",
+        "text": "agent_activity import AgentActivity     from",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "agent_activity import AgentActivity     from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "f69b47cc",
+        "claim": "agent_session import AgentSession, TurnDetectionMode     from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "370dbc6a",
+        "text": "agent_session import AgentSession, TurnDetectionMode     from",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "agent_session import AgentSession, TurnDetectionMode     from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "0699f61a",
+        "claim": "\"\"\"   class Agent:     def __init__(         self,         *,         instructions: str,         chat_ctx: NotGivenOr[llm",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "bf76b386",
+        "text": "\"\"\"   class Agent:     def __init__(         self,         *,         instructions: str,         chat_ctx: NotGivenOr[llm",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"\"\"   class Agent:     def __init__(         self,         *,         instructions: str,         chat_ctx: NotGivenOr[llm",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "f9238770",
+        "claim": "_activity: AgentActivity | None = None      @property     def label(self) -> str:         \"\"\"         Returns:             str: The label of the agent",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "cca312b1",
+        "text": "_activity: AgentActivity | None = None      @property     def label(self) -> str:         \"\"\"         Returns:             str: The label of the agent",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "_activity: AgentActivity | None = None      @property     def label(self) -> str:         \"\"\"         Returns:             str: The label of the agent",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "bd29a0bc",
+        "claim": "__name__}\"      @property     def instructions(self) -> str:         \"\"\"         Returns:             str: The core instructions that guide the agent's behavior",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "7dd77d7e",
+        "text": "__name__}\"      @property     def instructions(self) -> str:         \"\"\"         Returns:             str: The core instructions that guide the agent's behavior",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "__name__}\"      @property     def instructions(self) -> str:         \"\"\"         Returns:             str: The core instructions that guide the agent's behavior",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "62a2503f",
+        "claim": "RawFunctionTool]:                 A list of function tools available to the agent",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "356033e7",
+        "text": "RawFunctionTool]:                 A list of function tools available to the agent",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "RawFunctionTool]:                 A list of function tools available to the agent",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "91fedf21",
+        "claim": "ChatContext:         \"\"\"         Provides a read-only view of the agent's current chat context",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "0e81735c",
+        "text": "ChatContext:         \"\"\"         Provides a read-only view of the agent's current chat context",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "ChatContext:         \"\"\"         Provides a read-only view of the agent's current chat context",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "45dd9a03",
+        "claim": "ChatContext: A read-only version of the agent's conversation history",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "5eff5195",
+        "text": "ChatContext: A read-only version of the agent's conversation history",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "ChatContext: A read-only version of the agent's conversation history",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "b8b13c18",
+        "claim": "items)      async def update_instructions(self, instructions: str) -> None:         \"\"\"         Updates the agent's instructions",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "22594b23",
+        "text": "items)      async def update_instructions(self, instructions: str) -> None:         \"\"\"         Updates the agent's instructions",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "items)      async def update_instructions(self, instructions: str) -> None:         \"\"\"         Updates the agent's instructions",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "c82a48ea",
+        "claim": "If the agent is running in realtime mode, this method also updates         the instructions for the ongoing realtime session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "41aba904",
+        "text": "If the agent is running in realtime mode, this method also updates         the instructions for the ongoing realtime session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "If the agent is running in realtime mode, this method also updates         the instructions for the ongoing realtime session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "41afb1c0",
+        "claim": "Args:             instructions (str):                 The new instructions to set for the agent",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "1db7c5b4",
+        "text": "Args:             instructions (str):                 The new instructions to set for the agent",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "Args:             instructions (str):                 The new instructions to set for the agent",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "6b7d2ac9",
+        "claim": "RawFunctionTool]) -> None:         \"\"\"         Updates the agent's available function tools",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "d9d7b4ec",
+        "text": "RawFunctionTool]) -> None:         \"\"\"         Updates the agent's available function tools",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "RawFunctionTool]) -> None:         \"\"\"         Updates the agent's available function tools",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "c6511c4b",
+        "claim": "If the agent is running in realtime mode, this method also updates         the tools for the ongoing realtime session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "e4b431ad",
+        "text": "If the agent is running in realtime mode, this method also updates         the tools for the ongoing realtime session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "If the agent is running in realtime mode, this method also updates         the tools for the ongoing realtime session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "1d079a0c",
+        "claim": "FunctionTool]):                 The new list of function tools available to the agent",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "96a84e51",
+        "text": "FunctionTool]):                 The new list of function tools available to the agent",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "FunctionTool]):                 The new list of function tools available to the agent",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "d0fe8fa9",
+        "claim": "ChatContext) -> None:         \"\"\"         Updates the agent's chat context",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "e3ac3722",
+        "text": "ChatContext) -> None:         \"\"\"         Updates the agent's chat context",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "ChatContext) -> None:         \"\"\"         Updates the agent's chat context",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "7bd761b8",
+        "claim": "If the agent is running in realtime mode, this method also updates         the chat context for the ongoing realtime session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "79383b11",
+        "text": "If the agent is running in realtime mode, this method also updates         the chat context for the ongoing realtime session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "If the agent is running in realtime mode, this method also updates         the chat context for the ongoing realtime session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "f0d97673",
+        "claim": "ChatContext):                 The new or updated chat context for the agent",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "6f1d0971",
+        "text": "ChatContext):                 The new or updated chat context for the agent",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "ChatContext):                 The new or updated chat context for the agent",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "9a56db2d",
+        "claim": "update_chat_ctx(chat_ctx)      # -- Pipeline nodes --     # They can all be overriden by subclasses, by default they use the STT/LLM/TTS specified in the     # constructor of the VoiceAgent      async",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "21287628",
+        "text": "update_chat_ctx(chat_ctx)      # -- Pipeline nodes --     # They can all be overriden by subclasses, by default they use the STT/LLM/TTS specified in the     # constructor of the VoiceAgent      async",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "update_chat_ctx(chat_ctx)      # -- Pipeline nodes --     # They can all be overriden by subclasses, by default they use the STT/LLM/TTS specified in the     # constructor of the VoiceAgent      async",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "lines": 201,
+        "size": 92169
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "bb27d9e5",
+        "claim": "agent import (     Agent,     ModelSettings,     _get_activity_task_info,     _set_activity_task_info, ) from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "9cdd8992",
+        "text": "agent import (     Agent,     ModelSettings,     _get_activity_task_info,     _set_activity_task_info, ) from",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "agent import (     Agent,     ModelSettings,     _get_activity_task_info,     _set_activity_task_info, ) from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "c2cddfa5",
+        "claim": "events import (     AgentFalseInterruptionEvent,     ErrorEvent,     FunctionToolsExecutedEvent,     MetricsCollectedEvent,     SpeechCreatedEvent,     UserInputTranscribedEvent, ) from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "5552a865",
+        "text": "events import (     AgentFalseInterruptionEvent,     ErrorEvent,     FunctionToolsExecutedEvent,     MetricsCollectedEvent,     SpeechCreatedEvent,     UserInputTranscribedEvent, ) from",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "events import (     AgentFalseInterruptionEvent,     ErrorEvent,     FunctionToolsExecutedEvent,     MetricsCollectedEvent,     SpeechCreatedEvent,     UserInputTranscribedEvent, ) from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "47161a77",
+        "claim": "agent_session import AgentSession, TurnDetectionMode   _AgentActivityContextVar = contextvars",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "e84aba4f",
+        "text": "agent_session import AgentSession, TurnDetectionMode   _AgentActivityContextVar = contextvars",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "agent_session import AgentSession, TurnDetectionMode   _AgentActivityContextVar = contextvars",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "02252e6b",
+        "claim": "ContextVar[\"AgentActivity\"](\"agents_activity\") _SpeechHandleContextVar = contextvars",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "3d00bafe",
+        "text": "ContextVar[\"AgentActivity\"](\"agents_activity\") _SpeechHandleContextVar = contextvars",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "ContextVar[\"AgentActivity\"](\"agents_activity\") _SpeechHandleContextVar = contextvars",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "94cfabf1",
+        "claim": "ContextVar[\"SpeechHandle\"](\"agents_speech_handle\")   @dataclass class _PreemptiveGeneration:     speech_handle: SpeechHandle     info: _PreemptiveGenerationInfo     chat_ctx: llm",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "4178749a",
+        "text": "ContextVar[\"SpeechHandle\"](\"agents_speech_handle\")   @dataclass class _PreemptiveGeneration:     speech_handle: SpeechHandle     info: _PreemptiveGenerationInfo     chat_ctx: llm",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "ContextVar[\"SpeechHandle\"](\"agents_speech_handle\")   @dataclass class _PreemptiveGeneration:     speech_handle: SpeechHandle     info: _PreemptiveGenerationInfo     chat_ctx: llm",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "5f5e8136",
+        "claim": "ToolChoice | None     created_at: float   # NOTE: AgentActivity isn't exposed to the public API class AgentActivity(RecognitionHooks):     def __init__(self, agent: Agent, sess: AgentSession) -> None:",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "710b6b23",
+        "text": "ToolChoice | None     created_at: float   # NOTE: AgentActivity isn't exposed to the public API class AgentActivity(RecognitionHooks):     def __init__(self, agent: Agent, sess: AgentSession) -> None:",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "ToolChoice | None     created_at: float   # NOTE: AgentActivity isn't exposed to the public API class AgentActivity(RecognitionHooks):     def __init__(self, agent: Agent, sess: AgentSession) -> None:",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "038b1861",
+        "claim": "_session = agent, sess         self",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "a31a8c74",
+        "text": "_session = agent, sess         self",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "_session = agent, sess         self",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "5253e1dd",
+        "claim": "allow_interruptions:                 raise ValueError(                     \"the RealtimeModel uses a server-side turn detection, \"                     \"allow_interruptions cannot be False, disable tur",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "21c0f3aa",
+        "text": "allow_interruptions:                 raise ValueError(                     \"the RealtimeModel uses a server-side turn detection, \"                     \"allow_interruptions cannot be False, disable tur",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "allow_interruptions:                 raise ValueError(                     \"the RealtimeModel uses a server-side turn detection, \"                     \"allow_interruptions cannot be False, disable tur",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_activity.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "lines": 201,
+        "size": 43418
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "58212461",
+        "claim": "agent_activity import AgentActivity from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "2342cf3a",
+        "text": "agent_activity import AgentActivity from",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "agent_activity import AgentActivity from",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "f06ad434",
+        "claim": "events import (     AgentFalseInterruptionEvent,     AgentState,     AgentStateChangedEvent,     CloseEvent,     CloseReason,     ConversationItemAddedEvent,     EventTypes,     UserInputTranscribedEv",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "81ba172f",
+        "text": "events import (     AgentFalseInterruptionEvent,     AgentState,     AgentStateChangedEvent,     CloseEvent,     CloseReason,     ConversationItemAddedEvent,     EventTypes,     UserInputTranscribedEv",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "events import (     AgentFalseInterruptionEvent,     AgentState,     AgentStateChangedEvent,     CloseEvent,     CloseReason,     ConversationItemAddedEvent,     EventTypes,     UserInputTranscribedEv",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "d48f8472",
+        "claim": "ContextVar[RunResult](\"agents_run_state\")   @runtime_checkable class _VideoSampler(Protocol):     def __call__(self, frame: rtc",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "9ba9aa49",
+        "text": "ContextVar[RunResult](\"agents_run_state\")   @runtime_checkable class _VideoSampler(Protocol):     def __call__(self, frame: rtc",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "ContextVar[RunResult](\"agents_run_state\")   @runtime_checkable class _VideoSampler(Protocol):     def __call__(self, frame: rtc",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "9e5e648d",
+        "claim": "VideoFrame, session: AgentSession) -> bool:",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "4e203648",
+        "text": "VideoFrame, session: AgentSession) -> bool:",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "VideoFrame, session: AgentSession) -> bool:",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "f158c515",
+        "claim": "VideoFrame, session: AgentSession) -> bool:         now = time",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "fb5397a9",
+        "text": "VideoFrame, session: AgentSession) -> bool:         now = time",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "VideoFrame, session: AgentSession) -> bool:         now = time",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "d18aec37",
+        "claim": "_last_sampled_time = now             return True          return False   class AgentSession(rtc",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "a59d7638",
+        "text": "_last_sampled_time = now             return True          return False   class AgentSession(rtc",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "_last_sampled_time = now             return True          return False   class AgentSession(rtc",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "affc55e1",
+        "claim": "0,         agent_false_interruption_timeout: float | None = 4",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "bb28dcf5",
+        "text": "0,         agent_false_interruption_timeout: float | None = 4",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "0,         agent_false_interruption_timeout: float | None = 4",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "a0bd6121",
+        "claim": "AbstractEventLoop | None = None,     ) -> None:         \"\"\"`AgentSession` is the LiveKit Agents runtime that glues together         media streams, speech/LLM components, and tool orchestration into a ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "33019ec2",
+        "text": "AbstractEventLoop | None = None,     ) -> None:         \"\"\"`AgentSession` is the LiveKit Agents runtime that glues together         media streams, speech/LLM components, and tool orchestration into a ",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "AbstractEventLoop | None = None,     ) -> None:         \"\"\"`AgentSession` is the LiveKit Agents runtime that glues together         media streams, speech/LLM components, and tool orchestration into a ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "9107d820",
+        "claim": "MCPServer], optional): List of MCP servers                 providing external tools for the agent to use",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "8863802f",
+        "text": "MCPServer], optional): List of MCP servers                 providing external tools for the agent to use",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "MCPServer], optional): List of MCP servers                 providing external tools for the agent to use",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "8377b9b5",
+        "claim": "allow_interruptions (bool): Whether the user can interrupt the                 agent mid-utterance",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "186433b4",
+        "text": "allow_interruptions (bool): Whether the user can interrupt the                 agent mid-utterance",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "allow_interruptions (bool): Whether the user can interrupt the                 agent mid-utterance",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "965dedba",
+        "claim": "discard_audio_if_uninterruptible (bool): When ``True``, buffered                 audio is dropped while the agent is speaking and cannot be",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "70d9cc1d",
+        "text": "discard_audio_if_uninterruptible (bool): When ``True``, buffered                 audio is dropped while the agent is speaking and cannot be",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "discard_audio_if_uninterruptible (bool): When ``True``, buffered                 audio is dropped while the agent is speaking and cannot be",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\voice\\agent_session.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_started",
+      "data": {
+        "query": "memory"
+      },
+      "timestamp": "2026-09-13T11:05:36.696142",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_completed",
+      "data": {
+        "query": "memory",
+        "results_count": 10
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "lines": 51,
+        "size": 1088
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "0a44ee42",
+        "claim": "hpp>  TEST_CASE(\"JsonArray::memoryUsage()\") {   JsonArray array;   REQUIRE(array",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "38aaf4fc",
+        "text": "hpp>  TEST_CASE(\"JsonArray::memoryUsage()\") {   JsonArray array;   REQUIRE(array",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "hpp>  TEST_CASE(\"JsonArray::memoryUsage()\") {   JsonArray array;   REQUIRE(array",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "23a5183f",
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonArrayConst::memoryUsage()\") {   JsonArrayConst array;   REQUIRE(array",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "5ffcfaf0",
+        "text": "memoryUsage() == 0); }  TEST_CASE(\"JsonArrayConst::memoryUsage()\") {   JsonArrayConst array;   REQUIRE(array",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonArrayConst::memoryUsage()\") {   JsonArrayConst array;   REQUIRE(array",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "28e291d2",
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonDocument::memoryUsage()\") {   JsonDocument doc;   REQUIRE(doc",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "f0056cc6",
+        "text": "memoryUsage() == 0); }  TEST_CASE(\"JsonDocument::memoryUsage()\") {   JsonDocument doc;   REQUIRE(doc",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonDocument::memoryUsage()\") {   JsonDocument doc;   REQUIRE(doc",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "4c08cdae",
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonObject::memoryUsage()\") {   JsonObject array;   REQUIRE(array",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "c5088b00",
+        "text": "memoryUsage() == 0); }  TEST_CASE(\"JsonObject::memoryUsage()\") {   JsonObject array;   REQUIRE(array",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonObject::memoryUsage()\") {   JsonObject array;   REQUIRE(array",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "74d3172e",
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonObjectConst::memoryUsage()\") {   JsonObjectConst array;   REQUIRE(array",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "46044bc8",
+        "text": "memoryUsage() == 0); }  TEST_CASE(\"JsonObjectConst::memoryUsage()\") {   JsonObjectConst array;   REQUIRE(array",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonObjectConst::memoryUsage()\") {   JsonObjectConst array;   REQUIRE(array",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "e52c067c",
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonVariant::memoryUsage()\") {   JsonVariant doc;   REQUIRE(doc",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "641dae63",
+        "text": "memoryUsage() == 0); }  TEST_CASE(\"JsonVariant::memoryUsage()\") {   JsonVariant doc;   REQUIRE(doc",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonVariant::memoryUsage()\") {   JsonVariant doc;   REQUIRE(doc",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "f2509be1",
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonVariantConst::memoryUsage()\") {   JsonVariantConst doc;   REQUIRE(doc",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "313b6440",
+        "text": "memoryUsage() == 0); }  TEST_CASE(\"JsonVariantConst::memoryUsage()\") {   JsonVariantConst doc;   REQUIRE(doc",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"JsonVariantConst::memoryUsage()\") {   JsonVariantConst doc;   REQUIRE(doc",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "b6be6bdb",
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"ElementProxy::memoryUsage()\") {   JsonDocument doc;   REQUIRE(doc[0]",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "fbd90743",
+        "text": "memoryUsage() == 0); }  TEST_CASE(\"ElementProxy::memoryUsage()\") {   JsonDocument doc;   REQUIRE(doc[0]",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"ElementProxy::memoryUsage()\") {   JsonDocument doc;   REQUIRE(doc[0]",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "36c400b6",
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"MemberProxy::memoryUsage()\") {   JsonDocument doc;   REQUIRE(doc[\"hello\"]",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "64282c6f",
+        "text": "memoryUsage() == 0); }  TEST_CASE(\"MemberProxy::memoryUsage()\") {   JsonDocument doc;   REQUIRE(doc[\"hello\"]",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "memoryUsage() == 0); }  TEST_CASE(\"MemberProxy::memoryUsage()\") {   JsonDocument doc;   REQUIRE(doc[\"hello\"]",
+        "source": "C:\\Users\\Lalit Manjunatha/Documents\\Arduino\\libraries\\ArduinoJson\\extras\\tests\\Deprecated\\memoryUsage.cpp",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\memory.json",
+        "lines": 201,
+        "size": 17415
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\ipc\\inference_proc_executor.py",
+        "lines": 104,
+        "size": 3325
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "15a75148",
+        "claim": "supervised_proc import SupervisedProc   class InferenceProcExecutor(SupervisedProc):     def __init__(         self,         *,         runners: _RunnersDict,         initialize_timeout: float,       ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\ipc\\inference_proc_executor.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "3322c38d",
+        "text": "supervised_proc import SupervisedProc   class InferenceProcExecutor(SupervisedProc):     def __init__(         self,         *,         runners: _RunnersDict,         initialize_timeout: float,       ",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "supervised_proc import SupervisedProc   class InferenceProcExecutor(SupervisedProc):     def __init__(         self,         *,         runners: _RunnersDict,         initialize_timeout: float,       ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\ipc\\inference_proc_executor.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "969b1766",
+        "claim": "__init__(             initialize_timeout=initialize_timeout,             close_timeout=close_timeout,             memory_warn_mb=memory_warn_mb,             memory_limit_mb=memory_limit_mb,           ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\ipc\\inference_proc_executor.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "78ee71d1",
+        "text": "__init__(             initialize_timeout=initialize_timeout,             close_timeout=close_timeout,             memory_warn_mb=memory_warn_mb,             memory_limit_mb=memory_limit_mb,           ",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "__init__(             initialize_timeout=initialize_timeout,             close_timeout=close_timeout,             memory_warn_mb=memory_warn_mb,             memory_limit_mb=memory_limit_mb,           ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\livekit\\agents\\ipc\\inference_proc_executor.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_started",
+      "data": {
+        "query": "architectures"
+      },
+      "timestamp": "2026-09-13T11:05:36.765965",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_completed",
+      "data": {
+        "query": "architectures",
+        "results_count": 10
+      },
+      "timestamp": "2026-09-13T11:05:36.809618",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "lines": 201,
+        "size": 9954
+      },
+      "timestamp": "2026-09-13T11:05:36.816201",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "5295b06d",
+        "claim": "Example: \"Research the latest AI agent architectures and determine how ZENITH could improve",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.4,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.816201",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "5fd3f5f9",
+        "text": "Example: \"Research the latest AI agent architectures and determine how ZENITH could improve",
+        "confidence": 0.4,
+        "type": "inference"
+      },
+      "timestamp": "2026-09-13T11:05:36.816201",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "Example: \"Research the latest AI agent architectures and determine how ZENITH could improve",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Nova 5.0\\autonomous_intelligence\\api.py",
+        "confidence": 0.4
+      },
+      "timestamp": "2026-09-13T11:05:36.816201",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Claude Code command.txt",
+        "lines": 10,
+        "size": 363
+      },
+      "timestamp": "2026-09-13T11:05:36.816201",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Login Credientials.txt",
+        "lines": 29,
+        "size": 621
+      },
+      "timestamp": "2026-09-13T11:05:36.816201",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Local file search"
+      },
+      "timestamp": "2026-09-13T11:05:36.816201",
+      "session_id": "58558b4a",
+      "task_id": "b7ac5176"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Cross-reference sources"
+      },
+      "timestamp": "2026-09-13T11:05:36.816201",
+      "session_id": "58558b4a",
+      "task_id": "d6428a3c"
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Cross-reference sources"
+      },
+      "timestamp": "2026-09-13T11:05:36.816201",
+      "session_id": "58558b4a",
+      "task_id": "d6428a3c"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Need more diverse sources",
+        "priority": 6
+      },
+      "timestamp": "2026-09-13T11:05:36.835941",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 14
+      },
+      "timestamp": "2026-09-13T11:05:36.835941",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Need more diverse sources"
+      },
+      "timestamp": "2026-09-13T11:05:36.835941",
+      "session_id": "58558b4a",
+      "task_id": "35d4deaf"
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "Need more diverse sources",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:36.835941",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "Need more diverse sources",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:36.941455",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Address gap: Need more diverse sources"
+      },
+      "timestamp": "2026-09-13T11:05:36.941455",
+      "session_id": "58558b4a",
+      "task_id": "35d4deaf"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Verify important claims"
+      },
+      "timestamp": "2026-09-13T11:05:36.941455",
+      "session_id": "58558b4a",
+      "task_id": "46a8965b"
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Verify important claims"
+      },
+      "timestamp": "2026-09-13T11:05:36.941455",
+      "session_id": "58558b4a",
+      "task_id": "46a8965b"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Identify knowledge gaps"
+      },
+      "timestamp": "2026-09-13T11:05:36.941455",
+      "session_id": "58558b4a",
+      "task_id": "af5f206b"
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Identify knowledge gaps"
+      },
+      "timestamp": "2026-09-13T11:05:36.941455",
+      "session_id": "58558b4a",
+      "task_id": "af5f206b"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Need more diverse sources",
+        "priority": 6
+      },
+      "timestamp": "2026-09-13T11:05:36.961825",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 15
+      },
+      "timestamp": "2026-09-13T11:05:36.961825",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Need more diverse sources"
+      },
+      "timestamp": "2026-09-13T11:05:36.961825",
+      "session_id": "58558b4a",
+      "task_id": "8922c516"
+    },
+    {
+      "event_type": "search_started",
+      "data": {
+        "query": "Need more diverse sources",
+        "num_results": 8
+      },
+      "timestamp": "2026-09-13T11:05:36.961825",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "search_completed",
+      "data": {
+        "query": "Need more diverse sources",
+        "results_count": 0
+      },
+      "timestamp": "2026-09-13T11:05:37.075889",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Address gap: Need more diverse sources"
+      },
+      "timestamp": "2026-09-13T11:05:37.075889",
+      "session_id": "58558b4a",
+      "task_id": "8922c516"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Generate intelligence report"
+      },
+      "timestamp": "2026-09-13T11:05:37.075889",
+      "session_id": "58558b4a",
+      "task_id": "7c75e03e"
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Generate intelligence report"
+      },
+      "timestamp": "2026-09-13T11:05:37.075889",
+      "session_id": "58558b4a",
+      "task_id": "7c75e03e"
+    },
+    {
+      "event_type": "report_generated",
+      "data": {
+        "confidence": "LOW",
+        "sources_count": 10
+      },
+      "timestamp": "2026-09-13T11:05:37.075889",
+      "session_id": "58558b4a",
+      "task_id": ""
+    },
+    {
+      "event_type": "research_completed",
+      "data": {
+        "stats": {
+          "iterations": 15,
+          "elapsed_seconds": 10,
+          "total_evidence": 81,
+          "evidence_by_type": {
+            "inference": 81
+          },
+          "total_claims": 81,
+          "claims_by_type": {
+            "inference": 81
+          },
+          "verified_claims": 0,
+          "contradictions": 0,
+          "knowledge_gaps": 5,
+          "unresolved_gaps": 5,
+          "average_confidence": 0.49753086419753084,
+          "entities_in_graph": 4,
+          "relationships_in_graph": 0
+        }
+      },
+      "timestamp": "2026-09-13T11:05:37.075889",
+      "session_id": "58558b4a",
+      "task_id": ""
+    }
+  ]
+}

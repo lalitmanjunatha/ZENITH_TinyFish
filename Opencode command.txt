@@ -1,0 +1,8 @@
+  C:\Users\Lalit Manjunatha\Desktop\ZENITH>opencode
+                                   ▄
+  █▀▀█ █▀▀█ █▀▀█ █▀▀▄ █▀▀▀ █▀▀█ █▀▀█ █▀▀█
+  █  █ █  █ █▀▀▀ █  █ █    █  █ █  █ █▀▀▀
+  ▀▀▀▀ █▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀
+
+  Session   Greeting
+  Continue  opencode -s ses_f503d7081ffeJhj4dUKdcJD74q
