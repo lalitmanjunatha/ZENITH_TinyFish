@@ -1,0 +1,6 @@
+# Minimal requirements for ZENITH Fabric Relay
+# This is specifically for deploying to Render - much lighter than full requirements.txt
+
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+cryptography>=42.0.0
