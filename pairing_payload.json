@@ -1,0 +1,7 @@
+{
+  "protocol": "zenith-fabric-v1",
+  "device_id": "laptop",
+  "pairing_secret": "1xjn9XKVILUVo_Lh_fVh8rc6PKMT_ofGfo0bhK7oqAA=",
+  "relay_url": "https://zenith-fabric-relay.onrender.com",
+  "relay_token": " a3f9c2e8b1d4f6a7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1"
+}

@@ -17,11 +17,13 @@
 - [Autonomous Intelligence Engine](#autonomous-intelligence-engine)
 - [Simulation Engine (v2)](#simulation-engine-v2)
 - [Action Registry & Tool Modules](#action-registry--tool-modules)
+- [MATRIS Mathematical Intelligence](#matris-mathematical-intelligence)
 - [Algorithms Reference](#algorithms-reference)
 - [Setup & Installation](#setup--installation)
 - [Configuration](#configuration)
 - [Technical Specifications](#technical-specifications)
 - [File Structure](#file-structure)
+- [License & Credits](#license--credits)
 
 ---
 
