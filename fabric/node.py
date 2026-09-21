@@ -10,7 +10,7 @@ from .store import FabricStore
 
 
 class FabricNode:
-    """Protocol core used by Windows now and mirrored by the Android app."""
+    """Protocol core used by Windows now and mirrored by client applications."""
 
     def __init__(self, device_id: str, secret: SharedSecret, store_path: str | Path):
         self.device_id, self.secret = device_id, secret

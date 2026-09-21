@@ -123,11 +123,11 @@ async def generate_and_type_code(prompt: str, filename: str, language: Optional[
                 "javascript": ["javascript", "js", "node", "react", "vue", "angular"],
                 "html": ["html", "webpage", "website"],
                 "css": ["css", "stylesheet", "styling"],
-                "java": ["java", "spring", "android"],
+                "java": ["java", "spring"],
                 "cpp": ["c++", "cpp", "stl"],
                 "c": [" c ", "c program"],
                 "php": ["php", "wordpress", "laravel"],
-                "kotlin": ["kotlin", "android"]
+                "kotlin": ["kotlin"]
             }
             
             for lang, keywords in lang_keywords.items():

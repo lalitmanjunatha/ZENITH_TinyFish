@@ -621,8 +621,7 @@ class ClientInfo(_message.Message):
         UNKNOWN: _ClassVar[ClientInfo.SDK]
         JS: _ClassVar[ClientInfo.SDK]
         SWIFT: _ClassVar[ClientInfo.SDK]
-        ANDROID: _ClassVar[ClientInfo.SDK]
-        FLUTTER: _ClassVar[ClientInfo.SDK]
+                FLUTTER: _ClassVar[ClientInfo.SDK]
         GO: _ClassVar[ClientInfo.SDK]
         UNITY: _ClassVar[ClientInfo.SDK]
         REACT_NATIVE: _ClassVar[ClientInfo.SDK]
@@ -635,8 +634,7 @@ class ClientInfo(_message.Message):
     UNKNOWN: ClientInfo.SDK
     JS: ClientInfo.SDK
     SWIFT: ClientInfo.SDK
-    ANDROID: ClientInfo.SDK
-    FLUTTER: ClientInfo.SDK
+        FLUTTER: ClientInfo.SDK
     GO: ClientInfo.SDK
     UNITY: ClientInfo.SDK
     REACT_NATIVE: ClientInfo.SDK
