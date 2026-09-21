@@ -55,3 +55,43 @@ nova_memory/
 chat_history.db
 memory.json
 data/
+
+# =========================
+# ANDROID
+# =========================
+.android/
+build/
+*.apk
+*.aab
+/app/build/
+/app/*.iml
+# Gradle
+.gradle/
+/build/
+# Signing configs
+keystore/
+# Keystore files
+*.jks
+# Local configuration file (sdk path, etc)
+local.properties
+# NDK
+obj/
+# Studio
+*.iws
+# LLDB
+.externalNativeBuild/
+# CMake
+.cmake/
+# Google Services (e.g., APIs, Firebase)
+google-services.json
+# Freeline
+freeline.py
+freeline/
+freeLineProjectSettings/
+# Androguard
+.androguard/
+# & all .iml files
+*.iml
+# & .ipr/.iws files (IntelliJ project)
+*.ipr
+*.iws
