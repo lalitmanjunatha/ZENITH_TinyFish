@@ -11,13 +11,7 @@
     }
   },
   "relations": {},
-  "sessions": [
-    {
-      "date": "2026-09-20",
-      "summary": "The user discussed and solved various mathematical problems, including finding a linear equation, calculating matrix eigenvalues, and determining the derivative of the sine function.",
-      "language": "English"
-    }
-  ],
+  "sessions": [],
   "monitors": {
     "missing_australian_national_kumar_sampat": {
       "topic": "missing Australian national Kumar Sampath Ramaswamy Nepal floods Rasuwa",
