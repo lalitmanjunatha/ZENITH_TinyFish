@@ -1,0 +1,3291 @@
+{
+  "session": {
+    "id": "74172bc5",
+    "objective": "Detailed research report on global quick medicine delivery: market overview, key companies, competition analysis, and estimation of left market gap for a startup idea.",
+    "phase": "completed",
+    "start_time": "2026-10-30T11:25:20.699426",
+    "end_time": "2026-10-30T11:27:50.580451",
+    "stats": {
+      "iterations": 15,
+      "elapsed_seconds": 100,
+      "total_evidence": 68,
+      "evidence_by_type": {
+        "inference": 68
+      },
+      "total_claims": 68,
+      "claims_by_type": {
+        "inference": 68
+      },
+      "verified_claims": 0,
+      "contradictions": 0,
+      "knowledge_gaps": 5,
+      "unresolved_gaps": 5,
+      "average_confidence": 0.4985294117647059,
+      "entities_in_graph": 2,
+      "relationships_in_graph": 0
+    }
+  },
+  "tasks": [
+    {
+      "id": "35e333fc",
+      "title": "Define research scope",
+      "status": "failed",
+      "priority": 10,
+      "results": []
+    },
+    {
+      "id": "b76e99f7",
+      "title": "Broad web research",
+      "status": "failed",
+      "priority": 9,
+      "results": []
+    },
+    {
+      "id": "824599af",
+      "title": "Specific web research",
+      "status": "failed",
+      "priority": 8,
+      "results": []
+    },
+    {
+      "id": "fd1f9a58",
+      "title": "Academic research",
+      "status": "failed",
+      "priority": 7,
+      "results": []
+    },
+    {
+      "id": "a84abe0a",
+      "title": "Implementation research",
+      "status": "failed",
+      "priority": 7,
+      "results": []
+    },
+    {
+      "id": "c8b5a60f",
+      "title": "Local file search",
+      "status": "completed",
+      "priority": 6,
+      "results": []
+    },
+    {
+      "id": "a6827bf6",
+      "title": "Cross-reference sources",
+      "status": "completed",
+      "priority": 6,
+      "results": []
+    },
+    {
+      "id": "22b2331a",
+      "title": "Verify important claims",
+      "status": "completed",
+      "priority": 5,
+      "results": []
+    },
+    {
+      "id": "9fa84839",
+      "title": "Identify knowledge gaps",
+      "status": "completed",
+      "priority": 4,
+      "results": []
+    },
+    {
+      "id": "d8f690a3",
+      "title": "Generate intelligence report",
+      "status": "completed",
+      "priority": 3,
+      "results": []
+    },
+    {
+      "id": "5f60d758",
+      "title": "Address gap: Insufficient evidence for: Detailed research report on globa",
+      "status": "failed",
+      "priority": 8,
+      "results": []
+    },
+    {
+      "id": "b2538e9c",
+      "title": "Address gap: Insufficient evidence for: Detailed research report on globa",
+      "status": "failed",
+      "priority": 8,
+      "results": []
+    },
+    {
+      "id": "849fdcb2",
+      "title": "Address gap: Insufficient evidence for: Detailed research report on globa",
+      "status": "failed",
+      "priority": 8,
+      "results": []
+    },
+    {
+      "id": "9f2542f1",
+      "title": "Address gap: Need more diverse sources",
+      "status": "failed",
+      "priority": 6,
+      "results": []
+    },
+    {
+      "id": "9440fc1c",
+      "title": "Address gap: Need more diverse sources",
+      "status": "failed",
+      "priority": 6,
+      "results": []
+    }
+  ],
+  "knowledge": "{\n  \"evidence\": [\n    {\n      \"id\": \"17af9a31\",\n      \"claim\": \"# Hardware Wiring Guide  This document provides detailed wiring instructions for the Autonomous Agricultural Spray Robot\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"bc9ef7cd\",\n      \"claim\": \"{   \\\"session\\\": {     \\\"id\\\": \\\"703b0efe\\\",     \\\"objective\\\": \\\"Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"85ca04e8\",\n      \"claim\": \"062242\\\",       \\\"session_id\\\": \\\"\\\",       \\\"task_id\\\": \\\"\\\"     },     {       \\\"event_type\\\": \\\"plan_created\\\",       \\\"data\\\": {         \\\"objective\\\": \\\"Detailed research report on quick medicine delivery industry: list of companies globally, market analysis, and estimation of remaining market gap for a startup idea\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"086d1b7a\",\n      \"claim\": \"068641\\\",       \\\"session_id\\\": \\\"a5d0af9e\\\",       \\\"task_id\\\": \\\"7ad9c4d9\\\"     },     {       \\\"event_type\\\": \\\"research_started\\\",       \\\"data\\\": {         \\\"objective\\\": \\\"Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"b8316211\",\n      \"claim\": \"344747\\\",       \\\"session_id\\\": \\\"703b0efe\\\",       \\\"task_id\\\": \\\"7ad9c4d9\\\"     },     {       \\\"event_type\\\": \\\"knowledge_gap_identified\\\",       \\\"data\\\": {         \\\"question\\\": \\\"Insufficient evidence for: Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"d77d6d88\",\n      \"claim\": \"357882\\\",       \\\"session_id\\\": \\\"\\\",       \\\"task_id\\\": \\\"\\\"     },     {       \\\"event_type\\\": \\\"task_started\\\",       \\\"data\\\": {         \\\"title\\\": \\\"Address gap: Insufficient evidence for: Detailed research report on globa\\\"       },       \\\"timestamp\\\": \\\"2026-10-30T10:54:32\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"f570b44f\",\n      \"claim\": \"{   \\\"session\\\": {     \\\"id\\\": \\\"73698311\\\",     \\\"objective\\\": \\\"Detailed research report on the quick medicine delivery market worldwide\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"16221260\",\n      \"claim\": \"062242\\\",       \\\"session_id\\\": \\\"\\\",       \\\"task_id\\\": \\\"\\\"     },     {       \\\"event_type\\\": \\\"plan_created\\\",       \\\"data\\\": {         \\\"objective\\\": \\\"Detailed research report on quick medicine delivery industry: list of companies globally, market analysis, and estimation of remaining market gap for a startup idea\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"1a9caea6\",\n      \"claim\": \"068641\\\",       \\\"session_id\\\": \\\"a5d0af9e\\\",       \\\"task_id\\\": \\\"7ad9c4d9\\\"     },     {       \\\"event_type\\\": \\\"research_started\\\",       \\\"data\\\": {         \\\"objective\\\": \\\"Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"cdfaf7df\",\n      \"claim\": \"344747\\\",       \\\"session_id\\\": \\\"703b0efe\\\",       \\\"task_id\\\": \\\"7ad9c4d9\\\"     },     {       \\\"event_type\\\": \\\"knowledge_gap_identified\\\",       \\\"data\\\": {         \\\"question\\\": \\\"Insufficient evidence for: Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"7aa6e5cc\",\n      \"claim\": \"357882\\\",       \\\"session_id\\\": \\\"\\\",       \\\"task_id\\\": \\\"\\\"     },     {       \\\"event_type\\\": \\\"task_started\\\",       \\\"data\\\": {         \\\"title\\\": \\\"Address gap: Insufficient evidence for: Detailed research report on globa\\\"       },       \\\"timestamp\\\": \\\"2026-10-30T10:54:32\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"bd099a18\",\n      \"claim\": \"Every action is dispatched through a single TOOL dict with an \\\"action\\\" parameter, which keeps the Gemini function-declaration count low while exposing the full research API surface\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"47acfe48\",\n      \"claim\": \"\\\"         \\\"Use for deep research, fact-finding, codebase analysis, or any topic that \\\"         \\\"requires gathering information from multiple sources autonomously\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"2d71dbc2\",\n      \"claim\": \"\\\"     ),     \\\"parameters\\\": {         \\\"type\\\": \\\"OBJECT\\\",         \\\"properties\\\": {             \\\"action\\\": {                 \\\"type\\\": \\\"STRING\\\",                 \\\"description\\\": (                     \\\"Research action to perform\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"3f181577\",\n      \"claim\": \"One of: \\\"                     \\\"start | stop | pause | resume | status | activity | \\\"                     \\\"report | report_summary | knowledge | \\\"                     \\\"search_local | read_local | analyze_codebase | \\\"                     \\\"web_search | read_url | save | config\\\"                 ),             },             \\\"objective\\\": {                 \\\"type\\\": \\\"STRING\\\",                 \\\"description\\\": \\\"Research objective / topic (required for start)\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"1dc20172\",\n      \"claim\": \"\\\",             },         },         \\\"required\\\": [\\\"action\\\"],     },     \\\"handler\\\": \\\"handle_autonomous_research\\\", }   # -- Module-level dispatcher -------------------------------------------------- def handle_autonomous_research(parameters: dict) -> str:     \\\"\\\"\\\"     Single module-level handler -- dispatches to the correct ResearchDirector     method based on the action parameter\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"e600b079\",\n      \"claim\": \"start_research(objective)             return (                 f\\\"Research session started!\\\\n\\\"                 f\\\"  ID: {session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"74430fdb\",\n      \"claim\": \"\\\\n\\\"                 f\\\"  Say check research status to monitor progress\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"aed6d6b9\",\n      \"claim\": \"stop_research()          elif action == \\\"pause\\\":             return director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"00914d19\",\n      \"claim\": \"pause_research()          elif action == \\\"resume\\\":             return director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"587e08ea\",\n      \"claim\": \"resume_research()          # -- Status & monitoring ----------------------------------------------         elif action == \\\"status\\\":             s = director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"3a8ccb9c\",\n      \"claim\": \"get(\\\"status\\\") == \\\"no active session\\\":                 return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"b67a2e3c\",\n      \"claim\": \"\\\"             return (                 f\\\"RESEARCH STATUS\\\\n\\\"                 f\\\"  Objective : {str(s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"d1c85bd9\",\n      \"claim\": \"get(\\\"status\\\") == \\\"no active session\\\":                 return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"315c3cc8\",\n      \"claim\": \"\\\"             s = activity[\\\"status\\\"]             lines = [                 \\\"LIVE RESEARCH ACTIVITY\\\",                 f\\\"Phase: {s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"e3e0f235\",\n      \"claim\": \"get(\\\"status\\\") == \\\"no active session\\\":                     return \\\"No research session found\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"94389830\",\n      \"claim\": \"\\\"                 return f\\\"Research still in progress (phase: {s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"e520e99e\",\n      \"claim\": \"Every action is dispatched through a single TOOL dict with an \\\"action\\\" parameter, which keeps the Gemini function-declaration count low while exposing the full research API surface\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"97695b16\",\n      \"claim\": \"\\\"         \\\"Use for deep research, fact-finding, codebase analysis, or any topic that \\\"         \\\"requires gathering information from multiple sources autonomously\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"3fce002c\",\n      \"claim\": \"\\\"     ),     \\\"parameters\\\": {         \\\"type\\\": \\\"OBJECT\\\",         \\\"properties\\\": {             \\\"action\\\": {                 \\\"type\\\": \\\"STRING\\\",                 \\\"description\\\": (                     \\\"Research action to perform\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"fb888a2c\",\n      \"claim\": \"One of: \\\"                     \\\"start | stop | pause | resume | status | activity | \\\"                     \\\"report | report_summary | knowledge | \\\"                     \\\"search_local | read_local | analyze_codebase | \\\"                     \\\"web_search | read_url | save | config\\\"                 ),             },             \\\"objective\\\": {                 \\\"type\\\": \\\"STRING\\\",                 \\\"description\\\": \\\"Research objective / topic (required for start)\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"2165502b\",\n      \"claim\": \"\\\",             },         },         \\\"required\\\": [\\\"action\\\"],     },     \\\"handler\\\": \\\"handle_autonomous_research\\\", }   # -- Module-level dispatcher -------------------------------------------------- def handle_autonomous_research(parameters: dict) -> str:     \\\"\\\"\\\"     Single module-level handler -- dispatches to the correct ResearchDirector     method based on the action parameter\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"20f27a3f\",\n      \"claim\": \"start_research(objective)             return (                 f\\\"Research session started!\\\\n\\\"                 f\\\"  ID: {session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"bc37920c\",\n      \"claim\": \"\\\\n\\\"                 f\\\"  Say check research status to monitor progress\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"d3f86beb\",\n      \"claim\": \"stop_research()          elif action == \\\"pause\\\":             return director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"854d611f\",\n      \"claim\": \"pause_research()          elif action == \\\"resume\\\":             return director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"949a9b55\",\n      \"claim\": \"resume_research()          # -- Status & monitoring ----------------------------------------------         elif action == \\\"status\\\":             s = director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"af90eadf\",\n      \"claim\": \"get(\\\"status\\\") == \\\"no active session\\\":                 return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"4dddf956\",\n      \"claim\": \"\\\"             return (                 f\\\"RESEARCH STATUS\\\\n\\\"                 f\\\"  Objective : {str(s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"3a8fd3cb\",\n      \"claim\": \"get(\\\"status\\\") == \\\"no active session\\\":                 return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"bd523e83\",\n      \"claim\": \"\\\"             s = activity[\\\"status\\\"]             lines = [                 \\\"LIVE RESEARCH ACTIVITY\\\",                 f\\\"Phase: {s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"99143039\",\n      \"claim\": \"get(\\\"status\\\") == \\\"no active session\\\":                     return \\\"No research session found\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"2e79e053\",\n      \"claim\": \"\\\"                 return f\\\"Research still in progress (phase: {s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"c1584ee1\",\n      \"claim\": \"director import ResearchDirector from autonomous_intelligence\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"14fa6e75\",\n      \"claim\": \"config import ResearchConfig  # Create a director with config config = ResearchConfig() config\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"13d8e3ce\",\n      \"claim\": \"permission_level = 2  director = ResearchDirector(config)  # Start research session = director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"25811e17\",\n      \"claim\": \"start_research('What are the recent advancements in AI small language models and their capabilities')  # Wait a moment for research to complete import time time\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"6cdcd28c\",\n      \"claim\": \"strip():         msg = \\\"Sir, the city is missing for the weather report\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"b1536c29\",\n      \"claim\": \"open returned False\\\")     except Exception as e:         msg = f\\\"Sir, I couldn't open the browser for the weather report: {e}\\\"         _log(msg, player)         return msg      msg = f\\\"Showing the weather for {city}, {when}, sir\",\n      \"type\": \"inference\",\n      \"confidence\": 0.4,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"8af15c44\",\n      \"claim\": \"py) \\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500 TOOL = {     \\\"name\\\": \\\"weather_report\\\",     \\\"description\\\": \\\"Gives the weather report to user\\\",     \\\"parameters\\\": {         \\\"type\\\": \\\"OBJECT\\\",         \\\"properties\\\": {             \\\"city\\\": {                 \\\"type\\\": \\\"STRING\\\",                 \\\"description\\\": \\\"City name\\\"             }         },         \\\"required\\\": [             \\\"city\\\"         ]     },     \\\"handler\\\": \\\"weather_action\\\", }\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"e100556c\",\n      \"claim\": \"# SportsVerse Final Production Readiness Audit Report  ## Overview This report summarizes the findings and actions taken during the production readiness audit of the SportsVerse marketplace application\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"53d529c3\",\n      \"claim\": \"1  #pragma once #ifndef WINRT_Windows_Globalization_Collation_H #define WINRT_Windows_Globalization_Collation_H #include \\\"winrt/base\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"af06636b\",\n      \"claim\": \") { return to_hresult(); }     }; #endif #ifndef WINRT_LEAN_AND_MEAN     template <typename D>     struct produce<D, winrt::Windows::Globalization::Collation::ICharacterGroupings> : produce_base<D, winrt::Windows::Globalization::Collation::ICharacterGroupings>     {         int32_t __stdcall Lookup(void* text, void** result) noexcept final try         {             clear_abi(result);             typename D::abi_guard guard(this->shim());             *result = detach_from<hstring>(this->shim()\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"b71d870c\",\n      \"claim\": \") { return to_hresult(); }     }; #endif } WINRT_EXPORT namespace winrt::Windows::Globalization::Collation {     inline CharacterGroupings::CharacterGroupings() :         CharacterGroupings(impl::call_factory_cast<CharacterGroupings(*)(winrt::Windows::Foundation::IActivationFactory const&), CharacterGroupings>([](winrt::Windows::Foundation::IActivationFactory const& f) { return f\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"f411fad8\",\n      \"claim\": \"1  #pragma once #ifndef WINRT_Windows_Globalization_DateTimeFormatting_H #define WINRT_Windows_Globalization_DateTimeFormatting_H #include \\\"winrt/base\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"e74ec0bc\",\n      \"claim\": \"1  #pragma once #ifndef WINRT_Windows_Globalization_Fonts_H #define WINRT_Windows_Globalization_Fonts_H #include \\\"winrt/base\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"33429d22\",\n      \"claim\": \") { return to_hresult(); }         int32_t __stdcall get_UIHeadingFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());             *value = detach_from<winrt::Windows::Globalization::Fonts::LanguageFont>(this->shim()\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"059ef567\",\n      \"claim\": \") { return to_hresult(); }         int32_t __stdcall get_UITitleFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());             *value = detach_from<winrt::Windows::Globalization::Fonts::LanguageFont>(this->shim()\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"ea31eeb3\",\n      \"claim\": \") { return to_hresult(); }         int32_t __stdcall get_UICaptionFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());             *value = detach_from<winrt::Windows::Globalization::Fonts::LanguageFont>(this->shim()\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"e3bc0ea9\",\n      \"claim\": \") { return to_hresult(); }         int32_t __stdcall get_UINotificationHeadingFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());             *value = detach_from<winrt::Windows::Globalization::Fonts::LanguageFont>(this->shim()\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"c405277f\",\n      \"claim\": \"io/agents/) for quickstarts, documentation, and examples\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"22b3b4df\",\n      \"claim\": \"audio_frame import AudioFrame   @unique class AudioResamplerQuality(str, Enum):     QUICK = \\\"quick\\\"     LOW = \\\"low\\\"     MEDIUM = \\\"medium\\\"     HIGH = \\\"high\\\"     VERY_HIGH = \\\"very_high\\\"   class AudioResampler:     \\\"\\\"\\\"     A class for resampling audio data from one sample rate to another\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"1ebc6d06\",\n      \"claim\": \"Can be one of the                 `AudioResamplerQuality` enum values: `QUICK`, `LOW`, `MEDIUM`, `HIGH`, `VERY_HIGH`\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"4d588b0f\",\n      \"claim\": \"QUICK:         return proto_audio_frame\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"cef661fc\",\n      \"claim\": \"SOXR_QUALITY_QUICK     elif quality == AudioResamplerQuality\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"3a9dda71\",\n      \"claim\": \"agents import function_tool  TOOL = {     \\\"name\\\": \\\"scan_system_for_viruses\\\",     \\\"description\\\": \\\"Perform a quick virus scan using Windows Defender\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"c27aa5e2\",\n      \"claim\": \"\\\",     \\\"parameters\\\": {         \\\"type\\\": \\\"OBJECT\\\",         \\\"properties\\\": {},         \\\"required\\\": []     },     \\\"handler\\\": \\\"scan_system_for_viruses\\\", }  @function_tool() async def scan_system_for_viruses() -> str:     \\\"\\\"\\\"     Performs quick virus scan using Windows Defender\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    },\n    {\n      \"id\": \"a0fe5a2e\",\n      \"claim\": \"exe\\\",  # Older path             \\\"-Scan\\\", \\\"-ScanType\\\", \\\"1\\\"  # 1 = quick scan         ]          # fallback path for Windows 10+         alt_cmd = [             r\\\"C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Platform\\\\4\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"source\": \"\",\n      \"verified\": false\n    }\n  ],\n  \"claims\": [\n    {\n      \"id\": \"44993a19\",\n      \"text\": \"# Hardware Wiring Guide  This document provides detailed wiring instructions for the Autonomous Agricultural Spray Robot\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"810a439c\",\n      \"text\": \"{   \\\"session\\\": {     \\\"id\\\": \\\"703b0efe\\\",     \\\"objective\\\": \\\"Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"c2fc7a03\",\n      \"text\": \"062242\\\",       \\\"session_id\\\": \\\"\\\",       \\\"task_id\\\": \\\"\\\"     },     {       \\\"event_type\\\": \\\"plan_created\\\",       \\\"data\\\": {         \\\"objective\\\": \\\"Detailed research report on quick medicine delivery industry: list of companies globally, market analysis, and estimation of remaining market gap for a startup idea\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"a3382f2e\",\n      \"text\": \"068641\\\",       \\\"session_id\\\": \\\"a5d0af9e\\\",       \\\"task_id\\\": \\\"7ad9c4d9\\\"     },     {       \\\"event_type\\\": \\\"research_started\\\",       \\\"data\\\": {         \\\"objective\\\": \\\"Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"a29c50ed\",\n      \"text\": \"344747\\\",       \\\"session_id\\\": \\\"703b0efe\\\",       \\\"task_id\\\": \\\"7ad9c4d9\\\"     },     {       \\\"event_type\\\": \\\"knowledge_gap_identified\\\",       \\\"data\\\": {         \\\"question\\\": \\\"Insufficient evidence for: Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"70081155\",\n      \"text\": \"357882\\\",       \\\"session_id\\\": \\\"\\\",       \\\"task_id\\\": \\\"\\\"     },     {       \\\"event_type\\\": \\\"task_started\\\",       \\\"data\\\": {         \\\"title\\\": \\\"Address gap: Insufficient evidence for: Detailed research report on globa\\\"       },       \\\"timestamp\\\": \\\"2026-10-30T10:54:32\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"35ce4a69\",\n      \"text\": \"{   \\\"session\\\": {     \\\"id\\\": \\\"73698311\\\",     \\\"objective\\\": \\\"Detailed research report on the quick medicine delivery market worldwide\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"4e60ef7c\",\n      \"text\": \"062242\\\",       \\\"session_id\\\": \\\"\\\",       \\\"task_id\\\": \\\"\\\"     },     {       \\\"event_type\\\": \\\"plan_created\\\",       \\\"data\\\": {         \\\"objective\\\": \\\"Detailed research report on quick medicine delivery industry: list of companies globally, market analysis, and estimation of remaining market gap for a startup idea\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"522f8e37\",\n      \"text\": \"068641\\\",       \\\"session_id\\\": \\\"a5d0af9e\\\",       \\\"task_id\\\": \\\"7ad9c4d9\\\"     },     {       \\\"event_type\\\": \\\"research_started\\\",       \\\"data\\\": {         \\\"objective\\\": \\\"Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"02a8ec77\",\n      \"text\": \"344747\\\",       \\\"session_id\\\": \\\"703b0efe\\\",       \\\"task_id\\\": \\\"7ad9c4d9\\\"     },     {       \\\"event_type\\\": \\\"knowledge_gap_identified\\\",       \\\"data\\\": {         \\\"question\\\": \\\"Insufficient evidence for: Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"692bdaf6\",\n      \"text\": \"357882\\\",       \\\"session_id\\\": \\\"\\\",       \\\"task_id\\\": \\\"\\\"     },     {       \\\"event_type\\\": \\\"task_started\\\",       \\\"data\\\": {         \\\"title\\\": \\\"Address gap: Insufficient evidence for: Detailed research report on globa\\\"       },       \\\"timestamp\\\": \\\"2026-10-30T10:54:32\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"123b6a98\",\n      \"text\": \"Every action is dispatched through a single TOOL dict with an \\\"action\\\" parameter, which keeps the Gemini function-declaration count low while exposing the full research API surface\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"70daa17a\",\n      \"text\": \"\\\"         \\\"Use for deep research, fact-finding, codebase analysis, or any topic that \\\"         \\\"requires gathering information from multiple sources autonomously\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"79437c2f\",\n      \"text\": \"\\\"     ),     \\\"parameters\\\": {         \\\"type\\\": \\\"OBJECT\\\",         \\\"properties\\\": {             \\\"action\\\": {                 \\\"type\\\": \\\"STRING\\\",                 \\\"description\\\": (                     \\\"Research action to perform\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"af62737d\",\n      \"text\": \"One of: \\\"                     \\\"start | stop | pause | resume | status | activity | \\\"                     \\\"report | report_summary | knowledge | \\\"                     \\\"search_local | read_local | analyze_codebase | \\\"                     \\\"web_search | read_url | save | config\\\"                 ),             },             \\\"objective\\\": {                 \\\"type\\\": \\\"STRING\\\",                 \\\"description\\\": \\\"Research objective / topic (required for start)\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"56b9de2e\",\n      \"text\": \"\\\",             },         },         \\\"required\\\": [\\\"action\\\"],     },     \\\"handler\\\": \\\"handle_autonomous_research\\\", }   # -- Module-level dispatcher -------------------------------------------------- def handle_autonomous_research(parameters: dict) -> str:     \\\"\\\"\\\"     Single module-level handler -- dispatches to the correct ResearchDirector     method based on the action parameter\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"ed8aa4c3\",\n      \"text\": \"start_research(objective)             return (                 f\\\"Research session started!\\\\n\\\"                 f\\\"  ID: {session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"0e2a62d5\",\n      \"text\": \"\\\\n\\\"                 f\\\"  Say check research status to monitor progress\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"7ca65784\",\n      \"text\": \"stop_research()          elif action == \\\"pause\\\":             return director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"615e30d2\",\n      \"text\": \"pause_research()          elif action == \\\"resume\\\":             return director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"b595ab2d\",\n      \"text\": \"resume_research()          # -- Status & monitoring ----------------------------------------------         elif action == \\\"status\\\":             s = director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"4de17d7b\",\n      \"text\": \"get(\\\"status\\\") == \\\"no active session\\\":                 return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"d1b4ad94\",\n      \"text\": \"\\\"             return (                 f\\\"RESEARCH STATUS\\\\n\\\"                 f\\\"  Objective : {str(s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"c38167e9\",\n      \"text\": \"get(\\\"status\\\") == \\\"no active session\\\":                 return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"303203ba\",\n      \"text\": \"\\\"             s = activity[\\\"status\\\"]             lines = [                 \\\"LIVE RESEARCH ACTIVITY\\\",                 f\\\"Phase: {s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"691edd7a\",\n      \"text\": \"get(\\\"status\\\") == \\\"no active session\\\":                     return \\\"No research session found\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"a13a9539\",\n      \"text\": \"\\\"                 return f\\\"Research still in progress (phase: {s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"dde821a8\",\n      \"text\": \"Every action is dispatched through a single TOOL dict with an \\\"action\\\" parameter, which keeps the Gemini function-declaration count low while exposing the full research API surface\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"3b871d59\",\n      \"text\": \"\\\"         \\\"Use for deep research, fact-finding, codebase analysis, or any topic that \\\"         \\\"requires gathering information from multiple sources autonomously\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"4bc4045c\",\n      \"text\": \"\\\"     ),     \\\"parameters\\\": {         \\\"type\\\": \\\"OBJECT\\\",         \\\"properties\\\": {             \\\"action\\\": {                 \\\"type\\\": \\\"STRING\\\",                 \\\"description\\\": (                     \\\"Research action to perform\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"dc41d5e1\",\n      \"text\": \"One of: \\\"                     \\\"start | stop | pause | resume | status | activity | \\\"                     \\\"report | report_summary | knowledge | \\\"                     \\\"search_local | read_local | analyze_codebase | \\\"                     \\\"web_search | read_url | save | config\\\"                 ),             },             \\\"objective\\\": {                 \\\"type\\\": \\\"STRING\\\",                 \\\"description\\\": \\\"Research objective / topic (required for start)\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"cfc3be6b\",\n      \"text\": \"\\\",             },         },         \\\"required\\\": [\\\"action\\\"],     },     \\\"handler\\\": \\\"handle_autonomous_research\\\", }   # -- Module-level dispatcher -------------------------------------------------- def handle_autonomous_research(parameters: dict) -> str:     \\\"\\\"\\\"     Single module-level handler -- dispatches to the correct ResearchDirector     method based on the action parameter\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"c7aa4bcd\",\n      \"text\": \"start_research(objective)             return (                 f\\\"Research session started!\\\\n\\\"                 f\\\"  ID: {session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"d0a0b61c\",\n      \"text\": \"\\\\n\\\"                 f\\\"  Say check research status to monitor progress\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"a1fb2e4f\",\n      \"text\": \"stop_research()          elif action == \\\"pause\\\":             return director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"40a6078a\",\n      \"text\": \"pause_research()          elif action == \\\"resume\\\":             return director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"4ff62479\",\n      \"text\": \"resume_research()          # -- Status & monitoring ----------------------------------------------         elif action == \\\"status\\\":             s = director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"11d6aa4a\",\n      \"text\": \"get(\\\"status\\\") == \\\"no active session\\\":                 return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"368cfe85\",\n      \"text\": \"\\\"             return (                 f\\\"RESEARCH STATUS\\\\n\\\"                 f\\\"  Objective : {str(s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"2bcc9184\",\n      \"text\": \"get(\\\"status\\\") == \\\"no active session\\\":                 return \\\"No active research session\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"07108362\",\n      \"text\": \"\\\"             s = activity[\\\"status\\\"]             lines = [                 \\\"LIVE RESEARCH ACTIVITY\\\",                 f\\\"Phase: {s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"2e1cd0d4\",\n      \"text\": \"get(\\\"status\\\") == \\\"no active session\\\":                     return \\\"No research session found\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"7552c274\",\n      \"text\": \"\\\"                 return f\\\"Research still in progress (phase: {s\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"eaeef0d9\",\n      \"text\": \"director import ResearchDirector from autonomous_intelligence\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"8069eb5f\",\n      \"text\": \"config import ResearchConfig  # Create a director with config config = ResearchConfig() config\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"821bab82\",\n      \"text\": \"permission_level = 2  director = ResearchDirector(config)  # Start research session = director\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"0e7d8d52\",\n      \"text\": \"start_research('What are the recent advancements in AI small language models and their capabilities')  # Wait a moment for research to complete import time time\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"075c5a65\",\n      \"text\": \"strip():         msg = \\\"Sir, the city is missing for the weather report\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"27b55afb\",\n      \"text\": \"open returned False\\\")     except Exception as e:         msg = f\\\"Sir, I couldn't open the browser for the weather report: {e}\\\"         _log(msg, player)         return msg      msg = f\\\"Showing the weather for {city}, {when}, sir\",\n      \"type\": \"inference\",\n      \"confidence\": 0.4,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"e84a744e\",\n      \"text\": \"py) \\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500 TOOL = {     \\\"name\\\": \\\"weather_report\\\",     \\\"description\\\": \\\"Gives the weather report to user\\\",     \\\"parameters\\\": {         \\\"type\\\": \\\"OBJECT\\\",         \\\"properties\\\": {             \\\"city\\\": {                 \\\"type\\\": \\\"STRING\\\",                 \\\"description\\\": \\\"City name\\\"             }         },         \\\"required\\\": [             \\\"city\\\"         ]     },     \\\"handler\\\": \\\"weather_action\\\", }\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"0c1e79f6\",\n      \"text\": \"# SportsVerse Final Production Readiness Audit Report  ## Overview This report summarizes the findings and actions taken during the production readiness audit of the SportsVerse marketplace application\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"7b5bf37f\",\n      \"text\": \"1  #pragma once #ifndef WINRT_Windows_Globalization_Collation_H #define WINRT_Windows_Globalization_Collation_H #include \\\"winrt/base\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"32d295bf\",\n      \"text\": \") { return to_hresult(); }     }; #endif #ifndef WINRT_LEAN_AND_MEAN     template <typename D>     struct produce<D, winrt::Windows::Globalization::Collation::ICharacterGroupings> : produce_base<D, winrt::Windows::Globalization::Collation::ICharacterGroupings>     {         int32_t __stdcall Lookup(void* text, void** result) noexcept final try         {             clear_abi(result);             typename D::abi_guard guard(this->shim());             *result = detach_from<hstring>(this->shim()\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"3645a41a\",\n      \"text\": \") { return to_hresult(); }     }; #endif } WINRT_EXPORT namespace winrt::Windows::Globalization::Collation {     inline CharacterGroupings::CharacterGroupings() :         CharacterGroupings(impl::call_factory_cast<CharacterGroupings(*)(winrt::Windows::Foundation::IActivationFactory const&), CharacterGroupings>([](winrt::Windows::Foundation::IActivationFactory const& f) { return f\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"ddb48700\",\n      \"text\": \"1  #pragma once #ifndef WINRT_Windows_Globalization_DateTimeFormatting_H #define WINRT_Windows_Globalization_DateTimeFormatting_H #include \\\"winrt/base\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"f520c12e\",\n      \"text\": \"1  #pragma once #ifndef WINRT_Windows_Globalization_Fonts_H #define WINRT_Windows_Globalization_Fonts_H #include \\\"winrt/base\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"45f30d78\",\n      \"text\": \") { return to_hresult(); }         int32_t __stdcall get_UIHeadingFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());             *value = detach_from<winrt::Windows::Globalization::Fonts::LanguageFont>(this->shim()\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"c20a556d\",\n      \"text\": \") { return to_hresult(); }         int32_t __stdcall get_UITitleFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());             *value = detach_from<winrt::Windows::Globalization::Fonts::LanguageFont>(this->shim()\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"666cd291\",\n      \"text\": \") { return to_hresult(); }         int32_t __stdcall get_UICaptionFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());             *value = detach_from<winrt::Windows::Globalization::Fonts::LanguageFont>(this->shim()\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"d26d4c67\",\n      \"text\": \") { return to_hresult(); }         int32_t __stdcall get_UINotificationHeadingFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());             *value = detach_from<winrt::Windows::Globalization::Fonts::LanguageFont>(this->shim()\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"453fdb66\",\n      \"text\": \"io/agents/) for quickstarts, documentation, and examples\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"571e5c2d\",\n      \"text\": \"audio_frame import AudioFrame   @unique class AudioResamplerQuality(str, Enum):     QUICK = \\\"quick\\\"     LOW = \\\"low\\\"     MEDIUM = \\\"medium\\\"     HIGH = \\\"high\\\"     VERY_HIGH = \\\"very_high\\\"   class AudioResampler:     \\\"\\\"\\\"     A class for resampling audio data from one sample rate to another\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"6935e6d2\",\n      \"text\": \"Can be one of the                 `AudioResamplerQuality` enum values: `QUICK`, `LOW`, `MEDIUM`, `HIGH`, `VERY_HIGH`\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"546ddf3a\",\n      \"text\": \"QUICK:         return proto_audio_frame\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"5b4f2b14\",\n      \"text\": \"SOXR_QUALITY_QUICK     elif quality == AudioResamplerQuality\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"fbc1b351\",\n      \"text\": \"agents import function_tool  TOOL = {     \\\"name\\\": \\\"scan_system_for_viruses\\\",     \\\"description\\\": \\\"Perform a quick virus scan using Windows Defender\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"4c9c1afc\",\n      \"text\": \"\\\",     \\\"parameters\\\": {         \\\"type\\\": \\\"OBJECT\\\",         \\\"properties\\\": {},         \\\"required\\\": []     },     \\\"handler\\\": \\\"scan_system_for_viruses\\\", }  @function_tool() async def scan_system_for_viruses() -> str:     \\\"\\\"\\\"     Performs quick virus scan using Windows Defender\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    },\n    {\n      \"id\": \"1bf67e49\",\n      \"text\": \"exe\\\",  # Older path             \\\"-Scan\\\", \\\"-ScanType\\\", \\\"1\\\"  # 1 = quick scan         ]          # fallback path for Windows 10+         alt_cmd = [             r\\\"C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Platform\\\\4\",\n      \"type\": \"inference\",\n      \"confidence\": 0.5,\n      \"verified\": false,\n      \"contradictions\": 0\n    }\n  ],\n  \"summary\": {\n    \"total_evidence\": 68,\n    \"evidence_by_type\": {\n      \"inference\": 68\n    },\n    \"total_claims\": 68,\n    \"claims_by_type\": {\n      \"inference\": 68\n    },\n    \"verified_claims\": 0,\n    \"contradictions\": 0,\n    \"knowledge_gaps\": 5,\n    \"unresolved_gaps\": 5,\n    \"average_confidence\": 0.4985294117647059,\n    \"entities_in_graph\": 2,\n    \"relationships_in_graph\": 0\n  }\n}",
+  "events": [
+    {
+      "event_type": "research_started",
+      "data": {
+        "objective": "Detailed research report on global quick medicine delivery: market overview, key companies, competition analysis, and estimation of left market gap for a startup idea."
+      },
+      "timestamp": "2026-10-30T11:25:20.699426",
+      "session_id": "74172bc5",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_indexed",
+      "data": {
+        "files_indexed": 6893,
+        "total": 6893
+      },
+      "timestamp": "2026-10-30T11:26:09.966075",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "objective": "Detailed research report on global quick medicine delivery: market overview, key companies, competition analysis, and estimation of left market gap for a startup idea.",
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T11:26:09.966075",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T11:26:09.966075",
+      "session_id": "74172bc5",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Define research scope"
+      },
+      "timestamp": "2026-10-30T11:26:09.982825",
+      "session_id": "74172bc5",
+      "task_id": "35e333fc"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'str' object has no attribute 'get'"
+      },
+      "timestamp": "2026-10-30T11:26:13.521194",
+      "session_id": "74172bc5",
+      "task_id": "35e333fc"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Insufficient evidence for: Detailed research report on global quick medicine delivery: market overview, key companies, competition analysis, and estimation of left market gap for a startup idea.",
+        "priority": 8
+      },
+      "timestamp": "2026-10-30T11:26:13.521194",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 11
+      },
+      "timestamp": "2026-10-30T11:26:13.521194",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Broad web research"
+      },
+      "timestamp": "2026-10-30T11:26:13.521194",
+      "session_id": "74172bc5",
+      "task_id": "b76e99f7"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'str' object has no attribute 'get'"
+      },
+      "timestamp": "2026-10-30T11:26:19.556297",
+      "session_id": "74172bc5",
+      "task_id": "b76e99f7"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Specific web research"
+      },
+      "timestamp": "2026-10-30T11:26:19.556297",
+      "session_id": "74172bc5",
+      "task_id": "824599af"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'str' object has no attribute 'get'"
+      },
+      "timestamp": "2026-10-30T11:26:27.719636",
+      "session_id": "74172bc5",
+      "task_id": "824599af"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Detailed research report on globa"
+      },
+      "timestamp": "2026-10-30T11:26:27.719636",
+      "session_id": "74172bc5",
+      "task_id": "5f60d758"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'str' object has no attribute 'get'"
+      },
+      "timestamp": "2026-10-30T11:26:39.031794",
+      "session_id": "74172bc5",
+      "task_id": "5f60d758"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Insufficient evidence for: Detailed research report on global quick medicine delivery: market overview, key companies, competition analysis, and estimation of left market gap for a startup idea.",
+        "priority": 8
+      },
+      "timestamp": "2026-10-30T11:26:39.031794",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 12
+      },
+      "timestamp": "2026-10-30T11:26:39.031794",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Detailed research report on globa"
+      },
+      "timestamp": "2026-10-30T11:26:39.031794",
+      "session_id": "74172bc5",
+      "task_id": "b2538e9c"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'str' object has no attribute 'get'"
+      },
+      "timestamp": "2026-10-30T11:26:41.689934",
+      "session_id": "74172bc5",
+      "task_id": "b2538e9c"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Academic research"
+      },
+      "timestamp": "2026-10-30T11:26:41.689934",
+      "session_id": "74172bc5",
+      "task_id": "fd1f9a58"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'str' object has no attribute 'get'"
+      },
+      "timestamp": "2026-10-30T11:26:46.599513",
+      "session_id": "74172bc5",
+      "task_id": "fd1f9a58"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Implementation research"
+      },
+      "timestamp": "2026-10-30T11:26:46.599513",
+      "session_id": "74172bc5",
+      "task_id": "a84abe0a"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'str' object has no attribute 'get'"
+      },
+      "timestamp": "2026-10-30T11:26:50.889589",
+      "session_id": "74172bc5",
+      "task_id": "a84abe0a"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Insufficient evidence for: Detailed research report on global quick medicine delivery: market overview, key companies, competition analysis, and estimation of left market gap for a startup idea.",
+        "priority": 8
+      },
+      "timestamp": "2026-10-30T11:26:50.889589",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 13
+      },
+      "timestamp": "2026-10-30T11:26:50.889589",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Detailed research report on globa"
+      },
+      "timestamp": "2026-10-30T11:26:50.889589",
+      "session_id": "74172bc5",
+      "task_id": "849fdcb2"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'str' object has no attribute 'get'"
+      },
+      "timestamp": "2026-10-30T11:26:52.638767",
+      "session_id": "74172bc5",
+      "task_id": "849fdcb2"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Local file search"
+      },
+      "timestamp": "2026-10-30T11:26:52.638767",
+      "session_id": "74172bc5",
+      "task_id": "c8b5a60f"
+    },
+    {
+      "event_type": "local_search_started",
+      "data": {
+        "query": "detailed"
+      },
+      "timestamp": "2026-10-30T11:26:52.638767",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_completed",
+      "data": {
+        "query": "detailed",
+        "results_count": 10
+      },
+      "timestamp": "2026-10-30T11:27:12.693179",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\ECE Project - Pesticide\\robot_firmware\\docs\\hardware_wiring.md",
+        "lines": 103,
+        "size": 4750
+      },
+      "timestamp": "2026-10-30T11:27:12.693179",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "17af9a31",
+        "claim": "# Hardware Wiring Guide  This document provides detailed wiring instructions for the Autonomous Agricultural Spray Robot",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ECE Project - Pesticide\\robot_firmware\\docs\\hardware_wiring.md",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.693179",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "44993a19",
+        "text": "# Hardware Wiring Guide  This document provides detailed wiring instructions for the Autonomous Agricultural Spray Robot",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.693179",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "# Hardware Wiring Guide  This document provides detailed wiring instructions for the Autonomous Agricultural Spray Robot",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ECE Project - Pesticide\\robot_firmware\\docs\\hardware_wiring.md",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.693179",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "lines": 201,
+        "size": 8565
+      },
+      "timestamp": "2026-10-30T11:27:12.693179",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "bc9ef7cd",
+        "claim": "{   \"session\": {     \"id\": \"703b0efe\",     \"objective\": \"Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunitie",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.693179",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "810a439c",
+        "text": "{   \"session\": {     \"id\": \"703b0efe\",     \"objective\": \"Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunitie",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "{   \"session\": {     \"id\": \"703b0efe\",     \"objective\": \"Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunitie",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "85ca04e8",
+        "claim": "062242\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"plan_created\",       \"data\": {         \"objective\": \"Detailed research report on quick medicine delivery industry",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "c2fc7a03",
+        "text": "062242\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"plan_created\",       \"data\": {         \"objective\": \"Detailed research report on quick medicine delivery industry",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "062242\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"plan_created\",       \"data\": {         \"objective\": \"Detailed research report on quick medicine delivery industry",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "086d1b7a",
+        "claim": "068641\",       \"session_id\": \"a5d0af9e\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"research_started\",       \"data\": {         \"objective\": \"Detailed research report on global quick",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "a3382f2e",
+        "text": "068641\",       \"session_id\": \"a5d0af9e\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"research_started\",       \"data\": {         \"objective\": \"Detailed research report on global quick",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "068641\",       \"session_id\": \"a5d0af9e\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"research_started\",       \"data\": {         \"objective\": \"Detailed research report on global quick",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "b8316211",
+        "claim": "344747\",       \"session_id\": \"703b0efe\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"knowledge_gap_identified\",       \"data\": {         \"question\": \"Insufficient evidence for: Detail",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "a29c50ed",
+        "text": "344747\",       \"session_id\": \"703b0efe\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"knowledge_gap_identified\",       \"data\": {         \"question\": \"Insufficient evidence for: Detail",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "344747\",       \"session_id\": \"703b0efe\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"knowledge_gap_identified\",       \"data\": {         \"question\": \"Insufficient evidence for: Detail",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "d77d6d88",
+        "claim": "357882\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"task_started\",       \"data\": {         \"title\": \"Address gap: Insufficient evidence for: Detailed research report",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "70081155",
+        "text": "357882\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"task_started\",       \"data\": {         \"title\": \"Address gap: Insufficient evidence for: Detailed research report",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "357882\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"task_started\",       \"data\": {         \"title\": \"Address gap: Insufficient evidence for: Detailed research report",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_703b0efe.json",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "lines": 201,
+        "size": 16964
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "f570b44f",
+        "claim": "{   \"session\": {     \"id\": \"73698311\",     \"objective\": \"Detailed research report on the quick medicine delivery market worldwide",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "35ce4a69",
+        "text": "{   \"session\": {     \"id\": \"73698311\",     \"objective\": \"Detailed research report on the quick medicine delivery market worldwide",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "{   \"session\": {     \"id\": \"73698311\",     \"objective\": \"Detailed research report on the quick medicine delivery market worldwide",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "16221260",
+        "claim": "062242\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"plan_created\",       \"data\": {         \"objective\": \"Detailed research report on quick medicine delivery industry",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "4e60ef7c",
+        "text": "062242\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"plan_created\",       \"data\": {         \"objective\": \"Detailed research report on quick medicine delivery industry",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "062242\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"plan_created\",       \"data\": {         \"objective\": \"Detailed research report on quick medicine delivery industry",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "1a9caea6",
+        "claim": "068641\",       \"session_id\": \"a5d0af9e\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"research_started\",       \"data\": {         \"objective\": \"Detailed research report on global quick",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "522f8e37",
+        "text": "068641\",       \"session_id\": \"a5d0af9e\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"research_started\",       \"data\": {         \"objective\": \"Detailed research report on global quick",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "068641\",       \"session_id\": \"a5d0af9e\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"research_started\",       \"data\": {         \"objective\": \"Detailed research report on global quick",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "cdfaf7df",
+        "claim": "344747\",       \"session_id\": \"703b0efe\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"knowledge_gap_identified\",       \"data\": {         \"question\": \"Insufficient evidence for: Detail",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "02a8ec77",
+        "text": "344747\",       \"session_id\": \"703b0efe\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"knowledge_gap_identified\",       \"data\": {         \"question\": \"Insufficient evidence for: Detail",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "344747\",       \"session_id\": \"703b0efe\",       \"task_id\": \"7ad9c4d9\"     },     {       \"event_type\": \"knowledge_gap_identified\",       \"data\": {         \"question\": \"Insufficient evidence for: Detail",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "7aa6e5cc",
+        "claim": "357882\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"task_started\",       \"data\": {         \"title\": \"Address gap: Insufficient evidence for: Detailed research report",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "692bdaf6",
+        "text": "357882\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"task_started\",       \"data\": {         \"title\": \"Address gap: Insufficient evidence for: Detailed research report",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "357882\",       \"session_id\": \"\",       \"task_id\": \"\"     },     {       \"event_type\": \"task_started\",       \"data\": {         \"title\": \"Address gap: Insufficient evidence for: Detailed research report",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\autonomous_intelligence\\storage\\session_73698311.json",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_started",
+      "data": {
+        "query": "research"
+      },
+      "timestamp": "2026-10-30T11:27:12.694918",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_completed",
+      "data": {
+        "query": "research",
+        "results_count": 10
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "lines": 201,
+        "size": 14643
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "bd099a18",
+        "claim": "Every action is dispatched through a single TOOL dict with an \"action\" parameter, which keeps the Gemini function-declaration count low while exposing the full research API surface",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "123b6a98",
+        "text": "Every action is dispatched through a single TOOL dict with an \"action\" parameter, which keeps the Gemini function-declaration count low while exposing the full research API surface",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "Every action is dispatched through a single TOOL dict with an \"action\" parameter, which keeps the Gemini function-declaration count low while exposing the full research API surface",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "47acfe48",
+        "claim": "\"         \"Use for deep research, fact-finding, codebase analysis, or any topic that \"         \"requires gathering information from multiple sources autonomously",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "70daa17a",
+        "text": "\"         \"Use for deep research, fact-finding, codebase analysis, or any topic that \"         \"requires gathering information from multiple sources autonomously",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"         \"Use for deep research, fact-finding, codebase analysis, or any topic that \"         \"requires gathering information from multiple sources autonomously",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "2d71dbc2",
+        "claim": "\"     ),     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {             \"action\": {                 \"type\": \"STRING\",                 \"description\": (                     \"Research ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "79437c2f",
+        "text": "\"     ),     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {             \"action\": {                 \"type\": \"STRING\",                 \"description\": (                     \"Research ",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"     ),     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {             \"action\": {                 \"type\": \"STRING\",                 \"description\": (                     \"Research ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "3f181577",
+        "claim": "One of: \"                     \"start | stop | pause | resume | status | activity | \"                     \"report | report_summary | knowledge | \"                     \"search_local | read_local | analy",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "af62737d",
+        "text": "One of: \"                     \"start | stop | pause | resume | status | activity | \"                     \"report | report_summary | knowledge | \"                     \"search_local | read_local | analy",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "One of: \"                     \"start | stop | pause | resume | status | activity | \"                     \"report | report_summary | knowledge | \"                     \"search_local | read_local | analy",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "1dc20172",
+        "claim": "\",             },         },         \"required\": [\"action\"],     },     \"handler\": \"handle_autonomous_research\", }   # -- Module-level dispatcher -------------------------------------------------- def",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "56b9de2e",
+        "text": "\",             },         },         \"required\": [\"action\"],     },     \"handler\": \"handle_autonomous_research\", }   # -- Module-level dispatcher -------------------------------------------------- def",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\",             },         },         \"required\": [\"action\"],     },     \"handler\": \"handle_autonomous_research\", }   # -- Module-level dispatcher -------------------------------------------------- def",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "e600b079",
+        "claim": "start_research(objective)             return (                 f\"Research session started!\\n\"                 f\"  ID: {session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "ed8aa4c3",
+        "text": "start_research(objective)             return (                 f\"Research session started!\\n\"                 f\"  ID: {session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "start_research(objective)             return (                 f\"Research session started!\\n\"                 f\"  ID: {session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "74430fdb",
+        "claim": "\\n\"                 f\"  Say check research status to monitor progress",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "0e2a62d5",
+        "text": "\\n\"                 f\"  Say check research status to monitor progress",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\\n\"                 f\"  Say check research status to monitor progress",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "aed6d6b9",
+        "claim": "stop_research()          elif action == \"pause\":             return director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "7ca65784",
+        "text": "stop_research()          elif action == \"pause\":             return director",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "stop_research()          elif action == \"pause\":             return director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "00914d19",
+        "claim": "pause_research()          elif action == \"resume\":             return director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "615e30d2",
+        "text": "pause_research()          elif action == \"resume\":             return director",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "pause_research()          elif action == \"resume\":             return director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "587e08ea",
+        "claim": "resume_research()          # -- Status & monitoring ----------------------------------------------         elif action == \"status\":             s = director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "b595ab2d",
+        "text": "resume_research()          # -- Status & monitoring ----------------------------------------------         elif action == \"status\":             s = director",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "resume_research()          # -- Status & monitoring ----------------------------------------------         elif action == \"status\":             s = director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "3a8ccb9c",
+        "claim": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "4de17d7b",
+        "text": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "b67a2e3c",
+        "claim": "\"             return (                 f\"RESEARCH STATUS\\n\"                 f\"  Objective : {str(s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "d1b4ad94",
+        "text": "\"             return (                 f\"RESEARCH STATUS\\n\"                 f\"  Objective : {str(s",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"             return (                 f\"RESEARCH STATUS\\n\"                 f\"  Objective : {str(s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "d1c85bd9",
+        "claim": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "c38167e9",
+        "text": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "315c3cc8",
+        "claim": "\"             s = activity[\"status\"]             lines = [                 \"LIVE RESEARCH ACTIVITY\",                 f\"Phase: {s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "303203ba",
+        "text": "\"             s = activity[\"status\"]             lines = [                 \"LIVE RESEARCH ACTIVITY\",                 f\"Phase: {s",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"             s = activity[\"status\"]             lines = [                 \"LIVE RESEARCH ACTIVITY\",                 f\"Phase: {s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "e3e0f235",
+        "claim": "get(\"status\") == \"no active session\":                     return \"No research session found",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "691edd7a",
+        "text": "get(\"status\") == \"no active session\":                     return \"No research session found",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "get(\"status\") == \"no active session\":                     return \"No research session found",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "94389830",
+        "claim": "\"                 return f\"Research still in progress (phase: {s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "a13a9539",
+        "text": "\"                 return f\"Research still in progress (phase: {s",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"                 return f\"Research still in progress (phase: {s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "lines": 201,
+        "size": 14316
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "e520e99e",
+        "claim": "Every action is dispatched through a single TOOL dict with an \"action\" parameter, which keeps the Gemini function-declaration count low while exposing the full research API surface",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "dde821a8",
+        "text": "Every action is dispatched through a single TOOL dict with an \"action\" parameter, which keeps the Gemini function-declaration count low while exposing the full research API surface",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "Every action is dispatched through a single TOOL dict with an \"action\" parameter, which keeps the Gemini function-declaration count low while exposing the full research API surface",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "97695b16",
+        "claim": "\"         \"Use for deep research, fact-finding, codebase analysis, or any topic that \"         \"requires gathering information from multiple sources autonomously",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "3b871d59",
+        "text": "\"         \"Use for deep research, fact-finding, codebase analysis, or any topic that \"         \"requires gathering information from multiple sources autonomously",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"         \"Use for deep research, fact-finding, codebase analysis, or any topic that \"         \"requires gathering information from multiple sources autonomously",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "3fce002c",
+        "claim": "\"     ),     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {             \"action\": {                 \"type\": \"STRING\",                 \"description\": (                     \"Research ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "4bc4045c",
+        "text": "\"     ),     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {             \"action\": {                 \"type\": \"STRING\",                 \"description\": (                     \"Research ",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"     ),     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {             \"action\": {                 \"type\": \"STRING\",                 \"description\": (                     \"Research ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "fb888a2c",
+        "claim": "One of: \"                     \"start | stop | pause | resume | status | activity | \"                     \"report | report_summary | knowledge | \"                     \"search_local | read_local | analy",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "dc41d5e1",
+        "text": "One of: \"                     \"start | stop | pause | resume | status | activity | \"                     \"report | report_summary | knowledge | \"                     \"search_local | read_local | analy",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "One of: \"                     \"start | stop | pause | resume | status | activity | \"                     \"report | report_summary | knowledge | \"                     \"search_local | read_local | analy",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "2165502b",
+        "claim": "\",             },         },         \"required\": [\"action\"],     },     \"handler\": \"handle_autonomous_research\", }   # -- Module-level dispatcher -------------------------------------------------- def",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "cfc3be6b",
+        "text": "\",             },         },         \"required\": [\"action\"],     },     \"handler\": \"handle_autonomous_research\", }   # -- Module-level dispatcher -------------------------------------------------- def",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\",             },         },         \"required\": [\"action\"],     },     \"handler\": \"handle_autonomous_research\", }   # -- Module-level dispatcher -------------------------------------------------- def",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "20f27a3f",
+        "claim": "start_research(objective)             return (                 f\"Research session started!\\n\"                 f\"  ID: {session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "c7aa4bcd",
+        "text": "start_research(objective)             return (                 f\"Research session started!\\n\"                 f\"  ID: {session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "start_research(objective)             return (                 f\"Research session started!\\n\"                 f\"  ID: {session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "bc37920c",
+        "claim": "\\n\"                 f\"  Say check research status to monitor progress",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "d0a0b61c",
+        "text": "\\n\"                 f\"  Say check research status to monitor progress",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\\n\"                 f\"  Say check research status to monitor progress",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "d3f86beb",
+        "claim": "stop_research()          elif action == \"pause\":             return director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "a1fb2e4f",
+        "text": "stop_research()          elif action == \"pause\":             return director",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "stop_research()          elif action == \"pause\":             return director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "854d611f",
+        "claim": "pause_research()          elif action == \"resume\":             return director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "40a6078a",
+        "text": "pause_research()          elif action == \"resume\":             return director",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "pause_research()          elif action == \"resume\":             return director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "949a9b55",
+        "claim": "resume_research()          # -- Status & monitoring ----------------------------------------------         elif action == \"status\":             s = director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "4ff62479",
+        "text": "resume_research()          # -- Status & monitoring ----------------------------------------------         elif action == \"status\":             s = director",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "resume_research()          # -- Status & monitoring ----------------------------------------------         elif action == \"status\":             s = director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "af90eadf",
+        "claim": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "11d6aa4a",
+        "text": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "4dddf956",
+        "claim": "\"             return (                 f\"RESEARCH STATUS\\n\"                 f\"  Objective : {str(s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "368cfe85",
+        "text": "\"             return (                 f\"RESEARCH STATUS\\n\"                 f\"  Objective : {str(s",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"             return (                 f\"RESEARCH STATUS\\n\"                 f\"  Objective : {str(s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "3a8fd3cb",
+        "claim": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "2bcc9184",
+        "text": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "get(\"status\") == \"no active session\":                 return \"No active research session",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "bd523e83",
+        "claim": "\"             s = activity[\"status\"]             lines = [                 \"LIVE RESEARCH ACTIVITY\",                 f\"Phase: {s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "07108362",
+        "text": "\"             s = activity[\"status\"]             lines = [                 \"LIVE RESEARCH ACTIVITY\",                 f\"Phase: {s",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"             s = activity[\"status\"]             lines = [                 \"LIVE RESEARCH ACTIVITY\",                 f\"Phase: {s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "99143039",
+        "claim": "get(\"status\") == \"no active session\":                     return \"No research session found",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "2e1cd0d4",
+        "text": "get(\"status\") == \"no active session\":                     return \"No research session found",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "get(\"status\") == \"no active session\":                     return \"No research session found",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "2e79e053",
+        "claim": "\"                 return f\"Research still in progress (phase: {s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "7552c274",
+        "text": "\"                 return f\"Research still in progress (phase: {s",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\"                 return f\"Research still in progress (phase: {s",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH\\Tools\\autonomous_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\test_research.py",
+        "lines": 47,
+        "size": 1547
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "c1584ee1",
+        "claim": "director import ResearchDirector from autonomous_intelligence",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\test_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "eaeef0d9",
+        "text": "director import ResearchDirector from autonomous_intelligence",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "director import ResearchDirector from autonomous_intelligence",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\test_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "14fa6e75",
+        "claim": "config import ResearchConfig  # Create a director with config config = ResearchConfig() config",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\test_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "8069eb5f",
+        "text": "config import ResearchConfig  # Create a director with config config = ResearchConfig() config",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "config import ResearchConfig  # Create a director with config config = ResearchConfig() config",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\test_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "13d8e3ce",
+        "claim": "permission_level = 2  director = ResearchDirector(config)  # Start research session = director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\test_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "821bab82",
+        "text": "permission_level = 2  director = ResearchDirector(config)  # Start research session = director",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "permission_level = 2  director = ResearchDirector(config)  # Start research session = director",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\test_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "25811e17",
+        "claim": "start_research('What are the recent advancements in AI small language models and their capabilities')  # Wait a moment for research to complete import time time",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\test_research.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "0e7d8d52",
+        "text": "start_research('What are the recent advancements in AI small language models and their capabilities')  # Wait a moment for research to complete import time time",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "start_research('What are the recent advancements in AI small language models and their capabilities')  # Wait a moment for research to complete import time time",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\ZENITH_V-\\test_research.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_started",
+      "data": {
+        "query": "report"
+      },
+      "timestamp": "2026-10-30T11:27:12.841580",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_completed",
+      "data": {
+        "query": "report",
+        "results_count": 10
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\weather_report.py",
+        "lines": 71,
+        "size": 1916
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "6cdcd28c",
+        "claim": "strip():         msg = \"Sir, the city is missing for the weather report",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\weather_report.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "075c5a65",
+        "text": "strip():         msg = \"Sir, the city is missing for the weather report",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "strip():         msg = \"Sir, the city is missing for the weather report",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\weather_report.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "b1536c29",
+        "claim": "open returned False\")     except Exception as e:         msg = f\"Sir, I couldn't open the browser for the weather report: {e}\"         _log(msg, player)         return msg      msg = f\"Showing the wea",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\weather_report.py",
+        "confidence": 0.4,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "27b55afb",
+        "text": "open returned False\")     except Exception as e:         msg = f\"Sir, I couldn't open the browser for the weather report: {e}\"         _log(msg, player)         return msg      msg = f\"Showing the wea",
+        "confidence": 0.4,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "open returned False\")     except Exception as e:         msg = f\"Sir, I couldn't open the browser for the weather report: {e}\"         _log(msg, player)         return msg      msg = f\"Showing the wea",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\weather_report.py",
+        "confidence": 0.4
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "8af15c44",
+        "claim": "py) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 TOOL = {     \"name\": \"weather_report\",     \"description\": \"Gives the weather report to user\",     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {             \"city",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\weather_report.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "e84a744e",
+        "text": "py) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 TOOL = {     \"name\": \"weather_report\",     \"description\": \"Gives the weather report to user\",     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {             \"city",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "py) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 TOOL = {     \"name\": \"weather_report\",     \"description\": \"Gives the weather report to user\",     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {             \"city",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\weather_report.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Brahma-Ai-Evo\\actions\\weather_report.py",
+        "lines": 133,
+        "size": 4759
+      },
+      "timestamp": "2026-10-30T11:27:15.866082",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\SportsVerse - App\\FINAL_AUDIT_REPORT.md",
+        "lines": 169,
+        "size": 8830
+      },
+      "timestamp": "2026-10-30T11:27:15.867823",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "e100556c",
+        "claim": "# SportsVerse Final Production Readiness Audit Report  ## Overview This report summarizes the findings and actions taken during the production readiness audit of the SportsVerse marketplace applicatio",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\SportsVerse - App\\FINAL_AUDIT_REPORT.md",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:15.867823",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "0c1e79f6",
+        "text": "# SportsVerse Final Production Readiness Audit Report  ## Overview This report summarizes the findings and actions taken during the production readiness audit of the SportsVerse marketplace applicatio",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:15.867823",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "# SportsVerse Final Production Readiness Audit Report  ## Overview This report summarizes the findings and actions taken during the production readiness audit of the SportsVerse marketplace applicatio",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\SportsVerse - App\\FINAL_AUDIT_REPORT.md",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:15.867823",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_started",
+      "data": {
+        "query": "global"
+      },
+      "timestamp": "2026-10-30T11:27:15.867823",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_completed",
+      "data": {
+        "query": "global",
+        "results_count": 10
+      },
+      "timestamp": "2026-10-30T11:27:16.281439",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Collation.h",
+        "lines": 112,
+        "size": 5485
+      },
+      "timestamp": "2026-10-30T11:27:16.298119",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "53d529c3",
+        "claim": "1  #pragma once #ifndef WINRT_Windows_Globalization_Collation_H #define WINRT_Windows_Globalization_Collation_H #include \"winrt/base",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Collation.h",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.298119",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "7b5bf37f",
+        "text": "1  #pragma once #ifndef WINRT_Windows_Globalization_Collation_H #define WINRT_Windows_Globalization_Collation_H #include \"winrt/base",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.298119",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "1  #pragma once #ifndef WINRT_Windows_Globalization_Collation_H #define WINRT_Windows_Globalization_Collation_H #include \"winrt/base",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Collation.h",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.298119",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "af06636b",
+        "claim": ") { return to_hresult(); }     }; #endif #ifndef WINRT_LEAN_AND_MEAN     template <typename D>     struct produce<D, winrt::Windows::Globalization::Collation::ICharacterGroupings> : produce_base<D, wi",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Collation.h",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.298119",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "32d295bf",
+        "text": ") { return to_hresult(); }     }; #endif #ifndef WINRT_LEAN_AND_MEAN     template <typename D>     struct produce<D, winrt::Windows::Globalization::Collation::ICharacterGroupings> : produce_base<D, wi",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.298119",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": ") { return to_hresult(); }     }; #endif #ifndef WINRT_LEAN_AND_MEAN     template <typename D>     struct produce<D, winrt::Windows::Globalization::Collation::ICharacterGroupings> : produce_base<D, wi",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Collation.h",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.298119",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "b71d870c",
+        "claim": ") { return to_hresult(); }     }; #endif } WINRT_EXPORT namespace winrt::Windows::Globalization::Collation {     inline CharacterGroupings::CharacterGroupings() :         CharacterGroupings(impl::call",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Collation.h",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.298119",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "3645a41a",
+        "text": ") { return to_hresult(); }     }; #endif } WINRT_EXPORT namespace winrt::Windows::Globalization::Collation {     inline CharacterGroupings::CharacterGroupings() :         CharacterGroupings(impl::call",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.298119",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": ") { return to_hresult(); }     }; #endif } WINRT_EXPORT namespace winrt::Windows::Globalization::Collation {     inline CharacterGroupings::CharacterGroupings() :         CharacterGroupings(impl::call",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Collation.h",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.298119",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.DateTimeFormatting.h",
+        "lines": 201,
+        "size": 38420
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "f411fad8",
+        "claim": "1  #pragma once #ifndef WINRT_Windows_Globalization_DateTimeFormatting_H #define WINRT_Windows_Globalization_DateTimeFormatting_H #include \"winrt/base",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.DateTimeFormatting.h",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "ddb48700",
+        "text": "1  #pragma once #ifndef WINRT_Windows_Globalization_DateTimeFormatting_H #define WINRT_Windows_Globalization_DateTimeFormatting_H #include \"winrt/base",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "1  #pragma once #ifndef WINRT_Windows_Globalization_DateTimeFormatting_H #define WINRT_Windows_Globalization_DateTimeFormatting_H #include \"winrt/base",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.DateTimeFormatting.h",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "lines": 201,
+        "size": 14776
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "e74ec0bc",
+        "claim": "1  #pragma once #ifndef WINRT_Windows_Globalization_Fonts_H #define WINRT_Windows_Globalization_Fonts_H #include \"winrt/base",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "f520c12e",
+        "text": "1  #pragma once #ifndef WINRT_Windows_Globalization_Fonts_H #define WINRT_Windows_Globalization_Fonts_H #include \"winrt/base",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "1  #pragma once #ifndef WINRT_Windows_Globalization_Fonts_H #define WINRT_Windows_Globalization_Fonts_H #include \"winrt/base",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "33429d22",
+        "claim": ") { return to_hresult(); }         int32_t __stdcall get_UIHeadingFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());  ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "45f30d78",
+        "text": ") { return to_hresult(); }         int32_t __stdcall get_UIHeadingFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());  ",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": ") { return to_hresult(); }         int32_t __stdcall get_UIHeadingFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());  ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "059ef567",
+        "claim": ") { return to_hresult(); }         int32_t __stdcall get_UITitleFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());    ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "c20a556d",
+        "text": ") { return to_hresult(); }         int32_t __stdcall get_UITitleFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());    ",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": ") { return to_hresult(); }         int32_t __stdcall get_UITitleFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());    ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "ea31eeb3",
+        "claim": ") { return to_hresult(); }         int32_t __stdcall get_UICaptionFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());  ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "666cd291",
+        "text": ") { return to_hresult(); }         int32_t __stdcall get_UICaptionFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());  ",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": ") { return to_hresult(); }         int32_t __stdcall get_UICaptionFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this->shim());  ",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "e3bc0ea9",
+        "claim": ") { return to_hresult(); }         int32_t __stdcall get_UINotificationHeadingFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "d26d4c67",
+        "text": ") { return to_hresult(); }         int32_t __stdcall get_UINotificationHeadingFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": ") { return to_hresult(); }         int32_t __stdcall get_UINotificationHeadingFont(void** value) noexcept final try         {             clear_abi(value);             typename D::abi_guard guard(this",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Clg\\indoor_navigator_app\\build\\windows\\x64\\include\\winrt\\Windows.Globalization.Fonts.h",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_started",
+      "data": {
+        "query": "quick"
+      },
+      "timestamp": "2026-10-30T11:27:16.299173",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "local_search_completed",
+      "data": {
+        "query": "quick",
+        "results_count": 10
+      },
+      "timestamp": "2026-10-30T11:27:16.429644",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\agents\\__init__.py",
+        "lines": 182,
+        "size": 4262
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "c405277f",
+        "claim": "io/agents/) for quickstarts, documentation, and examples",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\agents\\__init__.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "453fdb66",
+        "text": "io/agents/) for quickstarts, documentation, and examples",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "io/agents/) for quickstarts, documentation, and examples",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\agents\\__init__.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\rtc\\audio_resampler.py",
+        "lines": 172,
+        "size": 6782
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "22b3b4df",
+        "claim": "audio_frame import AudioFrame   @unique class AudioResamplerQuality(str, Enum):     QUICK = \"quick\"     LOW = \"low\"     MEDIUM = \"medium\"     HIGH = \"high\"     VERY_HIGH = \"very_high\"   class AudioRes",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\rtc\\audio_resampler.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "571e5c2d",
+        "text": "audio_frame import AudioFrame   @unique class AudioResamplerQuality(str, Enum):     QUICK = \"quick\"     LOW = \"low\"     MEDIUM = \"medium\"     HIGH = \"high\"     VERY_HIGH = \"very_high\"   class AudioRes",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "audio_frame import AudioFrame   @unique class AudioResamplerQuality(str, Enum):     QUICK = \"quick\"     LOW = \"low\"     MEDIUM = \"medium\"     HIGH = \"high\"     VERY_HIGH = \"very_high\"   class AudioRes",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\rtc\\audio_resampler.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "1ebc6d06",
+        "claim": "Can be one of the                 `AudioResamplerQuality` enum values: `QUICK`, `LOW`, `MEDIUM`, `HIGH`, `VERY_HIGH`",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\rtc\\audio_resampler.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "6935e6d2",
+        "text": "Can be one of the                 `AudioResamplerQuality` enum values: `QUICK`, `LOW`, `MEDIUM`, `HIGH`, `VERY_HIGH`",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "Can be one of the                 `AudioResamplerQuality` enum values: `QUICK`, `LOW`, `MEDIUM`, `HIGH`, `VERY_HIGH`",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\rtc\\audio_resampler.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "4d588b0f",
+        "claim": "QUICK:         return proto_audio_frame",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\rtc\\audio_resampler.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "546ddf3a",
+        "text": "QUICK:         return proto_audio_frame",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "QUICK:         return proto_audio_frame",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\rtc\\audio_resampler.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "cef661fc",
+        "claim": "SOXR_QUALITY_QUICK     elif quality == AudioResamplerQuality",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\rtc\\audio_resampler.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "5b4f2b14",
+        "text": "SOXR_QUALITY_QUICK     elif quality == AudioResamplerQuality",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "SOXR_QUALITY_QUICK     elif quality == AudioResamplerQuality",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\livekit\\rtc\\audio_resampler.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_read",
+      "data": {
+        "path": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\scan_system_for_viruses.py",
+        "lines": 68,
+        "size": 2175
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "3a9dda71",
+        "claim": "agents import function_tool  TOOL = {     \"name\": \"scan_system_for_viruses\",     \"description\": \"Perform a quick virus scan using Windows Defender",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\scan_system_for_viruses.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "fbc1b351",
+        "text": "agents import function_tool  TOOL = {     \"name\": \"scan_system_for_viruses\",     \"description\": \"Perform a quick virus scan using Windows Defender",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "agents import function_tool  TOOL = {     \"name\": \"scan_system_for_viruses\",     \"description\": \"Perform a quick virus scan using Windows Defender",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\scan_system_for_viruses.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "c27aa5e2",
+        "claim": "\",     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {},         \"required\": []     },     \"handler\": \"scan_system_for_viruses\", }  @function_tool() async def scan_system_for_viruses",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\scan_system_for_viruses.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "4c9c1afc",
+        "text": "\",     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {},         \"required\": []     },     \"handler\": \"scan_system_for_viruses\", }  @function_tool() async def scan_system_for_viruses",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "\",     \"parameters\": {         \"type\": \"OBJECT\",         \"properties\": {},         \"required\": []     },     \"handler\": \"scan_system_for_viruses\", }  @function_tool() async def scan_system_for_viruses",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\scan_system_for_viruses.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "evidence_found",
+      "data": {
+        "evidence_id": "a0fe5a2e",
+        "claim": "exe\",  # Older path             \"-Scan\", \"-ScanType\", \"1\"  # 1 = quick scan         ]          # fallback path for Windows 10+         alt_cmd = [             r\"C:\\ProgramData\\Microsoft\\Windows Defend",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\scan_system_for_viruses.py",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "claim_created",
+      "data": {
+        "claim_id": "1bf67e49",
+        "text": "exe\",  # Older path             \"-Scan\", \"-ScanType\", \"1\"  # 1 = quick scan         ]          # fallback path for Windows 10+         alt_cmd = [             r\"C:\\ProgramData\\Microsoft\\Windows Defend",
+        "confidence": 0.5,
+        "type": "inference"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "knowledge_extracted",
+      "data": {
+        "claim": "exe\",  # Older path             \"-Scan\", \"-ScanType\", \"1\"  # 1 = quick scan         ]          # fallback path for Windows 10+         alt_cmd = [             r\"C:\\ProgramData\\Microsoft\\Windows Defend",
+        "source": "C:\\Users\\Lalit Manjunatha/Desktop\\Advanced ZENITH_V-\\Tools\\scan_system_for_viruses.py",
+        "confidence": 0.5
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Local file search"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "74172bc5",
+      "task_id": "c8b5a60f"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Cross-reference sources"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "74172bc5",
+      "task_id": "a6827bf6"
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Cross-reference sources"
+      },
+      "timestamp": "2026-10-30T11:27:16.450466",
+      "session_id": "74172bc5",
+      "task_id": "a6827bf6"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Need more diverse sources",
+        "priority": 6
+      },
+      "timestamp": "2026-10-30T11:27:16.480767",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 14
+      },
+      "timestamp": "2026-10-30T11:27:16.480767",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Need more diverse sources"
+      },
+      "timestamp": "2026-10-30T11:27:16.480767",
+      "session_id": "74172bc5",
+      "task_id": "9f2542f1"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Need+more+diverse+sources) > operation timed out"
+      },
+      "timestamp": "2026-10-30T11:27:38.649568",
+      "session_id": "74172bc5",
+      "task_id": "9f2542f1"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Verify important claims"
+      },
+      "timestamp": "2026-10-30T11:27:38.649568",
+      "session_id": "74172bc5",
+      "task_id": "22b2331a"
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Verify important claims"
+      },
+      "timestamp": "2026-10-30T11:27:38.649568",
+      "session_id": "74172bc5",
+      "task_id": "22b2331a"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Identify knowledge gaps"
+      },
+      "timestamp": "2026-10-30T11:27:38.649568",
+      "session_id": "74172bc5",
+      "task_id": "9fa84839"
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Identify knowledge gaps"
+      },
+      "timestamp": "2026-10-30T11:27:38.649568",
+      "session_id": "74172bc5",
+      "task_id": "9fa84839"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Need more diverse sources",
+        "priority": 6
+      },
+      "timestamp": "2026-10-30T11:27:38.680984",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 15
+      },
+      "timestamp": "2026-10-30T11:27:38.680984",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Need more diverse sources"
+      },
+      "timestamp": "2026-10-30T11:27:38.680984",
+      "session_id": "74172bc5",
+      "task_id": "9440fc1c"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Need+more+diverse+sources) > operation timed out"
+      },
+      "timestamp": "2026-10-30T11:27:50.580451",
+      "session_id": "74172bc5",
+      "task_id": "9440fc1c"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Generate intelligence report"
+      },
+      "timestamp": "2026-10-30T11:27:50.580451",
+      "session_id": "74172bc5",
+      "task_id": "d8f690a3"
+    },
+    {
+      "event_type": "task_completed",
+      "data": {
+        "title": "Generate intelligence report"
+      },
+      "timestamp": "2026-10-30T11:27:50.580451",
+      "session_id": "74172bc5",
+      "task_id": "d8f690a3"
+    },
+    {
+      "event_type": "report_generated",
+      "data": {
+        "confidence": "LOW",
+        "sources_count": 15
+      },
+      "timestamp": "2026-10-30T11:27:50.580451",
+      "session_id": "74172bc5",
+      "task_id": ""
+    },
+    {
+      "event_type": "research_completed",
+      "data": {
+        "stats": {
+          "iterations": 15,
+          "elapsed_seconds": 100,
+          "total_evidence": 68,
+          "evidence_by_type": {
+            "inference": 68
+          },
+          "total_claims": 68,
+          "claims_by_type": {
+            "inference": 68
+          },
+          "verified_claims": 0,
+          "contradictions": 0,
+          "knowledge_gaps": 5,
+          "unresolved_gaps": 5,
+          "average_confidence": 0.4985294117647059,
+          "entities_in_graph": 2,
+          "relationships_in_graph": 0
+        }
+      },
+      "timestamp": "2026-10-30T11:27:50.580451",
+      "session_id": "74172bc5",
+      "task_id": ""
+    }
+  ]
+}

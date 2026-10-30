@@ -25,6 +25,210 @@ load_dotenv()
 logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
 
+# ── Project Companion service ──────────────────────────────────────────────
+# Lazy-initialized wrapper around Project Companion engine.  Importing this
+# module does NOT initialise the service; the service is created on first use
+# so that ZENITH starts up unchanged and without side effects.
+_PCS : Optional[Any] = None
+_PCS_LOCK = None  # initialised on first use
+
+
+def _init_pc_service() -> Any:
+    """Create and return the Project Companion service, once."""
+    global _PCS, _PCS_LOCK
+    if _PCS is not None:
+        return _PCS
+    # Import here so that a missing project_companion package does not break
+    # ZENITH startup on systems where the directory is absent or broken.
+    from project_companion.orchestrator import ProjectOrchestrator
+    from project_companion.store import ProjectStore, ProjectCheckpoint
+    from project_companion.models import ProjectSession, ProjectType, ProjectStage, ProjectID
+
+    orch = ProjectOrchestrator()
+    # Wrap frequently-used operations into thin, pure-Python handlers
+    # that the LiveKit agent can call.  All handlers catch exceptions and
+    # return concise, user‑safe results — no stack traces, no secrets.
+    class _PCService:
+        def __init__(self, orch: ProjectOrchestrator, store: ProjectStore,
+                     checkpoint: ProjectCheckpoint) -> None:
+            self.orch = orch
+            self.store = store
+            self.checkpoint = checkpoint
+
+        # ── Create ────────────────────────────────────────────────────────
+        def project_create(
+            self,
+            name: str,
+            description: str,
+            project_type: str,
+            problem_statement: str = "",
+            goals: Optional[list] = None,
+            acceptance_criteria: Optional[list] = None,
+            constraints: Optional[list] = None,
+        ) -> dict:
+            try:
+                session = self.orch.create_project(
+                    name=name,
+                    description=description,
+                    project_type=ProjectType(project_type),
+                    problem_statement=problem_statement,
+                    goals=goals or [],
+                    acceptance_criteria=acceptance_criteria or [],
+                    constraints=constraints or [],
+                )
+                self.store.save_project(session)
+                return {"ok": True, "project_id": session.id.value,
+                        "name": session.name, "stage": session.stage}
+            except Exception as e:
+                return {"ok": False, "error": str(e)}
+
+        # ── List ──────────────────────────────────────────────────────────
+        def project_list(self) -> dict:
+            try:
+                projects = self.store.list_projects()
+                return {"ok": True, "projects": projects}
+            except Exception as e:
+                return {"ok": False, "error": str(e)}
+
+        # ── State summary ─────────────────────────────────────────────────
+        def project_state_summary(self, project_id: str) -> dict:
+            try:
+                summary = self.orch.get_state_summary(project_id)
+                if summary is None:
+                    return {"ok": False, "error": "Project not found"}
+                return {
+                    "ok": True,
+                    "project_id": project_id,
+                    "name": summary.name,
+                    "stage": summary.stage,
+                    "task_count": summary.task_count,
+                    "completed_tasks": summary.completed_tasks,
+                    "pending_tasks": summary.pending_tasks,
+                    "next_recommended_action": summary.next_recommended_action,
+                }
+            except Exception as e:
+                return {"ok": False, "error": str(e)}
+
+        # ── Add task ──────────────────────────────────────────────────────
+        def project_add_task(
+            self,
+            project_id: str,
+            name: str,
+            description: str,
+            stage: str,
+            dependencies: Optional[list] = None,
+        ) -> dict:
+            try:
+                task = self.orch.add_task(
+                    project_id=project_id,
+                    name=name,
+                    description=description,
+                    stage=ProjectStage(stage),
+                    dependencies=dependencies or [],
+                )
+                self.store.save_project(task.session)  # type: ignore
+                return {"ok": True, "task_id": task.id, "name": task.name,
+                        "status": task.status}
+            except Exception as e:
+                return {"ok": False, "error": str(e)}
+
+        # ── Update task status ────────────────────────────────────────────
+        def project_update_task_status(
+            self,
+            project_id: str,
+            task_id: str,
+            status: str,
+            result: str = "",
+            test_results: Optional[list] = None,
+        ) -> dict:
+            try:
+                session = self.orch.update_task_status(
+                    project_id=project_id,
+                    task_id=task_id,
+                    status=status,
+                    result=result,
+                    test_results=test_results or [],
+                )
+                return {
+                    "ok": True,
+                    "task_id": task_id,
+                    "status": session.tasks[task_id].status,
+                }
+            except Exception as e:
+                return {"ok": False, "error": str(e)}
+
+        # ── Save checkpoint ───────────────────────────────────────────────
+        def project_save_checkpoint(self, project_id: str, label: str) -> dict:
+            try:
+                success = self.checkpoint.save_checkpoint(project_id, label, "manual_checkpoint")
+                return {"ok": success, "project_id": project_id, "label": label}
+            except Exception as e:
+                return {"ok": False, "error": str(e)}
+
+        # ── Restore checkpoint (guarded) ──────────────────────────────────
+        def project_restore_checkpoint(self, project_id: str, checkpoint_name: str) -> dict:
+            # No safe confirmation mechanism exists in ZENITH yet — restoration
+            # is deliberately disabled with a clear message.  Users who need
+            # checkpoint restoration should approve adding a confirmation gate.
+            return {
+                "ok": False,
+                "error": "Checkpoint restoration is not yet configured. "
+                         "Contact the assistant administrator to enable it.",
+            }
+
+    _PCS = _PCService(orch, ProjectStore, ProjectCheckpoint)
+    return _PCS
+
+
+def get_pc_service() -> Any:
+    """Return the Project Companion service, initialising it if needed."""
+    global _PCS, _PCS_LOCK
+    if _PCS is None:
+        # The lock variable is created here on first use so that subsequent
+        # calls are cheap (just a None check).
+        _PCS_LOCK = True  # placeholder; real locking not needed for single-user
+        _PCS = _init_pc_service()
+    return _PCS
+
+
+# Lazy‑initialized wrapper functions for the Project Companion tools.
+# They defer service initialisation until the first call so that importing
+# ZENITH does not trigger any Project Companion side‑effects.
+def _pc_project_create(name: str, description: str, project_type: str, problem_statement: str = "", goals: list = None, acceptance_criteria: list = None, constraints: list = None) -> dict:
+    return get_pc_service().project_create(name, description, project_type, problem_statement, goals, acceptance_criteria, constraints)
+
+def _pc_project_list() -> dict:
+    return get_pc_service().project_list()
+
+def _pc_project_state_summary(project_id: str = "") -> dict:
+    return get_pc_service().project_state_summary(project_id)
+
+def _pc_project_add_task(
+    project_id: str, name: str, description: str, stage: str,
+    dependencies: Optional[list] = None,
+) -> dict:
+    try:
+        get_pc_service().project_add_task(project_id, name, description, stage, dependencies)
+        return {"ok": True}
+    except Exception as e:
+        return {"ok": False, "error": str(e)}
+
+def _pc_project_update_task_status(
+    project_id: str, task_id: str, status: str,
+    result: str = "", test_results: Optional[list] = None,
+) -> dict:
+    try:
+        get_pc_service().project_update_task_status(project_id, task_id, status, result, test_results)
+        return {"ok": True}
+    except Exception as e:
+        return {"ok": False, "error": str(e)}
+
+def _pc_project_save_checkpoint(project_id: str, label: str) -> dict:
+    return get_pc_service().project_save_checkpoint(project_id, label)
+
+
+# =========================
+# STARTUP ANIMATION
 # =========================
 # STARTUP ANIMATION
 # =========================
@@ -453,6 +657,13 @@ class ZenithAgent(Agent):
             spotify_play_song, spotify_play_liked, spotify_pause,
             # FaithMakes Cloned Tools
             find_flights, check_game_updates, manage_topic_monitor, run_dev_agent,
+            # Project Companion (lazy‑initialized wrappers)
+            _pc_project_create,
+            _pc_project_list,
+            _pc_project_state_summary,
+            _pc_project_add_task,
+            _pc_project_update_task_status,
+            _pc_project_save_checkpoint,
         ]
 
         if PRESENTATION_AVAILABLE:
@@ -670,7 +881,7 @@ async def entrypoint(ctx: agents.JobContext):
     print_banner()
     status("Checking network connectivity...", "load")
     if network_available:
-        status("Network online - Gemini realtime available", "ok")
+        status("Network online - OpenAI realtime available", "ok")
     else:
         status("Network offline - limited functionality", "warn")
 

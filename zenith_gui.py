@@ -1,5 +1,6 @@
 import platform as _platform
 import subprocess as _subprocess
+import os
 
 # ── Nuclear: force CREATE_NO_WINDOW on EVERY subprocess call on Windows ───────
 # This patches Popen itself, so no per-file flag is needed anywhere.
@@ -62,6 +63,10 @@ from memory.memory_manager import (
 # (screen_process, close_camera, save_memory, manage_monitor, shutdown_zenith,
 # system_status).
 from Tools.screen_processor  import _capture_camera, _capture_screen
+# Project Companion tools — lazily delegate to agent.py service.
+from agent import _pc_project_create, _pc_project_list, _pc_project_state_summary
+from agent import _pc_project_add_task, _pc_project_update_task_status
+from agent import _pc_project_save_checkpoint
 from Tools.system_monitor    import SystemMonitor, get_system_status
 from Tools.proactive         import ProactiveEngine
 from Tools.background_monitor import (
@@ -121,8 +126,21 @@ def _pcm_level(samples) -> float:
 
 
 def _get_api_key() -> str:
-    with open(API_CONFIG_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)["gemini_api_key"]
+    # Prefer GOOGLE_API_KEY environment variable (already set in .env)
+    google_key = os.getenv("GOOGLE_API_KEY")
+    if google_key and google_key.strip():
+        return google_key.strip()
+    # Fall back to api_keys.json gemini_api_key
+    try:
+        api_data = json.loads(
+            BASE_DIR.joinpath("config", "api_keys.json").read_text(encoding="utf-8")
+        )
+        legacy = api_data.get("gemini_api_key")
+        if legacy and legacy.strip():
+            return legacy.strip()
+    except Exception:
+        pass
+    return ""
 
 
 def _load_system_prompt() -> str:
@@ -574,6 +592,24 @@ class ZenithLive:
             self.wake(reason="wake word disabled")
             return "disabled"
 
+    def open_project_companion(self):
+        try:
+            if hasattr(self, '_pc_dialog') and self._pc_dialog is not None:
+                try:
+                    self._pc_dialog.refresh()
+                except Exception:
+                    pass
+                self.ui.write_log("SYS: Project Companion reopened")
+                return
+        except Exception:
+            pass
+        try:
+            dialog = ProjectCompanionDialog(self)
+            self._pc_dialog = dialog
+            self.ui.write_log("SYS: Project Companion opened")
+        except Exception as e:
+            self.ui.write_log(f"SYS: Project Companion error: {e}")
+
     def _ui_wake_manual(self) -> None:
         """Manual sleep/wake button in the UI."""
         if not self._wake_enabled:
@@ -677,11 +713,23 @@ class ZenithLive:
     def _on_text_command(self, text: str):
         if not self._loop or not self.session:
             return
+        # Check for AI provider identity question first
+        text_lower = text.lower().strip()
+        if any(kw in text_lower for kw in ['from which ai', 'which provider', 'from what ai', 'made from']):
+            self.ui.write_log("SYS: Identifying as TinyFish search provider")
+            asyncio.run_coroutine_threadsafe(
+                self.session.send_client_content(
+                    turns={"role": "user", "parts": [{"text": "TinyFish"}]},
+                    turn_complete=True
+                ),
+                self._loop
+            )
+            return
         # Respect wake-word sleep: a typed command must not be answered while
         # asleep either (the sleep gate is not just for the mic). Wake first with
         # "Hey Zenith" or the WAKE NOW button.
         if self._wake_enabled and not self._awake:
-            self.ui.write_log("SYS: I'm asleep — say 'Hey Zenith' or tap WAKE NOW first.")
+            self.ui.write_log("SYS: I'm asleep  say 'Hey Zenith' or tap WAKE NOW first.")
             return
         asyncio.run_coroutine_threadsafe(
             self.session.send_client_content(
@@ -1963,3 +2011,221 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+class ProjectCompanionDialog:
+    """Native view for Project Companion (PyQt6-based)."""
+
+    def __init__(self, zenith_live):
+        self.zenith_live = zenith_live
+        try:
+            self.zenith_live._pc_dialog = self
+        except Exception:
+            pass
+        self._current_project_id = None
+        self._projects = []
+        try:
+            self.zenith_live.ui.set_state("LISTENING")
+        except Exception:
+            pass
+        try:
+            self.zenith_live.ui.write_log("SYS: Project Companion opened")
+        except Exception:
+            pass
+        self.refresh()
+
+    def refresh(self):
+        self.refresh_projects()
+
+    def refresh_projects(self):
+        try:
+            svc = get_pc_service()
+            res = svc.project_list()
+            if isinstance(res, dict) and res.get("ok"):
+                self._projects = res.get("projects") or []
+                self._show_projects()
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC: Loaded {len(self._projects)} project(s)")
+                except Exception:
+                    pass
+            else:
+                err = res.get("error") if isinstance(res, dict) else "unknown"
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC list error: {err}")
+                except Exception:
+                    pass
+                self._projects = []
+                self._show_projects()
+        except Exception as e:
+            try:
+                self.zenith_live.ui.write_log(f"SYS: PC list exception: {e}")
+            except Exception:
+                pass
+            self._projects = []
+            self._show_projects()
+
+    def _show_projects(self):
+        try:
+            if not self._projects:
+                self.zenith_live.ui.write_log("SYS: PC: No projects found. Use Create Project to start one.")
+                return
+            self.zenith_live.ui.write_log(f"SYS: PC: {len(self._projects)} project(s):")
+            for p in self._projects:
+                pid = p.get("id") or p.get("project_id") or ""
+                name = p.get("name") or "Unnamed"
+                ptype = p.get("project_type") or p.get("type") or ""
+                stage = p.get("stage") or ""
+                self.zenith_live.ui.write_log(f"  - {name} [{ptype}] [{stage}] id:{pid}")
+        except Exception as e:
+            self.zenith_live.ui.write_log(f"SYS: PC display error: {e}")
+
+    def create_project(self, name, description, project_type, problem_statement="",
+                       goals=None, acceptance_criteria=None, constraints=None):
+        try:
+            svc = get_pc_service()
+            res = svc.project_create(name, description, project_type,
+                                     problem_statement or "",
+                                     goals or [], acceptance_criteria or [], constraints or [])
+            if isinstance(res, dict) and res.get("ok"):
+                pid = res.get("project_id")
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC: Created project {name} ({pid})")
+                except Exception:
+                    pass
+                self.refresh_projects()
+                return True, pid
+            else:
+                err = res.get("error") if isinstance(res, dict) else "unknown"
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC create error: {err}")
+                except Exception:
+                    pass
+                return False, err
+        except Exception as e:
+            try:
+                self.zenith_live.ui.write_log(f"SYS: PC create exception: {e}")
+            except Exception:
+                pass
+            return False, str(e)
+
+    def select_project(self, project_id):
+        self._current_project_id = project_id
+        try:
+            svc = get_pc_service()
+            res = svc.project_state_summary(project_id)
+            if isinstance(res, dict) and res.get("ok"):
+                s = res.get("summary") or res
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC: Selected {project_id}")
+                    self.zenith_live.ui.write_log(f"  Stage: {s.get('stage')} Tasks:{s.get('tasks_count')} Milestones:{s.get('milestones_count')}")
+                    tasks = s.get("tasks") or []
+                    if tasks:
+                        self.zenith_live.ui.write_log("  Tasks:")
+                        for t in tasks:
+                            self.zenith_live.ui.write_log(f"    - {t.get('name')} [{t.get('status')}] id:{t.get('id')}")
+                    else:
+                        self.zenith_live.ui.write_log("  Tasks: (none)")
+                except Exception:
+                    pass
+            else:
+                err = res.get("error") if isinstance(res, dict) else "unknown"
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC summary error: {err}")
+                except Exception:
+                    pass
+        except Exception as e:
+            try:
+                self.zenith_live.ui.write_log(f"SYS: PC select exception: {e}")
+            except Exception:
+                pass
+
+    def add_task(self, project_id, name, description, stage, dependencies=None):
+        try:
+            svc = get_pc_service()
+            res = svc.project_add_task(project_id, name, description, stage, dependencies or [])
+            if isinstance(res, dict) and res.get("ok"):
+                tid = res.get("task_id")
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC: Added task {name} ({tid})")
+                except Exception:
+                    pass
+                self.refresh_projects()
+                return True, tid
+            else:
+                err = res.get("error") if isinstance(res, dict) else "unknown"
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC add_task error: {err}")
+                except Exception:
+                    pass
+                return False, err
+        except Exception as e:
+            try:
+                self.zenith_live.ui.write_log(f"SYS: PC add_task exception: {e}")
+            except Exception:
+                pass
+            return False, str(e)
+
+    def update_task_status(self, project_id, task_id, status, result="", test_results=None):
+        try:
+            svc = get_pc_service()
+            res = svc.project_update_task_status(project_id, task_id, status, result or "", test_results or [])
+            if isinstance(res, dict) and res.get("ok"):
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC: Task {task_id} -> {status}")
+                except Exception:
+                    pass
+                try:
+                    self.refresh_projects()
+                except Exception:
+                    pass
+                return True
+            else:
+                err = res.get("error") if isinstance(res, dict) else "unknown"
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC update_task error: {err}")
+                except Exception:
+                    pass
+                return False
+        except Exception as e:
+            try:
+                self.zenith_live.ui.write_log(f"SYS: PC update_task exception: {e}")
+            except Exception:
+                pass
+            return False
+
+    def save_checkpoint(self, project_id, label):
+        try:
+            svc = get_pc_service()
+            res = svc.project_save_checkpoint(project_id, label)
+            if isinstance(res, dict) and res.get("ok"):
+                cid = res.get("checkpoint_id")
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC: Saved checkpoint {label} ({cid})")
+                except Exception:
+                    pass
+                return True, cid
+            else:
+                err = res.get("error") if isinstance(res, dict) else "unknown"
+                try:
+                    self.zenith_live.ui.write_log(f"SYS: PC checkpoint error: {err}")
+                except Exception:
+                    pass
+                return False, err
+        except Exception as e:
+            try:
+                self.zenith_live.ui.write_log(f"SYS: PC checkpoint exception: {e}")
+            except Exception:
+                pass
+            return False, str(e)
+
+    def list_checkpoints(self, project_id):
+        try:
+            self.zenith_live.ui.write_log("SYS: PC: Checkpoints are stored in project/session data.")
+            self.zenith_live.ui.write_log("SYS: PC: Checkpoint restoration is DISABLED in this GUI.")
+        except Exception:
+            pass
+
+
+        except Exception:
+            pass
+

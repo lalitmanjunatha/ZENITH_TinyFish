@@ -29,8 +29,9 @@ from PyQt6.QtGui import (
 )
 from PyQt6.QtWidgets import (
     QApplication, QComboBox, QFileDialog, QFrame, QHBoxLayout, QLabel, QLineEdit,
-    QMainWindow, QPushButton, QScrollArea, QSizePolicy, QSplitter,
-    QStackedWidget, QTextEdit, QVBoxLayout, QWidget, QProgressBar,
+    QListWidget, QListWidgetItem, QMessageBox, QMainWindow, QPushButton, QScrollArea,
+    QSizePolicy, QSplitter, QStackedWidget, QTextEdit, QVBoxLayout, QWidget, QProgressBar,
+    QDialog, QFormLayout, QInputDialog, QTextBrowser,
 )
 
 # ── Which Mark this is ───────────────────────────────────────────────────────
@@ -4861,3 +4862,20 @@ class ZenithUI:
     def stop_speaking(self):
         if not self.muted:
             self.set_state("LISTENING")
+
+    def open_project_companion_dialog(self):
+        try:
+            if hasattr(self, '_app_instance') and self._app_instance:
+                if hasattr(self._app_instance, 'open_project_companion'):
+                    self._app_instance.open_project_companion()
+                    return
+        except Exception:
+            pass
+        try:
+            # Try to find live instance
+            import zenith_gui
+            if hasattr(zenith_gui, 'ZENITH') and zenith_gui.ZENITH:
+                if hasattr(zenith_gui.ZENITH, 'open_project_companion'):
+                    zenith_gui.ZENITH.open_project_companion()
+        except Exception as e:
+            pass

@@ -1,0 +1,251 @@
+{
+  "session": {
+    "id": "a34fe0b7",
+    "objective": "What are the recent advancements in AI small language models and their capabilities",
+    "phase": "completed",
+    "start_time": "2026-10-30T10:59:36.051081",
+    "end_time": "2026-10-30T10:59:42.017478",
+    "stats": {
+      "iterations": 3,
+      "elapsed_seconds": 2,
+      "total_evidence": 0,
+      "evidence_by_type": {},
+      "total_claims": 0,
+      "claims_by_type": {},
+      "verified_claims": 0,
+      "contradictions": 0,
+      "knowledge_gaps": 1,
+      "unresolved_gaps": 1,
+      "average_confidence": 0,
+      "entities_in_graph": 0,
+      "relationships_in_graph": 0
+    }
+  },
+  "tasks": [
+    {
+      "id": "72afdbb1",
+      "title": "Define research scope",
+      "status": "failed",
+      "priority": 10,
+      "results": []
+    },
+    {
+      "id": "50e32dcd",
+      "title": "Broad web research",
+      "status": "failed",
+      "priority": 9,
+      "results": []
+    },
+    {
+      "id": "66b526c7",
+      "title": "Specific web research",
+      "status": "failed",
+      "priority": 8,
+      "results": []
+    },
+    {
+      "id": "e78d449a",
+      "title": "Academic research",
+      "status": "pending",
+      "priority": 7,
+      "results": []
+    },
+    {
+      "id": "09f7fe3a",
+      "title": "Implementation research",
+      "status": "pending",
+      "priority": 7,
+      "results": []
+    },
+    {
+      "id": "6cb5216a",
+      "title": "Local file search",
+      "status": "pending",
+      "priority": 6,
+      "results": []
+    },
+    {
+      "id": "5daa554a",
+      "title": "Cross-reference sources",
+      "status": "pending",
+      "priority": 6,
+      "results": []
+    },
+    {
+      "id": "80d3c21b",
+      "title": "Verify important claims",
+      "status": "pending",
+      "priority": 5,
+      "results": []
+    },
+    {
+      "id": "0d7a8b53",
+      "title": "Identify knowledge gaps",
+      "status": "pending",
+      "priority": 4,
+      "results": []
+    },
+    {
+      "id": "d9dbe9b6",
+      "title": "Generate intelligence report",
+      "status": "pending",
+      "priority": 3,
+      "results": []
+    },
+    {
+      "id": "eeed8161",
+      "title": "Address gap: Insufficient evidence for: What are the recent advancements ",
+      "status": "pending",
+      "priority": 8,
+      "results": []
+    }
+  ],
+  "knowledge": "{\n  \"evidence\": [],\n  \"claims\": [],\n  \"summary\": {\n    \"total_evidence\": 0,\n    \"evidence_by_type\": {},\n    \"total_claims\": 0,\n    \"claims_by_type\": {},\n    \"verified_claims\": 0,\n    \"contradictions\": 0,\n    \"knowledge_gaps\": 1,\n    \"unresolved_gaps\": 1,\n    \"average_confidence\": 0,\n    \"entities_in_graph\": 0,\n    \"relationships_in_graph\": 0\n  }\n}",
+  "events": [
+    {
+      "event_type": "research_started",
+      "data": {
+        "objective": "What are the recent advancements in AI small language models and their capabilities"
+      },
+      "timestamp": "2026-10-30T10:59:36.051081",
+      "session_id": "a34fe0b7",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_indexed",
+      "data": {
+        "files_indexed": 6886,
+        "total": 6886
+      },
+      "timestamp": "2026-10-30T10:59:38.198452",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "objective": "What are the recent advancements in AI small language models and their capabilities",
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T10:59:38.198452",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T10:59:38.198452",
+      "session_id": "a34fe0b7",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Define research scope"
+      },
+      "timestamp": "2026-10-30T10:59:38.205132",
+      "session_id": "a34fe0b7",
+      "task_id": "72afdbb1"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'Response' object has no attribute 'is_successful'"
+      },
+      "timestamp": "2026-10-30T10:59:39.539555",
+      "session_id": "a34fe0b7",
+      "task_id": "72afdbb1"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Insufficient evidence for: What are the recent advancements in AI small language models and their capabilities",
+        "priority": 8
+      },
+      "timestamp": "2026-10-30T10:59:39.539555",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 11
+      },
+      "timestamp": "2026-10-30T10:59:39.539555",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Broad web research"
+      },
+      "timestamp": "2026-10-30T10:59:39.539555",
+      "session_id": "a34fe0b7",
+      "task_id": "50e32dcd"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'Response' object has no attribute 'is_successful'"
+      },
+      "timestamp": "2026-10-30T10:59:40.695776",
+      "session_id": "a34fe0b7",
+      "task_id": "50e32dcd"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Specific web research"
+      },
+      "timestamp": "2026-10-30T10:59:40.697519",
+      "session_id": "a34fe0b7",
+      "task_id": "66b526c7"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'Response' object has no attribute 'is_successful'"
+      },
+      "timestamp": "2026-10-30T10:59:42.007575",
+      "session_id": "a34fe0b7",
+      "task_id": "66b526c7"
+    },
+    {
+      "event_type": "report_generated",
+      "data": {
+        "confidence": "LOW",
+        "sources_count": 0
+      },
+      "timestamp": "2026-10-30T10:59:42.017478",
+      "session_id": "a34fe0b7",
+      "task_id": ""
+    },
+    {
+      "event_type": "research_completed",
+      "data": {
+        "stats": {
+          "iterations": 3,
+          "elapsed_seconds": 2,
+          "total_evidence": 0,
+          "evidence_by_type": {},
+          "total_claims": 0,
+          "claims_by_type": {},
+          "verified_claims": 0,
+          "contradictions": 0,
+          "knowledge_gaps": 1,
+          "unresolved_gaps": 1,
+          "average_confidence": 0,
+          "entities_in_graph": 0,
+          "relationships_in_graph": 0
+        }
+      },
+      "timestamp": "2026-10-30T10:59:42.017478",
+      "session_id": "a34fe0b7",
+      "task_id": ""
+    }
+  ]
+}

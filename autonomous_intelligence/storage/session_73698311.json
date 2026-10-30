@@ -1,0 +1,569 @@
+{
+  "session": {
+    "id": "73698311",
+    "objective": "Detailed research report on the quick medicine delivery market worldwide. Include: 1. Main companies operating in this space. 2. Current market size and growth figures. 3. Analysis of remaining market gap/unmet needs for a new startup.",
+    "phase": "completed",
+    "start_time": "2026-10-30T10:56:22.630702",
+    "end_time": "2026-10-30T10:57:09.057071",
+    "stats": {
+      "iterations": 5,
+      "elapsed_seconds": 15,
+      "total_evidence": 0,
+      "evidence_by_type": {},
+      "total_claims": 0,
+      "claims_by_type": {},
+      "verified_claims": 0,
+      "contradictions": 0,
+      "knowledge_gaps": 3,
+      "unresolved_gaps": 3,
+      "average_confidence": 0,
+      "entities_in_graph": 0,
+      "relationships_in_graph": 0
+    }
+  },
+  "tasks": [
+    {
+      "id": "e99c8705",
+      "title": "Define research scope",
+      "status": "pending",
+      "priority": 10,
+      "results": []
+    },
+    {
+      "id": "4100e2d6",
+      "title": "Broad web research",
+      "status": "pending",
+      "priority": 9,
+      "results": []
+    },
+    {
+      "id": "61df641c",
+      "title": "Specific web research",
+      "status": "pending",
+      "priority": 8,
+      "results": []
+    },
+    {
+      "id": "52128be7",
+      "title": "Academic research",
+      "status": "pending",
+      "priority": 7,
+      "results": []
+    },
+    {
+      "id": "2b4f42ba",
+      "title": "Implementation research",
+      "status": "pending",
+      "priority": 7,
+      "results": []
+    },
+    {
+      "id": "4b4d8ab4",
+      "title": "Local file search",
+      "status": "pending",
+      "priority": 6,
+      "results": []
+    },
+    {
+      "id": "0e23d965",
+      "title": "Cross-reference sources",
+      "status": "pending",
+      "priority": 6,
+      "results": []
+    },
+    {
+      "id": "bb9efe8b",
+      "title": "Verify important claims",
+      "status": "pending",
+      "priority": 5,
+      "results": []
+    },
+    {
+      "id": "bf1f96dd",
+      "title": "Identify knowledge gaps",
+      "status": "pending",
+      "priority": 4,
+      "results": []
+    },
+    {
+      "id": "f7a01d3a",
+      "title": "Generate intelligence report",
+      "status": "pending",
+      "priority": 3,
+      "results": []
+    }
+  ],
+  "knowledge": "{\n  \"evidence\": [],\n  \"claims\": [],\n  \"summary\": {\n    \"total_evidence\": 0,\n    \"evidence_by_type\": {},\n    \"total_claims\": 0,\n    \"claims_by_type\": {},\n    \"verified_claims\": 0,\n    \"contradictions\": 0,\n    \"knowledge_gaps\": 3,\n    \"unresolved_gaps\": 3,\n    \"average_confidence\": 0,\n    \"entities_in_graph\": 0,\n    \"relationships_in_graph\": 0\n  }\n}",
+  "events": [
+    {
+      "event_type": "research_started",
+      "data": {
+        "objective": "Detailed research report on quick medicine delivery industry: list of companies globally, market analysis, and estimation of remaining market gap for a startup idea."
+      },
+      "timestamp": "2026-10-30T10:53:32.175758",
+      "session_id": "a5d0af9e",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_indexed",
+      "data": {
+        "files_indexed": 6883,
+        "total": 6883
+      },
+      "timestamp": "2026-10-30T10:54:28.062242",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "objective": "Detailed research report on quick medicine delivery industry: list of companies globally, market analysis, and estimation of remaining market gap for a startup idea.",
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T10:54:28.062242",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T10:54:28.062242",
+      "session_id": "a5d0af9e",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Define research scope"
+      },
+      "timestamp": "2026-10-30T10:54:28.068641",
+      "session_id": "a5d0af9e",
+      "task_id": "7ad9c4d9"
+    },
+    {
+      "event_type": "research_started",
+      "data": {
+        "objective": "Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities."
+      },
+      "timestamp": "2026-10-30T10:54:28.113708",
+      "session_id": "703b0efe",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'Response' object has no attribute 'is_successful'"
+      },
+      "timestamp": "2026-10-30T10:54:32.344747",
+      "session_id": "703b0efe",
+      "task_id": "7ad9c4d9"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Insufficient evidence for: Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities.",
+        "priority": 8
+      },
+      "timestamp": "2026-10-30T10:54:32.357882",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 1
+      },
+      "timestamp": "2026-10-30T10:54:32.357882",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Detailed research report on globa"
+      },
+      "timestamp": "2026-10-30T10:54:32.358881",
+      "session_id": "703b0efe",
+      "task_id": "cae1e5b4"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'Response' object has no attribute 'is_successful'"
+      },
+      "timestamp": "2026-10-30T10:54:37.087204",
+      "session_id": "703b0efe",
+      "task_id": "cae1e5b4"
+    },
+    {
+      "event_type": "report_generated",
+      "data": {
+        "confidence": "LOW",
+        "sources_count": 0
+      },
+      "timestamp": "2026-10-30T10:54:37.093979",
+      "session_id": "703b0efe",
+      "task_id": ""
+    },
+    {
+      "event_type": "research_completed",
+      "data": {
+        "stats": {
+          "iterations": 2,
+          "elapsed_seconds": 4,
+          "total_evidence": 0,
+          "evidence_by_type": {},
+          "total_claims": 0,
+          "claims_by_type": {},
+          "verified_claims": 0,
+          "contradictions": 0,
+          "knowledge_gaps": 1,
+          "unresolved_gaps": 1,
+          "average_confidence": 0,
+          "entities_in_graph": 0,
+          "relationships_in_graph": 0
+        }
+      },
+      "timestamp": "2026-10-30T10:54:37.093979",
+      "session_id": "703b0efe",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_indexed",
+      "data": {
+        "files_indexed": 1,
+        "total": 6884
+      },
+      "timestamp": "2026-10-30T10:55:29.762635",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "objective": "Detailed research report on global quick medicine delivery: market size, key players, competitor analysis, market gap, and startup opportunities.",
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T10:55:29.764146",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T10:55:29.764146",
+      "session_id": "703b0efe",
+      "task_id": ""
+    },
+    {
+      "event_type": "report_generated",
+      "data": {
+        "confidence": "LOW",
+        "sources_count": 0
+      },
+      "timestamp": "2026-10-30T10:55:29.771157",
+      "session_id": "703b0efe",
+      "task_id": ""
+    },
+    {
+      "event_type": "research_completed",
+      "data": {
+        "stats": {
+          "iterations": 2,
+          "elapsed_seconds": 4,
+          "total_evidence": 0,
+          "evidence_by_type": {},
+          "total_claims": 0,
+          "claims_by_type": {},
+          "verified_claims": 0,
+          "contradictions": 0,
+          "knowledge_gaps": 1,
+          "unresolved_gaps": 1,
+          "average_confidence": 0,
+          "entities_in_graph": 0,
+          "relationships_in_graph": 0
+        }
+      },
+      "timestamp": "2026-10-30T10:55:29.771157",
+      "session_id": "703b0efe",
+      "task_id": ""
+    },
+    {
+      "event_type": "research_started",
+      "data": {
+        "objective": "Detailed research report on quick medicine delivery industry: list of major companies, market share/competition analysis, and estimated market gap for a new startup."
+      },
+      "timestamp": "2026-10-30T10:55:29.810819",
+      "session_id": "4a4da212",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_indexed",
+      "data": {
+        "files_indexed": 0,
+        "total": 6884
+      },
+      "timestamp": "2026-10-30T10:56:10.348979",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "objective": "Detailed research report on quick medicine delivery industry: list of major companies, market share/competition analysis, and estimated market gap for a new startup.",
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T10:56:10.348979",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T10:56:10.348979",
+      "session_id": "4a4da212",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Define research scope"
+      },
+      "timestamp": "2026-10-30T10:56:10.349982",
+      "session_id": "4a4da212",
+      "task_id": "eefd13fa"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'Response' object has no attribute 'is_successful'"
+      },
+      "timestamp": "2026-10-30T10:56:14.566521",
+      "session_id": "4a4da212",
+      "task_id": "eefd13fa"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Insufficient evidence for: Detailed research report on quick medicine delivery industry: list of major companies, market share/competition analysis, and estimated market gap for a new startup.",
+        "priority": 8
+      },
+      "timestamp": "2026-10-30T10:56:14.572522",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 11
+      },
+      "timestamp": "2026-10-30T10:56:14.572522",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Broad web research"
+      },
+      "timestamp": "2026-10-30T10:56:14.572522",
+      "session_id": "4a4da212",
+      "task_id": "275c243d"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'Response' object has no attribute 'is_successful'"
+      },
+      "timestamp": "2026-10-30T10:56:18.873069",
+      "session_id": "4a4da212",
+      "task_id": "275c243d"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Specific web research"
+      },
+      "timestamp": "2026-10-30T10:56:18.879582",
+      "session_id": "4a4da212",
+      "task_id": "a23bc51f"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'Response' object has no attribute 'is_successful'"
+      },
+      "timestamp": "2026-10-30T10:56:22.028463",
+      "session_id": "4a4da212",
+      "task_id": "a23bc51f"
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Detailed research report on quick"
+      },
+      "timestamp": "2026-10-30T10:56:22.030463",
+      "session_id": "4a4da212",
+      "task_id": "968ee9af"
+    },
+    {
+      "event_type": "research_started",
+      "data": {
+        "objective": "Detailed research report on the quick medicine delivery market worldwide. Include: 1. Main companies operating in this space. 2. Current market size and growth figures. 3. Analysis of remaining market gap/unmet needs for a new startup."
+      },
+      "timestamp": "2026-10-30T10:56:22.630702",
+      "session_id": "73698311",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'Response' object has no attribute 'is_successful'"
+      },
+      "timestamp": "2026-10-30T10:56:25.919430",
+      "session_id": "73698311",
+      "task_id": "968ee9af"
+    },
+    {
+      "event_type": "knowledge_gap_identified",
+      "data": {
+        "question": "Insufficient evidence for: Detailed research report on the quick medicine delivery market worldwide. Include: 1. Main companies operating in this space. 2. Current market size and growth figures. 3. Analysis of remaining market gap/unmet needs for a new startup.",
+        "priority": 8
+      },
+      "timestamp": "2026-10-30T10:56:25.925936",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_updated",
+      "data": {
+        "new_tasks_added": 1,
+        "total_tasks": 1
+      },
+      "timestamp": "2026-10-30T10:56:25.925936",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "task_started",
+      "data": {
+        "title": "Address gap: Insufficient evidence for: Detailed research report on the q"
+      },
+      "timestamp": "2026-10-30T10:56:25.925936",
+      "session_id": "73698311",
+      "task_id": "54d795f7"
+    },
+    {
+      "event_type": "task_failed",
+      "data": {
+        "error": "'Response' object has no attribute 'is_successful'"
+      },
+      "timestamp": "2026-10-30T10:56:32.577257",
+      "session_id": "73698311",
+      "task_id": "54d795f7"
+    },
+    {
+      "event_type": "report_generated",
+      "data": {
+        "confidence": "LOW",
+        "sources_count": 0
+      },
+      "timestamp": "2026-10-30T10:56:32.578257",
+      "session_id": "73698311",
+      "task_id": ""
+    },
+    {
+      "event_type": "research_completed",
+      "data": {
+        "stats": {
+          "iterations": 5,
+          "elapsed_seconds": 15,
+          "total_evidence": 0,
+          "evidence_by_type": {},
+          "total_claims": 0,
+          "claims_by_type": {},
+          "verified_claims": 0,
+          "contradictions": 0,
+          "knowledge_gaps": 3,
+          "unresolved_gaps": 3,
+          "average_confidence": 0,
+          "entities_in_graph": 0,
+          "relationships_in_graph": 0
+        }
+      },
+      "timestamp": "2026-10-30T10:56:32.578257",
+      "session_id": "73698311",
+      "task_id": ""
+    },
+    {
+      "event_type": "file_indexed",
+      "data": {
+        "files_indexed": 1,
+        "total": 6885
+      },
+      "timestamp": "2026-10-30T10:57:09.055109",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "objective": "Detailed research report on the quick medicine delivery market worldwide. Include: 1. Main companies operating in this space. 2. Current market size and growth figures. 3. Analysis of remaining market gap/unmet needs for a new startup.",
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T10:57:09.055109",
+      "session_id": "",
+      "task_id": ""
+    },
+    {
+      "event_type": "plan_created",
+      "data": {
+        "tasks_count": 10
+      },
+      "timestamp": "2026-10-30T10:57:09.055109",
+      "session_id": "73698311",
+      "task_id": ""
+    },
+    {
+      "event_type": "report_generated",
+      "data": {
+        "confidence": "LOW",
+        "sources_count": 0
+      },
+      "timestamp": "2026-10-30T10:57:09.057071",
+      "session_id": "73698311",
+      "task_id": ""
+    },
+    {
+      "event_type": "research_completed",
+      "data": {
+        "stats": {
+          "iterations": 5,
+          "elapsed_seconds": 15,
+          "total_evidence": 0,
+          "evidence_by_type": {},
+          "total_claims": 0,
+          "claims_by_type": {},
+          "verified_claims": 0,
+          "contradictions": 0,
+          "knowledge_gaps": 3,
+          "unresolved_gaps": 3,
+          "average_confidence": 0,
+          "entities_in_graph": 0,
+          "relationships_in_graph": 0
+        }
+      },
+      "timestamp": "2026-10-30T10:57:09.057071",
+      "session_id": "73698311",
+      "task_id": ""
+    }
+  ]
+}
